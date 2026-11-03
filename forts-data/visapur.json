@@ -1,0 +1,110 @@
+{
+  "id": "visapur",
+  "name": "Visapur Fort",
+  "marathiName": "किल्ले विसापूर",
+  "epithet": "पेशवेकालीन दुर्ग — Twin Plateau Fortress of Lohagad",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "MONSOON CITADEL",
+  "unesco": "State Protected Heritage Monument",
+  "asi": "Maharashtra Heritage Grade-I",
+  "elevationMeters": 1084,
+  "elevationDisplay": "1,084 m (3,556 ft)",
+  "grade": "Moderate",
+  "baseVillage": "Patan / Bhaje",
+  "endurance": "2.5 Hours",
+  "trailTime": "2.5 Hours",
+  "steps": "Waterfall Rock Steps",
+  "era": "Peshwa Era (1713–1720)",
+  "water": "Perennial (82 Cisterns)",
+  "lat": 18.7214,
+  "lng": 73.4889,
+  "mapX": 38.8,
+  "mapY": 37.2,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Visapur_Fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Visapur_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Visapur_Fort",
+  "shortDesc": "Twin fort companion to Lohagad, celebrated for its monsoon waterfall staircase climbs, massive stone grinders, and sweeping 1,084 m plateau ramparts.",
+  "mapSubtitle": "Twin of Lohagad (1,084 m)",
+  "overviewTitle": "The Expansive High Plateau Above Lohagad",
+  "overviewP1": "Built between 1713 and 1720 CE by Balaji Vishwanath, the first Peshwa of the Maratha Empire, Visapur Fort crowns the eastern half of the same volcanic tableland as Lohagad but rises 51 meters higher (1,084 m) with a far broader fortified perimeter.",
+  "overviewP2": "During the Sahyadri monsoon, the rock-cut eastern staircase turns into a cascading stream, making it one of Maharashtra's most iconic rain treks. Atop the plateau stand Peshwa wada ruins, Hanuman carvings, an iron cannon, and giant stone mortar mills (Chunam Ghani).",
+  "architecturalPillars": [
+    {
+      "title": "Continuous Outer Curtain Wall",
+      "desc": "Unlike Lohagad's natural cliff reliance, Visapur's entire massive plateau rim is ringed by dressed basalt ramparts.",
+      "meta": "PESHWA BALAJI VISHWANATH (1713)"
+    },
+    {
+      "title": "Chunam Mortar Mills",
+      "desc": "Massive circular stone grinding troughs turned by oxen to mix lime, jaggery, and bel-fruit mortar during fort construction.",
+      "meta": "18TH-CENTURY MASONRY TECH"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Visapoor Fort",
+    "architect": "Peshwa Balaji Vishwanath",
+    "rulingDynasty": "Maratha Empire (1713–1818)",
+    "preservation": "Protected Monument of Maharashtra",
+    "quote": "Because Visapur stood 160 feet higher than Lohagad, British batteries placed here in 1818 forced Lohagad's surrender.",
+    "quoteAuthor": "Bombay Gazetteer (Poona Volume)"
+  },
+  "sites": [
+    {
+      "name": "Monsoon Waterfall Staircase (धबधबा पायरी मार्ग)",
+      "subtitle": "Rock-Cut Ravine Ascent Along the Southern Escarpment",
+      "badge": "TREK HIGHLIGHT",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Visapur_Fort.jpg",
+      "desc": "Chiseled steps ascending through a basalt gorge that carries clear mountain runoff from July to September.",
+      "loc": "South-West Approach",
+      "elev": "980 m Gorge"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1713",
+      "title": "1713–1720 — Built by First Peshwa Balaji Vishwanath",
+      "badge": "PESHWA CITADEL",
+      "desc": "Constructed under Chhatrapati Shahu Maharaj's reign to reinforce Lohagad and prevent enemies from occupying the higher eastern plateau.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "GORGE TRAIL",
+      "gradeLabel": "Moderate",
+      "title": "Patan Village / Gaymukh Trail",
+      "desc": "Scenic forest and rock-step climb from Patan village or the Gaymukh saddle between Lohagad and Visapur.",
+      "distance": "3.8 km One Way",
+      "duration": "2.0 – 2.5 Hours",
+      "gain": "+380 m Vertical",
+      "water": "Plateau Rock Cisterns",
+      "cta": "Download Visapur Plateau GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Patan Base (680m)",
+      "elev": 680
+    },
+    {
+      "label": "Gaymukh Col (840m)",
+      "elev": 840
+    },
+    {
+      "label": "Waterfall Gorge (960m)",
+      "elev": 960
+    },
+    {
+      "label": "Visapur Plateau (1084m)",
+      "elev": 1084
+    }
+  ],
+  "connectedForts": [
+    "lohagad",
+    "sinhagad",
+    "rajgad"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "lohagad",
+  "name": "Lohagad Fort",
+  "marathiName": "किल्ले लोहगड",
+  "epithet": "लोहदुर्ग — The Iron Fortress of Maval",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "IRON CITADEL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-M80",
+  "elevationMeters": 1033,
+  "elevationDisplay": "1,033 m (3,389 ft)",
+  "grade": "Moderate",
+  "baseVillage": "Lohagadwadi",
+  "endurance": "2.0 Hours",
+  "trailTime": "2.0 Hours",
+  "steps": "350 Serpentine Steps",
+  "era": "Satavahana & Maratha (1648)",
+  "water": "Perennial (Stepwell & Tanks)",
+  "lat": 18.7093,
+  "lng": 73.4758,
+  "mapX": 37.5,
+  "mapY": 38.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lohagad_fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Lohagad",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Lohagad",
+  "shortDesc": "Iconic Iron Fortress guarding the ancient Bhaja trade route. Known for its 1.5 km long Vinchu Kata (Scorpion Tail) cliff face and 4 grand succession gates.",
+  "mapSubtitle": "Grade: Moderate",
+  "overviewTitle": "Guardian of the Ancient Bhor Ghat & Indrayani Valley",
+  "overviewP1": "Rising 1,033 meters above the Pavana and Indrayani basins near Lonavala, Lohagad ('Iron Fort') spans over 2,000 years of Deccan history from the Satavahanas to Chhatrapati Shivaji Maharaj, who captured it in 1648 and used its impregnable vaults to store the rich plunder from the second sack of Surat (1670).",
+  "overviewP2": "Approached via a dramatic serpentine stone stairway pierced by four successive fortified gateways — Ganesh Darwaza, Narayan Darwaza, Hanuman Darwaza, and Maha Darwaza — the fort extends west into the famous 1.5-kilometer-long Vinchu Kata ('Scorpion's Tail') spur.",
+  "architecturalPillars": [
+    {
+      "title": "Four-Gate Serpentine Ascent",
+      "desc": "Ganesh, Narayan, Hanuman, and Maha Darwaza form an S-curved kill-zone carved directly into the vertical northern cliff.",
+      "meta": "ASI MONUMENT N-MH-M80"
+    },
+    {
+      "title": "Vinchu Kata (Scorpion's Tail)",
+      "desc": "A 1,500-meter-long, 30-meter-wide natural basalt ridge shaped like a scorpion's stinger watching over the Konkan passes.",
+      "meta": "ICONIC WESTERN SPUR"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Iron Fort of Lonavala",
+    "architect": "Maratha & Peshwa Restoration (Nana Phadnavis)",
+    "rulingDynasty": "Satavahana, Nizamshahi, Maratha Empire",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "The second treasury of Surat was safely hauled up the four gates of Lohagad.",
+    "quoteAuthor": "Maratha Treasury Records (1670)"
+  },
+  "sites": [
+    {
+      "name": "Vinchu Kata (विंचूकाटा माची)",
+      "subtitle": "1.5 km Narrow Basalt Ridge Resembling a Scorpion's Tail",
+      "badge": "GEOLOGICAL WONDER",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lohagad_fort.jpg",
+      "desc": "Detached narrow ridge extending westward with sheer 800-foot drops on both sides and views of Pavana Dam and Tung-Tikona.",
+      "loc": "Western Spur",
+      "elev": "1,010 m Ridge"
+    },
+    {
+      "name": "Sixteen-Cornered Stepwell (सोळा कोनी विहीर)",
+      "subtitle": "Hexadecagonal Stone Reservoir Built by Nana Phadnavis",
+      "badge": "WATER ARCHITECTURE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Lohagad_as_seen_from_Visapur.JPG",
+      "desc": "Geometric 16-sided stepped tank on the central plateau constructed during Peshwa statesman Nana Phadnavis's administration in 1789.",
+      "loc": "Central Plateau",
+      "elev": "1,030 m Elevation"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1648",
+      "title": "1648 — Captured by Chhatrapati Shivaji Maharaj",
+      "badge": "MAVAL CAMPAIGN",
+      "desc": "Chhatrapati Shivaji Maharaj secures Lohagad to control the Bhor Ghat trade corridor linking Pune with the Konkan coast.",
+      "highlight": true
+    },
+    {
+      "year": "1670",
+      "title": "1670 — Treasury Vault of the Second Surat Expedition",
+      "badge": "IMPERIAL TREASURY",
+      "desc": "Following the 1670 expedition to Surat, the Maratha cavalry deposits 66 lakh rupees of bullion inside Lohagad's stone vaults.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "MONSOON FAVORITE",
+      "gradeLabel": "Easy-Moderate",
+      "title": "Lohagadwadi — Four Gates Stairway",
+      "desc": "Stone steps from Gaymukh saddle (Lohagadwadi) climbing through Ganesh, Narayan, Hanuman, and Maha Darwaza.",
+      "distance": "2.5 km One Way",
+      "duration": "1.5 – 2.0 Hours",
+      "gain": "+210 m from Lohagadwadi (+480 m from Malavli)",
+      "water": "Perennial Cisterns & Base Villagers",
+      "cta": "Download Lohagad & Vinchu Kata GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Malavli Station (550m)",
+      "elev": 550
+    },
+    {
+      "label": "Bhaja Caves (680m)",
+      "elev": 680
+    },
+    {
+      "label": "Lohagadwadi Saddle (840m)",
+      "elev": 840
+    },
+    {
+      "label": "Ganesh Darwaza (960m)",
+      "elev": 960
+    },
+    {
+      "label": "Lohagad Summit (1033m)",
+      "elev": 1033
+    }
+  ],
+  "connectedForts": [
+    "visapur",
+    "sinhagad",
+    "shivneri"
+  ]
+}

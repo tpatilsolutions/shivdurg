@@ -1,0 +1,117 @@
+{
+  "id": "panhala",
+  "name": "Panhala Fort",
+  "marathiName": "किल्ले पन्हाळा",
+  "epithet": "पावनखिंडीची साक्ष — Sentinel of the Sahyadri Pass",
+  "district": "Kolhapur",
+  "region": "Kolhapur",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "SOUTHERN CAPITAL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-K18",
+  "elevationMeters": 845,
+  "elevationDisplay": "845 m (2,772 ft)",
+  "grade": "Easy",
+  "baseVillage": "Panhala Town",
+  "endurance": "2.5 Hours Heritage Walk",
+  "trailTime": "2.5 Hours",
+  "steps": "Teen Darwaza & Rampart Circuit",
+  "era": "Shilahara, Chhatrapati Shivaji Maharaj & Maharani Tarabai",
+  "water": "Perennial (Andhar Bavadi & Someshwar)",
+  "lat": 16.8115,
+  "lng": 74.1078,
+  "mapX": 46.5,
+  "mapY": 77.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Panhala_fort.JPG",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Panhala_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Panhala_Fort",
+  "shortDesc": "Largest fort in the Deccan with a 14 km perimeter, site of Chhatrapati Shivaji Maharaj's 1660 breakout to Vishalgad and Maharani Tarabai's capital.",
+  "mapSubtitle": "Pavan Khind Heritage (1660)",
+  "overviewTitle": "The 14-Kilometer Citadel of Baji Prabhu Deshpande & Maharani Tarabai",
+  "overviewP1": "Commanding the Bavda pass between Kolhapur and the Konkan at 845 meters, Panhala is one of India's largest hill forts, enclosed by 7 kilometers of double-walled stone ramparts. Here Chhatrapati Shivaji Maharaj spent over 500 days across his lifetime.",
+  "overviewP2": "On the stormy monsoon night of 13 July 1660, Chhatrapati Shivaji Maharaj broke out of Siddi Jauhar's 40,000-man siege toward Vishalgad while Shiva Kashid acted as a royal decoy and Baji Prabhu Deshpande with 300 Bandal warriors made their immortal last stand at Ghod Khind (Pavan Khind). Later, Maharani Tarabai ruled the Maratha Empire from Panhala.",
+  "architecturalPillars": [
+    {
+      "title": "Andhar Bavadi (Three-Storey Hidden Well)",
+      "desc": "A three-tiered subterranean fort-within-a-fort built over the main water source so besieging armies could never poison the well.",
+      "meta": "HYDRO-DEFENSIVE ARCHITECTURE"
+    },
+    {
+      "title": "Amberkhana Royal Granaries",
+      "desc": "Three colossal vaulted stone granaries — Ganga, Yamuna, and Saraswati — capable of storing 25,000 khandis of grain.",
+      "meta": "STRATEGIC SIEGE RESERVES"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Panhalgad, Panhalla",
+    "architect": "Raja Bhoja II (1178) & Maratha Expansions",
+    "rulingDynasty": "Chhatrapati Shivaji Maharaj & Maharani Tarabai",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "Let the cannon roar from Vishalgad first — only then will Baji Prabhu yield his breath at Pavan Khind.",
+    "quoteAuthor": "Panhala-Vishalgad Powada Ballad"
+  },
+  "sites": [
+    {
+      "name": "Sajja Kothi & Teen Darwaza (सज्जा कोठी आणि तीन दरवाजा)",
+      "subtitle": "Cliffside Pavilion & Triple-Arched Western Gate",
+      "badge": "ARCHITECTURAL GEM",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Panhala_fort.JPG",
+      "desc": "Sajja Kothi overlooks the Warana valley where Prince Sambhaji once stayed, while Teen Darwaza features intricate stone carvings and lead-inlaid bastions.",
+      "loc": "Western & Eastern Rim",
+      "elev": "845 m Plateau"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1660",
+      "title": "13 July 1660 — The Epic Escape to Vishalgad & Pavan Khind",
+      "badge": "IMMORTAL SACRIFICE",
+      "desc": "Chhatrapati Shivaji Maharaj escapes Siddi Jauhar's siege through torrential monsoon rain; Baji Prabhu Deshpande holds Ghod Khind until the signal cannons fire.",
+      "highlight": true
+    },
+    {
+      "year": "1700",
+      "title": "1700–1707 — Capital of Maharani Tarabai",
+      "badge": "WAR OF INDEPENDENCE",
+      "desc": "Maharani Tarabai directs the Maratha counter-offensive against Aurangzeb from Panhala, founding the Kolhapur Chhatrapati seat.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "LEGENDARY ENDURANCE TRAIL",
+      "gradeLabel": "Moderate-Difficult",
+      "title": "Panhala to Pavan Khind Heritage Trek",
+      "desc": "Historic monsoon footsteps trail departing Pusati Buruj on Panhala toward Mhalunge, Masai Plateau, and Pavan Khind.",
+      "distance": "6.5 km Fort Circuit (44 km Full Pavan Khind Trail)",
+      "duration": "2.5 Hours Fort Circuit",
+      "gain": "845 m Plateau",
+      "water": "Abundant throughout Panhala",
+      "cta": "Download Panhala Heritage GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Char Darwaza Base (680m)",
+      "elev": 680
+    },
+    {
+      "label": "Teen Darwaza (810m)",
+      "elev": 810
+    },
+    {
+      "label": "Amberkhana Plaza (835m)",
+      "elev": 835
+    },
+    {
+      "label": "Sajja Kothi Crest (845m)",
+      "elev": 845
+    }
+  ],
+  "connectedForts": [
+    "vijaydurg",
+    "pratapgad",
+    "sindhudurg"
+  ]
+}

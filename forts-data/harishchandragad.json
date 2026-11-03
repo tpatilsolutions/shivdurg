@@ -1,0 +1,126 @@
+{
+  "id": "harishchandragad",
+  "name": "Harishchandragad Fort",
+  "marathiName": "किल्ले हरिश्चंद्रगड",
+  "epithet": "कोकणकड्याचा महामेरू — Ancient Citadel of Konkan Kada",
+  "district": "Nashik",
+  "region": "Nashik",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "KONKAN KADA PRECIPICE",
+  "unesco": "ASI Protected Ancient Temple & Caves",
+  "asi": "ASI Monument N-MH-A19",
+  "elevationMeters": 1424,
+  "elevationDisplay": "1,424 m (4,671 ft)",
+  "grade": "Difficult",
+  "baseVillage": "Pachnai / Khireshwar",
+  "endurance": "2.5 Hrs (Pachnai) / 5 Hrs (Khireshwar)",
+  "trailTime": "3.5 Hours",
+  "steps": "Rock-Cut Junnar Darwaza & Tolar Khind",
+  "era": "Kalachuri (6th Century) & Maratha (1747)",
+  "water": "Perennial (Saptatirtha & Caves)",
+  "lat": 19.3864,
+  "lng": 73.7781,
+  "mapX": 43.0,
+  "mapY": 26.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Harishchandragad_Pano4.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Harishchandragad",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Harishchandragad",
+  "shortDesc": "Ancient mountain citadel straddling the Nashik-Ahilyanagar-Thane border, world-famous for the 1,800-foot concave overhang of Konkan Kada and Kedareshwar Cave.",
+  "mapSubtitle": "Konkan Kada (1,424 m)",
+  "overviewTitle": "The 1,800-Foot Concave Cobra Hood Overlooking the Konkan",
+  "overviewP1": "Dating back to the 6th-century Kalachuri dynasty and referenced in the Matsya and Skanda Puranas, Harishchandragad towers at 1,424 meters on the Malshej-Bhandardara crest. Captured by the Marathas from the Mughals in 1747, it combines rugged Sahyadri geology with 11th-century Hemadpanti rock-cut architecture.",
+  "overviewP2": "Its crown jewel is the *Konkan Kada* — a colossal semi-circular basalt cliff dropping 1,800 feet vertically into the Konkan plains with a natural concave overhang shaped like a cobra's hood, famous for vertical updrafts and rare circular Brocken spectre rainbows.",
+  "architecturalPillars": [
+    {
+      "title": "Konkan Kada Concave Overhang",
+      "desc": "A 1.5-km-wide horseshoe amphitheater cliff dropping 1,800 feet straight down into the Thane-Konkan foothills.",
+      "meta": "GEOLOGICAL AMPHITHEATER"
+    },
+    {
+      "title": "Kedareshwar Monolithic Cave",
+      "desc": "A subterranean rock cave housing a 5-foot Shiva Linga surrounded by waist-deep ice-cold mountain water and a single standing pillar.",
+      "meta": "11TH-CENTURY ROCK-CUT SANCTUARY"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Suvarnagiri, Harishchandreshwar",
+    "architect": "Kalachuri & Hemadpanti Artisans",
+    "rulingDynasty": "Kalachuri, Yadava, Maratha Empire (1747)",
+    "preservation": "ASI Protected Monument",
+    "quote": "At Konkan Kada, the Western Ghats plunge 1,800 feet in a single overhanging sweep of black basalt.",
+    "quoteAuthor": "Sahyadri Orographic Survey"
+  },
+  "sites": [
+    {
+      "name": "Konkan Kada (कोकणकडा)",
+      "subtitle": "1,800-Foot Vertical Concave Basalt Escarpment",
+      "badge": "NATURAL WONDER",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Harishchandragad_Pano4.jpg",
+      "desc": "Iconic overhanging cliff edge where strong thermal winds often blow lightweight objects upward into the sky.",
+      "loc": "Western Rim",
+      "elev": "1,380 m Overlook"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1747",
+      "title": "1747 — Maratha Conquest & Heroism of Joshi Kulkarni",
+      "badge": "MARATHA CAMPAIGN",
+      "desc": "Maratha forces capture Harishchandragad from the Mughals, securing the northern Malshej-Naneghat frontier.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "SCENIC RIDGE",
+      "gradeLabel": "Easy-Moderate",
+      "title": "Pachnai Village Route",
+      "desc": "Shortest and easiest approach from the Akole/Nashik side climbing up a gentle gorge in 2 hours.",
+      "distance": "3.5 km One Way",
+      "duration": "2.0 – 2.5 Hours",
+      "gain": "+380 m Vertical",
+      "water": "Saptatirtha Pushkarni & Cave Cisterns",
+      "cta": "Download Harishchandragad GPX",
+      "primary": true
+    },
+    {
+      "badge": "CLASSIC PASS",
+      "gradeLabel": "Difficult",
+      "title": "Khireshwar — Tolar Khind Trail",
+      "desc": "Historic Malshej-side trek ascending through Tolar Khind rock patches and seven successive ridges.",
+      "distance": "8.0 km One Way",
+      "duration": "4.5 – 5.0 Hours",
+      "gain": "+760 m Vertical",
+      "water": "Carry 3 Liters on Ridge",
+      "cta": "Download Tolar Khind GPX",
+      "primary": false
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Khireshwar Base (660m)",
+      "elev": 660
+    },
+    {
+      "label": "Tolar Khind (1020m)",
+      "elev": 1020
+    },
+    {
+      "label": "Harishchandreshwar (1290m)",
+      "elev": 1290
+    },
+    {
+      "label": "Konkan Kada (1380m)",
+      "elev": 1380
+    },
+    {
+      "label": "Taramati Peak (1424m)",
+      "elev": 1424
+    }
+  ],
+  "connectedForts": [
+    "salher",
+    "shivneri",
+    "lohagad"
+  ]
+}

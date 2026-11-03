@@ -1,0 +1,110 @@
+{
+  "id": "suvarnadurg",
+  "name": "Suvarnadurg Fort",
+  "marathiName": "किल्ले सुवर्णदुर्ग",
+  "epithet": "कोंकणचा सुवर्णदुर्ग — The Golden Sea Fortress",
+  "district": "Ratnagiri",
+  "region": "Ratnagiri",
+  "type": "Sea Fort (Jaldurg)",
+  "categoryBadge": "GOLDEN SEA FORT",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-R21",
+  "elevationMeters": 15,
+  "elevationDisplay": "Sea Level (Harnai Island)",
+  "grade": "Easy",
+  "baseVillage": "Harnai Port (Dapoli)",
+  "endurance": "20 Min Boat + 1.5 Hr Walk",
+  "trailTime": "1.5 Hours",
+  "steps": "Rock-Cut Island Steps",
+  "era": "Chhatrapati Shivaji Maharaj & Kanhoji Angre",
+  "water": "Stepwells & Cisterns",
+  "lat": 17.8161,
+  "lng": 73.0844,
+  "mapX": 33.0,
+  "mapY": 64.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Suvarnadurg_fort.JPG",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Suvarnadurg",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Suvarnadurg",
+  "shortDesc": "The Golden Fortress, a major shipbuilding hub and impenetrable island naval station of Sarkhel Kanhoji Angre's Maratha fleet off Harnai.",
+  "mapSubtitle": "Island Bastion",
+  "overviewTitle": "The Golden Feather in the Maratha Naval Crown",
+  "overviewP1": "Set on an 8-acre rocky island 1.5 km off Harnai port in Dapoli (Ratnagiri district), Suvarnadurg ('Golden Fort') was captured and rebuilt by Chhatrapati Shivaji Maharaj in 1660. Protected on the mainland by a trio of coastal support forts — Kanakdurg, Fatehdurg, and Goa Fort — it formed an interlocking coastal artillery complex.",
+  "overviewP2": "In the early 18th century, Suvarnadurg served as the headquarters and shipbuilding dockyard of Sarkhel Kanhoji Angre, the legendary Admiral of the Maratha Navy, where fast Gurab and Galbat warships were built.",
+  "architecturalPillars": [
+    {
+      "title": "Rock-Cut Bedrock Walls",
+      "desc": "Much of Suvarnadurg's perimeter is carved directly out of the natural island bedrock rather than stacked masonry.",
+      "meta": "MONOLITHIC MARINE WALLS"
+    },
+    {
+      "title": "Hanuman Engraved Mahadarwaza",
+      "desc": "The eastern landing gate features a carved Maruti (Hanuman) relief and a sculpted turtle on the threshold stone.",
+      "meta": "EASTERN CHANNEL ENTRY"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Golden Fort of Harnai",
+    "architect": "Chhatrapati Shivaji Maharaj (1660 Rebuild)",
+    "rulingDynasty": "Maratha Empire & Angre Naval Admiralty",
+    "preservation": "UNESCO World Heritage Site (2025)",
+    "quote": "Suvarnadurg was the cradle where Sarkhel Kanhoji Angre's unbeaten Konkan squadron was forged.",
+    "quoteAuthor": "Konkan Naval Gazetteer"
+  },
+  "sites": [
+    {
+      "name": "Mahadarwaza & Turtle Threshold (महादरवाजा)",
+      "subtitle": "Hidden Seaward Gate Facing Harnai Mainland",
+      "badge": "MARINE GATEWAY",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Entrance_to_Suvarnadurg.JPG",
+      "desc": "Narrow stone stairway rising between twin bastions with a sacred turtle carved into the floor step.",
+      "loc": "Eastern Shore",
+      "elev": "Sea Level"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1660",
+      "title": "1660 — Strengthened by Chhatrapati Shivaji Maharaj",
+      "badge": "KONKAN FLEET BASE",
+      "desc": "Chhatrapati Shivaji Maharaj reinforces Suvarnadurg and establishes the mainland support forts of Kanakdurg, Fatehdurg, and Goa Fort.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "BOAT EXPEDITION",
+      "gradeLabel": "Easy",
+      "title": "Harnai Beach Boat Transfer",
+      "desc": "Local fishermen ferry trekkers across the 1.5 km channel from Harnai Bunder during low-to-mid tide.",
+      "distance": "1.5 km Sea Channel",
+      "duration": "20 Mins Boat + 1.5 Hrs Walk",
+      "gain": "15 m Island Crest",
+      "water": "Carry Drinking Water from Harnai",
+      "cta": "Download Suvarnadurg Coastal GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Harnai Beach (0m)",
+      "elev": 1
+    },
+    {
+      "label": "Channel Crossing (0m)",
+      "elev": 0
+    },
+    {
+      "label": "Turtle Gate (5m)",
+      "elev": 5
+    },
+    {
+      "label": "Island Citadel Crest (15m)",
+      "elev": 15
+    }
+  ],
+  "connectedForts": [
+    "sindhudurg",
+    "vijaydurg",
+    "janjira"
+  ]
+}

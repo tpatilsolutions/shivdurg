@@ -1,0 +1,163 @@
+{
+  "id": "rajgad",
+  "name": "Rajgad Fort",
+  "marathiName": "किल्ले राजगड",
+  "epithet": "गडांचा राजा — The King of Forts",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Capital Citadel",
+  "categoryBadge": "26-YEAR SWARAJYA CAPITAL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-P62",
+  "elevationMeters": 1376,
+  "elevationDisplay": "1,376 m (4,514 ft)",
+  "grade": "Difficult",
+  "baseVillage": "Gunjavane / Pali",
+  "endurance": "3.5 – 4.0 Hours",
+  "trailTime": "3.5 Hours",
+  "steps": "Rock-Cut Chor Darwaza",
+  "era": "Maratha Empire (1647–1672)",
+  "water": "Perennial (Padmavati Tank)",
+  "lat": 18.2461,
+  "lng": 73.6822,
+  "mapX": 43.0,
+  "mapY": 49.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rajgad_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Rajgad_Fort",
+  "shortDesc": "First capital of Hindavi Swarajya for 26 years, famous for its three colossal fortified spurs — Padmavati, Suvela, and Sanjivani Machi — and towering Balekilla.",
+  "mapSubtitle": "First Capital (1647–1672)",
+  "overviewTitle": "The Tri-Machi Citadel Where Swarajya Was Forged",
+  "overviewP1": "Commanding the Bhima-Nira watershed in Pune district at 1,376 meters, Rajgad (formerly Murumbdev) served as Chhatrapati Shivaji Maharaj's residence and capital for 26 years — longer than any other fort. With a base diameter of 40 kilometers, its three sprawling fortified ridges (Padmavati Machi, Suvela Machi, and the 2.5 km triple-walled Sanjivani Machi) made it virtually impossible to encircle.",
+  "overviewP2": "Rajgad witnessed historic milestones including the birth of Chhatrapati Rajaram Maharaj, the planning of the Afzal Khan campaign and Shaista Khan raid, and Chhatrapati Shivaji Maharaj's triumphant return from Agra in 1666.",
+  "architecturalPillars": [
+    {
+      "title": "Chilkhati Double Ramparts",
+      "desc": "Sanjivani Machi features a 2.5 km zigzag double-curtain fortification wall with hidden subterranean escape drains.",
+      "meta": "TRIPLE-TIERED MACHI DEFENSE"
+    },
+    {
+      "title": "Nedhe (Eye of the Needle)",
+      "desc": "A natural wind-carved rock aperture beneath the eastern tip of Suvela Machi offering 360-degree views toward Torna and Bhatghar.",
+      "meta": "SUVELA MACHI PINNACLE"
+    },
+    {
+      "title": "Balekilla Vertical Keep",
+      "desc": "Rising 1,376 m above sea level with a near-vertical rock-cut staircase guarded by the crescent Mahadarwaza.",
+      "meta": "SUPREME CITADEL KEEP"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Murumbdev, King of Forts",
+    "architect": "Moro Trimal Pingale & Hiroji Indulkar",
+    "rulingDynasty": "Maratha Empire (1647–1818)",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "Whoever holds the three Machis of Rajgad commands the entire Maval highlands.",
+    "quoteAuthor": "Sabhasad Bakhar Chronicle"
+  },
+  "sites": [
+    {
+      "name": "Sanjivani Machi (संजीवनी माची)",
+      "subtitle": "2.5 km Triple-Tiered Western Fortified Spur",
+      "badge": "MILITARY ARCHITECTURE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+      "desc": "Stretching 2.5 kilometers west toward Torna Fort, engineered with double Chilkhati walls, underground cisterns, and bastion watchtowers.",
+      "loc": "Western Ridge",
+      "elev": "1,250 m Elevation"
+    },
+    {
+      "name": "Suvela Machi & Nedhe (सुवेळा माची)",
+      "subtitle": "Eastern Sunrise Spur & Natural Rock Arch",
+      "badge": "NATURAL PINNACLE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+      "desc": "Narrow eastern ridge featuring Kalakrai Buruj, Ganesh sculpture, and the iconic 'Nedhe' (Eye of the Needle) natural opening in the cliff.",
+      "loc": "Eastern Ridge",
+      "elev": "1,260 m Elevation"
+    },
+    {
+      "name": "Balekilla (बालेकिल्ला)",
+      "subtitle": "Highest Central Acropolis of Rajgad",
+      "badge": "ROYAL CITADEL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+      "desc": "Reached via a thrilling vertical rock-cut stair with iron railings, housing the Rajwada ruins, Chandra Talav, and Brahmarshi Temple.",
+      "loc": "Central Summit",
+      "elev": "1,376 m Summit"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1647",
+      "title": "1647 — Capture of Murumbdev & Naming of Rajgad",
+      "badge": "FIRST ROYAL CAPITAL",
+      "desc": "Using the treasury discovered during repairs on neighboring Torna Fort, Chhatrapati Shivaji Maharaj fortifies the three ridges of Murumbdev and renames it Rajgad.",
+      "highlight": true
+    },
+    {
+      "year": "1666",
+      "title": "1666 — Triumphant Return from Agra",
+      "badge": "HISTORIC ESCAPE",
+      "desc": "Following his legendary escape from Aurangzeb's captivity in Agra, Chhatrapati Shivaji Maharaj returns in disguise to Rajgad to reunite with Rajmata Jijabai.",
+      "highlight": false
+    },
+    {
+      "year": "1670",
+      "title": "24 Feb 1670 — Birth of Chhatrapati Rajaram Maharaj",
+      "badge": "ROYAL LINEAGE",
+      "desc": "Maharani Soyarabai gives birth to Prince Rajaram on Padmavati Machi inside Rajgad Fort.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "CLASSIC TREK",
+      "gradeLabel": "Moderate-Difficult",
+      "title": "Gunjavane — Chor Darwaza Trail",
+      "desc": "Popular ridge climb from Gunjavane village ascending directly into the secret rock-cut Chor Darwaza on Padmavati Machi.",
+      "distance": "5.5 km One Way",
+      "duration": "3.0 – 3.5 Hours",
+      "gain": "+670 m Vertical",
+      "water": "Padmavati Temple Cisterns",
+      "cta": "Download GPX Route (Chor Darwaza)",
+      "primary": true
+    },
+    {
+      "badge": "ROYAL GATE TRAIL",
+      "gradeLabel": "Moderate",
+      "title": "Pali Darwaza Heritage Route",
+      "desc": "Broad historical stone pathway from Pali village passing through the grand double gates of Pali Darwaza.",
+      "distance": "6.0 km One Way",
+      "duration": "3.5 Hours",
+      "gain": "+650 m Vertical",
+      "water": "Perennial Spring",
+      "cta": "Download GPX Route (Pali Gate)",
+      "primary": false
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Gunjavane Base (700m)",
+      "elev": 700
+    },
+    {
+      "label": "Forest Saddle (940m)",
+      "elev": 940
+    },
+    {
+      "label": "Chor Darwaza (1190m)",
+      "elev": 1190
+    },
+    {
+      "label": "Padmavati Machi (1240m)",
+      "elev": 1240
+    },
+    {
+      "label": "Balekilla Summit (1376m)",
+      "elev": 1376
+    }
+  ],
+  "connectedForts": [
+    "torna",
+    "raigad",
+    "sinhagad"
+  ]
+}

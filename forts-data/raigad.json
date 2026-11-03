@@ -1,0 +1,211 @@
+{
+  "id": "raigad",
+  "name": "Raigad Fort",
+  "marathiName": "किल्ले रायगड",
+  "epithet": "दुर्गराज रायगड — The Gibraltar of the East",
+  "district": "Raigad",
+  "region": "Raigad",
+  "type": "Capital Citadel",
+  "categoryBadge": "ROYAL CAPITAL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-M58",
+  "elevationMeters": 820,
+  "elevationDisplay": "820 m (2,700 ft)",
+  "grade": "Moderate",
+  "baseVillage": "Pachad Village",
+  "endurance": "2.5 – 3.0 Hours",
+  "trailTime": "2.5 Hours",
+  "steps": "1,737 Steps",
+  "era": "Maratha Empire (1656–1689)",
+  "water": "Perennial (Ganga Sagar)",
+  "lat": 18.2347,
+  "lng": 73.4464,
+  "mapX": 35.5,
+  "mapY": 51.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Raigad_Fort-Rigad.JPG",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Raigad_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Raigad_Fort",
+  "shortDesc": "Perched high upon an inaccessible wedge-shaped basalt massif, Raigad was sculpted by Chhatrapati Shivaji Maharaj as the sovereign throne of Hindavi Swarajya.",
+  "mapSubtitle": "Sovereign Capital (1674)",
+  "overviewTitle": "The Unvanquished Capital of Hindavi Swarajya",
+  "overviewP1": "Rising 820 meters above sea level in the Mahad taluka of Raigad district, this iconic wedge-shaped massif rises abruptly from the Konkan plains, separated from the main Sahyadri range by deep valleys on all sides. Chosen specifically by Chhatrapati Shivaji Maharaj in 1656 after annexing the Javli valley, Raigad was elevated into the administrative, cultural, and military nerve center of an emerging sovereign Maratha state.",
+  "overviewP2": "Unlike medieval citadels built solely as military outposts, Raigad was envisioned as a complete imperial city on a mountain summit. Master architect Hiroji Indulkar supervised the creation of stone granaries, ministerial residences (Ashta Pradhan quarters), market streets, rock-cut water reservoirs, acoustic durbar halls, and sheer cliffside defensive bastions engineered to withstand protracted Mughal sieges.",
+  "architecturalPillars": [
+    {
+      "title": "Bastion Camouflage",
+      "desc": "Curved Maha Darwaza twin bastions hide the massive teakwood gate from direct cannon line-of-sight along the steep Chiseling Gorge.",
+      "meta": "CHISELED BASALT FORTIFICATION"
+    },
+    {
+      "title": "Coronation Durbar Acoustics",
+      "desc": "Whispered commands from the Nagarkhana gateway carry clearly to the royal throne 200 feet away through tuned stone arches.",
+      "meta": "HIROJI INDULKAR ENGINEERING"
+    },
+    {
+      "title": "Hydraulic Mastery",
+      "desc": "Over 84 rock-cut cisterns and the 12-acre Ganga Sagar Talav supplied fresh water to a garrison of 10,000+ residents year-round.",
+      "meta": "PERENNIAL MONSOON CATCHMENT"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Rairi, Gibraltar of the East, Nandadeep",
+    "architect": "Hiroji Indulkar (Chief Architect)",
+    "rulingDynasty": "Maratha Empire (Chhatrapati Shivaji Maharaj)",
+    "preservation": "ASI Monument of National Importance & UNESCO Site",
+    "quote": "The European Gibraltar is as nothing compared to this impregnable rocky citadel of the Western Ghats.",
+    "quoteAuthor": "British East India Gazetteer (1818)"
+  },
+  "sites": [
+    {
+      "name": "Maha Darwaza (महादरवाजा)",
+      "subtitle": "Colossal 65-Foot Twin-Bastion Main Gateway",
+      "badge": "DEFENSIVE ARCHITECTURE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Raigad_Maha_Darwaja.jpg",
+      "desc": "Flanked by two massive curved bastions standing 65 and 70 feet tall, the Maha Darwaza is angled at 90 degrees to the cliff steps so enemy battering elephants could never gain momentum.",
+      "loc": "West Cliff Ascent",
+      "elev": "720 m Elevation"
+    },
+    {
+      "name": "Takmak Tok (टकमक टोक)",
+      "subtitle": "Sheer 1,200-Foot Basalt Overhang & Watchpoint",
+      "badge": "CLIFF PRECIPICE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Takmak_Tok%2C_Raigad_Fort_in_Raigad%2C_India.jpg",
+      "desc": "A narrow basalt spur projecting over a vertical 1,200-foot drop into the Kal River valley. Historically used both as a sentinel lookout over the Konkan trade passes and for capital punishment.",
+      "loc": "North-East Spur",
+      "elev": "815 m Elevation"
+    },
+    {
+      "name": "Raj Sabha & Nagarkhana (राजसभा)",
+      "subtitle": "Imperial Coronation Court of 6 June 1674",
+      "badge": "IMPERIAL DURBAR HALL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nagarkhana%2C_Raigad_Fort%2C_India.jpg",
+      "desc": "The grand royal court where Chhatrapati Shivaji Maharaj was crowned on the 32-man golden Sinhasan. The towering Nagarkhana gateway creates remarkable natural voice amplification.",
+      "loc": "Central Balekilla",
+      "elev": "820 m Summit"
+    },
+    {
+      "name": "Jagdishwar Temple & Samadhi (जगदीश्वर मंदिर)",
+      "subtitle": "Sacred Shiva Shrine & Royal Memorial",
+      "badge": "SACRED MEMORIAL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jagdishwar_Mandir.jpg",
+      "desc": "Built by Hiroji Indulkar with his famous engraved plinth inscription ('Seveche Thayi Tatpar Hiroji Indulkar'). Directly adjacent stands the octagonal stone Samadhi of Chhatrapati Shivaji Maharaj.",
+      "loc": "Eastern Plateau",
+      "elev": "805 m Elevation"
+    },
+    {
+      "name": "Bazar Peth (प्राचीन बाजारपेठ)",
+      "subtitle": "40-Foot Elevated Dual-Row Stone Marketplace",
+      "badge": "MARATHA COMMERCE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bazarpeth.jpg",
+      "desc": "Two parallel rows of 22 stone shop-plinths each, raised high off the central avenue so cavalrymen and citizens could purchase provisions directly from horseback without dismounting.",
+      "loc": "Holi Cha Mal North",
+      "elev": "810 m Elevation"
+    },
+    {
+      "name": "Ganga Sagar Lake (गंगासागर तलाव)",
+      "subtitle": "Perennial Royal Rock-Cut Reservoir",
+      "badge": "HYDRO-ENGINEERING",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gangasagar_Lake.jpg",
+      "desc": "Legend and court chronicles record that sacred waters from the Ganga and seven rivers brought for the 1674 Rajyabhishek ceremony were poured into this deep mountain reservoir.",
+      "loc": "South of Rani Vasa",
+      "elev": "800 m Elevation"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1656",
+      "title": "1656 — Conquest of Rairi from Javli",
+      "badge": "STRATEGIC ANNEXATION",
+      "desc": "Chhatrapati Shivaji Maharaj captures the mountain stronghold of Rairi from Chandrarao More of Javli. Recognizing its sheer four-sided basalt cliffs, he renames it Raigad ('The King's Fort') and orders its transformation into the royal capital.",
+      "highlight": false
+    },
+    {
+      "year": "1662",
+      "title": "1662 — Master Blueprint of Hiroji Indulkar",
+      "badge": "CAPITAL CONSTRUCTION",
+      "desc": "Chief architect Hiroji Indulkar leads thousands of stone masons for over a decade, constructing the Rani Vasa (six queen chambers), Ashtapradhan towers, Ambarkhana granaries, and 84 water reservoirs.",
+      "highlight": false
+    },
+    {
+      "year": "1674",
+      "title": "6 June 1674 — Rajyabhishek (Imperial Coronation)",
+      "badge": "FOUNDATION OF HINDAVI SWARAJYA",
+      "desc": "Pandit Gaga Bhatt of Varanasi presides over the grand Vedic coronation in the Raj Sabha. Chhatrapati Shivaji Maharaj ascends the golden Sinhasan as Chhatrapati, initiating the Rajyabhishek Shak calendar and issuing the gold Hon and copper Shivrai coins.",
+      "highlight": true
+    },
+    {
+      "year": "1680",
+      "title": "3 April 1680 — Demise of Chhatrapati Shivaji Maharaj",
+      "badge": "SACRED MEMORIAL",
+      "desc": "On Hanuman Jayanti (3 April 1680), Chhatrapati Shivaji Maharaj passes away at Raigad at age 50. His octagonal stone Samadhi is erected beside the Jagdishwar Temple on the eastern plateau.",
+      "highlight": false
+    },
+    {
+      "year": "1689",
+      "title": "1689 — The Epic Siege of Zulfiqar Khan",
+      "badge": "MARATHA DEFENSE",
+      "desc": "Following Chhatrapati Sambhaji Maharaj's martyrdom, Mughal general Zulfiqar Khan besieges Raigad for 8 months while Chhatrapati Rajaram escapes toward Jinji to continue the Maratha War of Independence.",
+      "highlight": false
+    },
+    {
+      "year": "1818",
+      "title": "May 1818 — British Artillery Bombardment",
+      "badge": "COLONIAL SIEGE",
+      "desc": "East India Company forces under Colonel Prother haul heavy howitzers onto the neighboring Kalkai hill ridge and bombard Raigad for 11 days, burning the timber superstructures while the stone citadel endures.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "HERITAGE STEP TRAIL",
+      "gradeLabel": "Moderate Endurance",
+      "title": "Chit Darwaza Step Trail (पायरी मार्ग)",
+      "desc": "Traditional stone-stepped ascent starting from Pachad / Хирkani-wadi base village, passing through Khubladha Buruj, Nana Darwaza, and the monumental Maha Darwaza.",
+      "distance": "4.2 km One Way",
+      "duration": "2.5 – 3.0 Hours",
+      "gain": "+580 m Vertical",
+      "water": "3 Limbu Pani Stalls",
+      "cta": "Download GPX Route (Chit Darwaza)",
+      "primary": false
+    },
+    {
+      "badge": "AERIAL CABLE CAR",
+      "gradeLabel": "Family & Senior Friendly",
+      "title": "Raigad Aerial Ropeway (रायगड रोपवे)",
+      "desc": "Engineered aerial tramway ascending a 420-meter vertical cliff drop in just 4 minutes, landing directly beside Mena Darwaza and the royal palace enclave.",
+      "distance": "760 m Span",
+      "duration": "4 Minutes (8 AM – 5 PM)",
+      "gain": "420 m Vertical Lift",
+      "water": "Upper Terminal Cafe",
+      "cta": "Reserve Ropeway Boarding Pass",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Pachad Base (240m)",
+      "elev": 240
+    },
+    {
+      "label": "Nana Darwaza (460m)",
+      "elev": 460
+    },
+    {
+      "label": "Khubladha Buruj (610m)",
+      "elev": 610
+    },
+    {
+      "label": "Maha Darwaza (720m)",
+      "elev": 720
+    },
+    {
+      "label": "Raj Bhavan / Balekilla (820m)",
+      "elev": 820
+    }
+  ],
+  "connectedForts": [
+    "rajgad",
+    "torna",
+    "pratapgad"
+  ]
+}

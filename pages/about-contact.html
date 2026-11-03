@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivdurg — Sahyadri Fort Heritage | Forts of Maharashtra Atlas &amp; Guides</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <script>window.FORT_PIN_ICON_URI = "../assets/icons/fort-pin.png";</script>
+  <script src="../forts-data/all-forts.js"></script>
+  <script src="../js/app.js"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- Top Heritage Header Bar -->
+  <header class="sticky top-0 z-40 bg-[#13261b] text-[#faf8f3] border-b border-[#eab308]/30 shadow-lg">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 h-16 flex items-center justify-between gap-2">
+      <!-- Brand Logo with Attached Fort Pin Emblem -->
+      <div onclick="window.navigatePage('home')" class="flex items-center gap-2.5 cursor-pointer shrink-0 group">
+        <div class="w-10 h-10 rounded-xl bg-[#1b3526] border border-[#eab308]/50 flex items-center justify-center p-1 shadow-inner group-hover:scale-105 transition">
+          <img src="../assets/icons/fort-pin.png" alt="Shivdurg Emblem" class="w-full h-full object-contain" />
+        </div>
+        <div>
+          <span class="font-cinzel font-bold text-base sm:text-lg tracking-wider text-white block leading-none">SHIVDURG</span>
+          <span class="text-[9px] uppercase tracking-widest text-[#facc15] font-semibold block mt-0.5">SAHYADRI FORT HERITAGE</span>
+        </div>
+      </div>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-1">
+        <button id="nav-home" onclick="window.navigatePage('home')" class="px-3 py-1.5 rounded-full bg-[#eab308] text-[#13261b] font-semibold text-xs transition">Home</button>
+        <button id="nav-explore" onclick="window.navigatePage('explore')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">Explore Forts</button>
+        <button id="nav-guides" onclick="window.navigatePage('guides')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">Trekking Guides</button>
+        <button id="nav-map" onclick="window.navigatePage('map')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">Fort Map</button>
+        <button id="nav-detail" onclick="window.navigatePage('detail', 'raigad')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">Raigad Dossier</button>
+        <button id="nav-history" onclick="window.navigatePage('history')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">History</button>
+        <button id="nav-gallery" onclick="window.navigatePage('gallery')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">Gallery</button>
+        <button id="nav-about" onclick="window.navigatePage('about')" class="px-3 py-1.5 rounded-full text-stone-200 hover:text-[#facc15] hover:bg-white/5 text-xs font-medium transition">About &amp; Contact</button>
+      </nav>
+
+      <!-- Right Search + Bookmark Drawer Trigger + Mobile Hamburger -->
+      <div class="flex items-center gap-2">
+        <div class="hidden sm:flex items-center bg-[#0c1911] border border-white/15 rounded-full pl-3 pr-1 py-1">
+          <span class="text-stone-400 text-xs mr-1.5">🔍</span>
+          <input id="globalSearchInput" type="text" placeholder="Search Raigad, Sinhagad..." onkeydown="if(event.key==='Enter') window.runGlobalSearch()" class="bg-transparent text-xs text-white placeholder-stone-400 focus:outline-none w-36 md:w-44" />
+          <button onclick="window.runGlobalSearch()" class="px-3 py-1 rounded-full bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-[11px] transition">Search</button>
+        </div>
+
+        <button onclick="window.openSavedModal()" class="relative w-9 h-9 rounded-full bg-[#1b3526] hover:bg-[#254734] border border-[#eab308]/40 flex items-center justify-center text-[#facc15] transition" title="Saved Forts">
+          <span class="text-sm">🔖</span>
+          <span id="savedCountBadge" class="absolute -top-1 -right-1 px-1.5 py-0.2 rounded-full bg-[#eab308] text-[#13261b] font-extrabold text-[10px] leading-tight">8</span>
+        </button>
+
+        <button onclick="window.toggleMobileMenu()" class="lg:hidden w-9 h-9 rounded-xl bg-[#1b3526] border border-white/15 flex items-center justify-center text-white text-base" aria-label="Toggle Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-Down Navigation Drawer -->
+    <div id="mobileMenuDrawer" class="hidden lg:hidden bg-[#0c1911] border-t border-white/10 px-4 py-3 space-y-2.5">
+      <div class="flex items-center bg-[#13261b] border border-white/15 rounded-xl px-3 py-1.5 sm:hidden">
+        <input type="text" placeholder="Search forts or districts..." onkeydown="if(event.key==='Enter'){document.getElementById('globalSearchInput').value=this.value; window.runGlobalSearch();}" class="bg-transparent text-xs text-white placeholder-stone-400 focus:outline-none flex-1" />
+        <button onclick="window.runGlobalSearch()" class="px-2.5 py-1 rounded-lg bg-[#eab308] text-[#13261b] font-bold text-xs">Go</button>
+      </div>
+      <div class="grid grid-cols-2 gap-1.5 text-xs">
+        <button onclick="window.navigatePage('home')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-[#facc15]">🏠 Home</button>
+        <button onclick="window.navigatePage('map')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">🗺️ Interactive Fort Map</button>
+        <button onclick="window.navigatePage('detail', 'raigad')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">🏰 Raigad Fort Dossier</button>
+        <button onclick="window.navigatePage('explore')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">🧭 Explore All 12 Forts</button>
+        <button onclick="window.navigatePage('guides')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">🥾 Trekking Guides</button>
+        <button onclick="window.navigatePage('history')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">📜 Swarajya History</button>
+        <button onclick="window.navigatePage('gallery')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">📷 Real Photo Gallery</button>
+        <button onclick="window.navigatePage('about')" class="p-2 rounded-lg bg-[#1b3526] text-left font-semibold text-white">✉️ About &amp; Contact</button>
+      </div>
+    </div>
+  </header>
+<main class="flex-1">
+  <!-- ===================================================================== -->
+  <!-- PAGE 1: HOME PAGE (Screen 3 - Discover the Majestic Forts)            -->
+  <!-- ===================================================================== -->
+  <section id="page-home" class="block">
+    <!-- Hero Section with Real Raigad Fort Photograph -->
+    <div class="relative bg-[#13261b] text-white overflow-hidden">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Raigad_Fort-Rigad.JPG" alt="Sahyadri Forts Panorama" class="absolute inset-0 w-full h-full object-cover opacity-35 scale-105" />
+      <div class="absolute inset-0 bg-gradient-to-b from-[#0c1911]/80 via-[#13261b]/85 to-[#13261b]"></div>
+
+      <div class="relative max-w-5xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#eab308] text-[#13261b] font-extrabold text-[10px] sm:text-xs uppercase tracking-widest shadow-md mb-5">
+          <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-4 h-4 object-contain" />
+          <span>CELEBRATING 350+ YEARS OF HINDAVI SWARAJYA</span>
+        </div>
+
+        <h1 class="font-serif-title font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight text-white leading-tight">
+          DISCOVER THE MAJESTIC<br class="hidden sm:inline" /> FORTS OF MAHARASHTRA
+        </h1>
+        <p class="mt-4 text-xs sm:text-base text-stone-300 max-w-2xl mx-auto leading-relaxed">
+          Explore authentic Maratha military landscapes, trekking itineraries, rock-cut architecture, and the eternal legacy of the Western Ghats (सह्याद्री गड-किल्ले).
+        </p>
+
+        <!-- Floating Search & Region Filter Bar (matching Screen 3) -->
+        <div class="mt-8 bg-white rounded-2xl p-2 sm:p-2.5 shadow-2xl max-w-3xl mx-auto flex flex-col sm:flex-row items-stretch sm:items-center gap-2 text-left">
+          <div class="flex items-center gap-2 flex-1 px-3 py-2 border-b sm:border-b-0 sm:border-r border-stone-200">
+            <span class="text-stone-400">🔍</span>
+            <input id="heroSearchInput" type="text" placeholder="Search by fort name (e.g., Raigad, Lohagad, Sindhudurg)..." onkeydown="if(event.key==='Enter') window.runHeroSearch()" class="w-full text-xs sm:text-sm text-stone-800 placeholder-stone-400 focus:outline-none" />
+          </div>
+          <div class="flex items-center gap-2 px-3 py-2 sm:w-52">
+            <span class="text-stone-400">🗺️</span>
+            <select id="heroRegionSelect" class="w-full text-xs sm:text-sm text-stone-700 font-medium bg-transparent focus:outline-none">
+              <option value="All">All Fort Regions</option>
+              <option value="Pune">Pune Region</option>
+              <option value="Raigad">Raigad Region</option>
+              <option value="Satara">Satara Region</option>
+              <option value="Sindhudurg">Sindhudurg Coast</option>
+              <option value="Ratnagiri">Ratnagiri Coast</option>
+              <option value="Kolhapur">Kolhapur Region</option>
+              <option value="Nashik">Nashik Baglan</option>
+              <option value="Sambhajinagar">Sambhajinagar</option>
+            </select>
+          </div>
+          <button onclick="window.runHeroSearch()" class="px-6 py-3 rounded-xl bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-xs sm:text-sm transition shadow flex items-center justify-center gap-1.5">
+            <span>Search Forts</span> <span>↗</span>
+          </button>
+        </div>
+
+        <!-- Hero Secondary Quick Actions -->
+        <div class="mt-5 flex flex-wrap items-center justify-center gap-3">
+          <button onclick="window.navigatePage('explore')" class="px-5 py-2.5 rounded-xl bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-xs shadow transition flex items-center gap-1.5">
+            <span>🧭 Explore Forts</span>
+          </button>
+          <button onclick="window.navigatePage('map')" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/25 font-semibold text-xs transition flex items-center gap-1.5">
+            <img src="../assets/icons/fort-pin.png" alt="" class="w-4 h-4 object-contain" />
+            <span>Interactive Fort Map</span>
+          </button>
+          <button onclick="window.navigatePage('detail', 'raigad')" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-[#facc15] border border-[#eab308]/40 font-semibold text-xs transition">
+            <span>👑 Raigad Capital Dossier</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Featured Historic Forts (Screen 3) -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#eab308]/20 text-amber-900 font-bold text-[10px] uppercase tracking-widest">
+            🏛️ IMPERIAL CITADELS
+          </span>
+          <h2 class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-2">FEATURED HISTORIC FORTS</h2>
+          <p class="text-xs sm:text-sm text-stone-600 mt-1">Explore the legendary bastions of Chhatrapati Shivaji Maharaj across the Sahyadri ridges and Konkan seas.</p>
+        </div>
+        <button onclick="window.navigatePage('explore')" class="self-start sm:self-auto text-xs font-bold text-[#ca8a04] hover:text-[#13261b] flex items-center gap-1">
+          <span>View All 12 Citadels</span> <span>→</span>
+        </button>
+      </div>
+
+      <div id="homeFeaturedGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+    </div>
+
+    <!-- Section: Explore by Region & Citadel Belts (Screen 3) -->
+    <div class="bg-[#faf8f3] border-y border-stone-200/80 py-12 sm:py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#eab308]/25 text-amber-900 font-bold text-[10px] uppercase tracking-widest">
+            📍 SAHYADRI GEOGRAPHICAL SECTORS
+          </span>
+          <h2 class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-2">EXPLORE BY REGION &amp; CITADEL BELTS</h2>
+          <p class="text-xs sm:text-sm text-stone-600 mt-1.5">From the Maval highland passes of Pune to the wave-lashed naval fortresses of Sindhudurg and Ratnagiri.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div onclick="window.navigatePage('map', 'Pune')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">Heartland of Swarajya</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Pune Region (पुणे विभाग)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Home to Rajgad, Torna, Sinhagad, Shivneri, Lohagad, and Visapur across the Maval valleys.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 5 Featured Citadels</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Raigad')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">Royal Capital Belt</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Raigad Region (रायगड)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Sovereign coronation capital Raigad Fort and the unconquered marine citadel of Murud-Janjira.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 Capital &amp; Coast</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Satara')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">Javli &amp; Koyna Escarpment</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Satara Region (सातारा)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Forested ridges of Pratapgad, Sajjangad, Vasota, and Ajinkyatara overlooking the Koyna valley.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 Javli Stronghold</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Kolhapur')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">Southern Sahyadri</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Kolhapur Region (कोल्हापूर)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Historic Panhala Fort, Vishalgad, and the sacred battle pass of Pavan Khind.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 Panhala Pass</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Nashik')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">High Peaks of Baglan</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Nashik Region (नाशिक)</h3>
+            <p class="text-xs text-stone-610 mt-1 leading-relaxed">Salher (1,567 m highest fort in Maharashtra) and the 1,800 ft Konkan Kada overhang of Harishchandragad.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 Highest Summits</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Sindhudurg')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-sky-100 text-sky-900 font-bold text-[10px]">Maratha Naval Fleet</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Sindhudurg Coast (सिंधुदुर्ग)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Impregnable sea citadels of Sindhudurg at Malvan and triple-walled Vijaydurg on the Arabian Sea.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>⚓ 2 Naval Citadels</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Ratnagiri')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-sky-100 text-sky-900 font-bold text-[10px]">Kanhoji Angre Dockyard</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Ratnagiri Region (रत्नागिरी)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Golden island fortress of Suvarnadurg off Harnai port, Ratnadurg, and Jaigad coastal bastions.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>⚓ Coastal Stronghold</span> <span>→</span>
+            </div>
+          </div>
+
+          <div onclick="window.navigatePage('map', 'Sambhajinagar')" class="heritage-card bg-white rounded-2xl p-5 border border-stone-200/90 cursor-pointer">
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-[10px]">Deccan Monolith</span>
+              <img src="../assets/icons/fort-pin.png" alt="Pin" class="w-6 h-6 object-contain" />
+            </div>
+            <h3 class="font-serif-title font-bold text-base text-[#13261b]">Sambhajinagar (छत्रपती संभाजीनगर)</h3>
+            <p class="text-xs text-stone-600 mt-1 leading-relaxed">Conical monolithic fortress of Devagiri (Daulatabad) with its shaved rock scarp and Andheri labyrinth.</p>
+            <div class="mt-4 pt-2.5 border-t border-stone-100 flex justify-between items-center text-[11px] font-bold text-[#ca8a04]">
+              <span>📍 Devagiri Citadel</span> <span>→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dual Quick Filter Cards: Fort Type & Trek Difficulty (Screen 3) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
+          <div class="bg-white rounded-2xl p-5 border border-stone-200/90 shadow-sm">
+            <div class="flex items-center gap-2.5 mb-3">
+              <span class="w-8 h-8 rounded-lg bg-[#13261b] text-[#facc15] flex items-center justify-center text-sm">🏰</span>
+              <div>
+                <h4 class="font-serif-title font-bold text-sm text-[#13261b] uppercase">EXPLORE BY FORT TYPE</h4>
+                <p class="text-[11px] text-stone-500">Filter by classical Ajnapatra military classification</p>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <button onclick="window.quickFilterExplore('type', 'Hill')" class="px-3.5 py-2 rounded-xl bg-[#13261b] text-[#facc15] font-semibold text-xs hover:opacity-90 transition">⛰️ Hill Forts (Giridurg)</button>
+              <button onclick="window.quickFilterExplore('type', 'Sea')" class="px-3.5 py-2 rounded-xl bg-[#f4f0e6] hover:bg-[#eab308] text-[#13261b] font-semibold text-xs border border-stone-300 transition">⚓ Sea Forts (Jaldurg)</button>
+              <button onclick="window.quickFilterExplore('type', 'Capital')" class="px-3.5 py-2 rounded-xl bg-[#f4f0e6] hover:bg-[#eab308] text-[#13261b] font-semibold text-xs border border-stone-300 transition">👑 Royal Capital Citadels</button>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-5 border border-stone-200/90 shadow-sm">
+            <div class="flex items-center gap-2.5 mb-3">
+              <span class="w-8 h-8 rounded-lg bg-[#eab308] text-[#13261b] flex items-center justify-center text-sm font-bold">🥾</span>
+              <div>
+                <h4 class="font-serif-title font-bold text-sm text-[#13261b] uppercase">EXPLORE BY TREK DIFFICULTY</h4>
+                <p class="text-[11px] text-stone-500">Match Sahyadri trails to your endurance and experience</p>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <button onclick="window.quickFilterExplore('grade', 'Easy')" class="px-3.5 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 font-semibold text-xs border border-emerald-300 transition">🟢 Easy / Beginner (5)</button>
+              <button onclick="window.quickFilterExplore('grade', 'Moderate')" class="px-3.5 py-2 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 font-semibold text-xs border border-amber-300 transition">🟡 Moderate Treks (4)</button>
+              <button onclick="window.quickFilterExplore('grade', 'Difficult')" class="px-3.5 py-2 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-900 font-semibold text-xs border border-rose-300 transition">🔴 Difficult Endurance (3)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Historical Highlights & Travel Tips / Sahyadri Safety (Screen 3) -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm">
+          <span class="px-2.5 py-1 rounded bg-[#eab308]/25 text-amber-900 font-bold text-[10px] uppercase tracking-widest">SWARAJYA CHRONICLES</span>
+          <h3 class="font-serif-title font-extrabold text-2xl text-[#13261b] mt-2 mb-3">HISTORICAL HIGHLIGHTS</h3>
+          <p class="text-xs sm:text-sm text-stone-600 leading-relaxed mb-4">
+            As Ramchandra Pant Amatya wrote in the <a href="https://en.wikipedia.org/wiki/Adnyapatra" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Ajnapatra (आज्ञापत्र)</a>, forts were the very essence of Hindavi Swarajya. From the 1645 capture of <a href="https://en.wikipedia.org/wiki/Torna_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Torna Fort</a> at age 16 to the 1674 imperial coronation at <a href="https://en.wikipedia.org/wiki/Raigad_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Raigad</a> and the ocean fortifications of <a href="https://en.wikipedia.org/wiki/Sindhudurg_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Sindhudurg</a> and <a href="https://en.wikipedia.org/wiki/Vijaydurg_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Vijaydurg</a>, every Sahyadri ridge preserves three centuries of unmatched military engineering.
+          </p>
+          <p class="text-xs text-stone-500 leading-relaxed mb-5">
+            In 2025, twelve iconic fortresses under the <a href="https://commons.wikimedia.org/wiki/Category:Maratha_Military_Landscapes_of_India" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Maratha Military Landscapes of India</a> circuit gained global heritage recognition for their organic adaptation to basalt escarpments and coastal reefs.
+          </p>
+          <button onclick="window.navigatePage('history')" class="px-5 py-2.5 rounded-xl bg-[#13261b] hover:bg-[#254734] text-[#facc15] font-bold text-xs transition inline-flex items-center gap-2">
+            <span>Explore Historical Timeline</span> <span>→</span>
+          </button>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm">
+          <span class="px-2.5 py-1 rounded bg-emerald-100 text-emerald-900 font-bold text-[10px] uppercase tracking-widest">EXPEDITION PROTOCOL</span>
+          <h3 class="font-serif-title font-extrabold text-2xl text-[#13261b] mt-2 mb-3">TRAVEL TIPS &amp; SAHYADRI SAFETY</h3>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-stone-600 mb-5">
+            <li class="flex items-start gap-2.5"><span class="text-[#ca8a04] font-bold">☀️</span><span><strong>Start Early at Dawn:</strong> Begin ridge ascents by 06:00 AM to beat midday heat on exposed basalt steps and enjoy crystal-clear valley panoramas.</span></li>
+            <li class="flex items-start gap-2.5"><span class="text-[#ca8a04] font-bold">🥾</span><span><strong>Footwear &amp; Hydration:</strong> Wear high-grip trekking shoes and carry 3 liters of water plus electrolytes — rock-cut steps become slippery with monsoon moss.</span></li>
+            <li class="flex items-start gap-2.5"><span class="text-[#ca8a04] font-bold">🏛️</span><span><strong>Respect Sacred Heritage:</strong> Do not deface stone walls, bastions, or cannons. Strictly observe alcohol-free and plastic-free sanctity on all forts.</span></li>
+          </ul>
+          <button onclick="window.navigatePage('guides')" class="px-5 py-2.5 rounded-xl bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-xs transition inline-flex items-center gap-2">
+            <span>Explore Trekking Guides</span> <span>→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================================== -->
+  <!-- PAGE 2: INTERACTIVE FORT MAP (Screen 2 - Forts of Maharashtra Atlas)  -->
+  <!-- ===================================================================== -->
+  <section id="page-map" class="hidden">
+    <!-- Top Sub-Breadcrumb Bar (matching Screen 2) -->
+    <div class="bg-[#1b3526] text-stone-200 border-b border-white/10 px-4 sm:px-6 py-2">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div class="flex items-center gap-2 flex-wrap">
+          <button onclick="window.navigatePage('home')" class="text-stone-400 hover:text-white">Shivdurg Heritage</button>
+          <span class="text-stone-500">/</span>
+          <span class="font-bold text-[#facc15]">Interactive Fort Map (गड-किल्ले नकाशा)</span>
+          <span class="px-2.5 py-0.5 rounded-full bg-[#eab308]/20 text-[#facc15] border border-[#eab308]/40 text-[10px] font-semibold">🏆 UNESCO Heritage Circuit</span>
+        </div>
+        <div class="flex items-center gap-3 text-[11px]">
+          <span class="flex items-center gap-1.5 text-amber-300 font-semibold"><span class="w-2 h-2 rounded-full bg-[#eab308]"></span> 12 Citadels Plot-Ready</span>
+          <span class="hidden sm:inline text-stone-400">|</span>
+          <span class="hidden sm:inline font-bold uppercase tracking-wider text-stone-300">⛰️ SAHYADRI OROGRAPHIC SURVEY</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile View Mode Toggle Bar (Only visible on phones) -->
+    <div class="md:hidden bg-[#13261b] px-4 py-2 flex items-center justify-between border-b border-white/10">
+      <span class="text-[11px] font-semibold text-stone-300">Mobile Map Layout:</span>
+      <div class="flex items-center gap-1.5">
+        <button id="mobMapBtn-split" onclick="window.toggleMobileMapMode('split')" class="px-3 py-1 rounded-full bg-[#eab308] text-[#13261b] font-bold text-xs">Split</button>
+        <button id="mobMapBtn-list" onclick="window.toggleMobileMapMode('list')" class="px-3 py-1 rounded-full bg-white/10 text-stone-200 text-xs">List Only</button>
+        <button id="mobMapBtn-map" onclick="window.toggleMobileMapMode('map')" class="px-3 py-1 rounded-full bg-white/10 text-stone-200 text-xs">Map Only</button>
+      </div>
+    </div>
+
+    <!-- Main Interactive Atlas Split Container (Screen 2) -->
+    <div id="fortMapMainWrapper" class="max-w-7xl mx-auto px-3 sm:px-6 py-5">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
+
+        <!-- Left Sidebar Column: Fort Filter & Cards (4 cols on desktop) -->
+        <div id="mapSidebarColumn" class="md:col-span-5 lg:col-span-4 flex flex-col bg-[#faf8f3] rounded-2xl border border-stone-300/90 shadow-md overflow-hidden">
+          <!-- Dark Forest Atlas Header -->
+          <div class="bg-[#13261b] text-white p-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="px-2 py-0.5 rounded bg-[#d97706] text-white font-bold text-[10px] font-marathi">स्वराज्य गड-किल्ले</span>
+              <span class="text-[10px] uppercase tracking-widest text-stone-400 font-semibold">MAHARASHTRA ATLAS</span>
+            </div>
+            <h2 class="font-serif-title font-extrabold text-xl sm:text-2xl text-white">FORTS OF MAHARASHTRA</h2>
+            <p class="text-xs text-stone-300 mt-1">Explore historic citadels and sea forts across the Sahyadri range using the custom fort pin emblem.</p>
+
+            <!-- Search Input -->
+            <div class="mt-3 bg-white rounded-xl px-3 py-2 flex items-center gap-2">
+              <span class="text-stone-400 text-xs">🔍</span>
+              <input id="mapSidebarSearch" type="text" placeholder="Search by fort, district, or region..." oninput="window.handleMapSearch(this.value)" class="w-full text-xs text-stone-800 placeholder-stone-400 focus:outline-none" />
+            </div>
+
+            <!-- Horizontal District Filter Pills -->
+            <div id="mapDistrictPills" class="mt-3 flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1"></div>
+          </div>
+
+          <!-- Showing Count & Sort Bar -->
+          <div class="px-4 py-2.5 bg-[#efeae0] border-b border-stone-300/80 flex items-center justify-between gap-2 text-[11px]">
+            <span id="mapShowingCount" class="font-bold text-stone-700">SHOWING 12 OF 12 FORTS</span>
+            <div class="flex items-center gap-1">
+              <span class="text-stone-500">SORT:</span>
+              <select onchange="window.handleMapSort(this.value)" class="bg-transparent font-bold text-[#13261b] focus:outline-none cursor-pointer">
+                <option value="elev-desc">Elevation (High–Low)</option>
+                <option value="elev-asc">Elevation (Low–High)</option>
+                <option value="name-asc">Name (A–Z)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Scrollable Fort Cards List -->
+          <div id="mapFortCardsList" class="p-3 space-y-2.5 overflow-y-auto max-h-[460px] flex-1"></div>
+
+          <!-- Bottom GPX Circuit Export Bar -->
+          <div class="p-3 bg-white border-t border-stone-200 flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2 text-xs font-bold text-[#13261b]">
+              <span class="text-[#ca8a04]">📥</span>
+              <span>Western Ghats GPX Circuit</span>
+            </div>
+            <button onclick="window.downloadAllGPX()" class="px-3 py-1.5 rounded-lg bg-[#13261b] hover:bg-[#254734] text-[#facc15] font-bold text-[10px] uppercase tracking-wider transition">
+              EXPORT (12)
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Interactive Map Canvas (8 cols on desktop) -->
+        <div id="mapCanvasColumn" class="md:col-span-7 lg:col-span-8 flex flex-col">
+          <div id="sahyadriMapViewport" data-layer="map" class="relative w-full h-[520px] sm:h-[660px] rounded-2xl overflow-hidden border-2 border-stone-300 shadow-lg bg-[#cbe7f9] select-none">
+
+            <!-- Top-Left Layer Switcher (Map | Satellite | Terrain) -->
+            <div class="absolute top-3.5 left-3.5 z-30 bg-white/95 backdrop-blur rounded-lg p-1 shadow-md border border-stone-200 flex items-center gap-1">
+              <button id="layerBtn-map" onclick="window.setMapLayer('map')" class="px-3 py-1.5 text-xs font-bold bg-[#13261b] text-[#facc15] rounded-md shadow-sm transition">Map</button>
+              <button id="layerBtn-satellite" onclick="window.setMapLayer('satellite')" class="px-3 py-1.5 text-xs font-medium text-stone-700 hover:bg-stone-100 rounded-md transition">Satellite</button>
+              <button id="layerBtn-terrain" onclick="window.setMapLayer('terrain')" class="px-3 py-1.5 text-xs font-medium text-stone-700 hover:bg-stone-100 rounded-md transition">Terrain</button>
+            </div>
+
+            <!-- Top-Right Map Utility Controls (Reset Bounds & Fullscreen) -->
+            <div class="absolute top-3.5 right-3.5 z-30 flex items-center gap-2">
+              <button onclick="window.resetMapBounds()" class="w-9 h-9 rounded-lg bg-white/95 hover:bg-white text-[#13261b] shadow-md border border-stone-200 flex items-center justify-center font-bold text-sm" title="Reset Map View">⊞</button>
+              <button onclick="window.toggleMapFullscreen()" class="w-9 h-9 rounded-lg bg-white/95 hover:bg-white text-[#13261b] shadow-md border border-stone-200 flex items-center justify-center font-bold text-sm" title="Toggle Fullscreen">⛶</button>
+            </div>
+
+            <!-- Interactive Leaflet Map API Stage with Custom Fort Pin Markers -->
+            <div id="mapZoomStage" class="w-full h-full relative">
+              <div id="leafletMapContainer" class="w-full h-full"></div>
+              <div id="mapPinsLayer" class="hidden"><svg width="0" height="0"><defs><linearGradient id="seaGrad"></linearGradient><linearGradient id="landGrad"></linearGradient><linearGradient id="sahyadriRidge"></linearGradient></defs></svg></div>
+            </div>
+
+            <!-- Floating Selected Fort Popup Card on Map (matching Screen 2) -->
+            <div id="mapActivePopupCard" class="absolute top-16 right-4 sm:right-8 z-30"></div>
+
+            <!-- Bottom-Right Zoom +/- Controls -->
+            <div class="absolute bottom-14 right-3.5 z-30 flex flex-col bg-white rounded-lg shadow-md border border-stone-200 overflow-hidden">
+              <button onclick="window.zoomMap(0.2)" class="w-9 h-9 hover:bg-stone-100 text-[#13261b] font-bold text-base border-b border-stone-200" title="Zoom In">+</button>
+              <button onclick="window.zoomMap(-0.2)" class="w-9 h-9 hover:bg-stone-100 text-[#13261b] font-bold text-base" title="Zoom Out">−</button>
+            </div>
+
+            <!-- Bottom-Left Legend Pills (matching Screen 2) -->
+            <div class="absolute bottom-3 left-3.5 right-3.5 z-30 flex flex-wrap items-center justify-between gap-2 pointer-events-none">
+              <div class="space-y-1.5 pointer-events-auto">
+                <div class="bg-white/95 backdrop-blur px-3 py-1.5 rounded-full shadow border border-stone-200 flex items-center gap-3 text-[11px] font-semibold text-stone-800">
+                  <span class="flex items-center gap-1"><img src="../assets/icons/fort-pin.png" alt="Pin" class="w-4 h-4 object-contain" /> Attached Fort Pin Marker</span>
+                  <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-red-600 inline-block"></span> Hill Forts (Giridurg)</span>
+                  <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-[#eab308] inline-block"></span> Capital Citadels</span>
+                  <span class="hidden sm:flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-[#13261b] inline-block"></span> Sea Forts (Jaldurg)</span>
+                </div>
+                <div class="bg-white/95 backdrop-blur px-3 py-1 rounded-full shadow border border-stone-200 inline-flex items-center gap-1.5 text-[10px] font-medium text-stone-600">
+                  <span>⛰️ Western Ghats Crest: 600m – 1,567m (Salher – Raigad Range)</span>
+                </div>
+              </div>
+              <div class="bg-white/90 px-2.5 py-1 rounded text-[10px] font-semibold text-stone-600 border border-stone-200">
+                50 km ━━━ Sahyadri Datum
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Monsoon Trekking Callout Bar (matching Screen 2) -->
+      <div class="mt-6 bg-white rounded-2xl p-4 sm:p-5 border border-stone-200/90 shadow-sm flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+        <div class="flex items-start sm:items-center gap-3.5">
+          <div class="w-11 h-11 rounded-xl bg-[#eab308]/25 text-amber-900 flex items-center justify-center text-xl shrink-0">🥾</div>
+          <div>
+            <h3 class="font-serif-title font-bold text-base sm:text-lg text-[#13261b]">Planning a Monsoon Sahyadri Trek?</h3>
+            <p class="text-xs text-stone-600 mt-0.5">Check real-time ridge wind speeds, waterfall overflow warnings, and local villager homestay guides before ascending.</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-2.5 w-full lg:w-auto">
+          <button onclick="window.downloadAllGPX()" class="flex-1 lg:flex-initial px-4 py-2.5 rounded-xl bg-[#faf8f3] hover:bg-stone-200 text-[#13261b] font-bold text-xs border border-stone-300 transition">
+            📥 Download 12 Fort GPX Pack
+          </button>
+          <button onclick="window.openMonsoonModal()" class="flex-1 lg:flex-initial px-4 py-2.5 rounded-xl bg-[#13261b] hover:bg-[#254734] text-[#facc15] font-bold text-xs transition">
+            ⚠️ Monsoon Advisory Notice
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================================== -->
+  <!-- PAGE 3: FORT DETAIL PAGE (Screen 1 - Raigad Fort & All 12 Citadels)   -->
+  <!-- ===================================================================== -->
+  <section id="page-detail" class="hidden">
+    <!-- Top Breadcrumb & UNESCO Banner Strip (matching Screen 1) -->
+    <div class="bg-[#faf8f3] border-b border-stone-200 px-4 sm:px-6 py-2">
+      <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div class="flex items-center gap-2 text-stone-600">
+          <button onclick="window.navigatePage('home')" class="hover:text-[#13261b] font-medium">← Back to Sahyadri Directory</button>
+          <span>/</span>
+          <button onclick="window.navigatePage('explore')" class="hover:text-[#13261b]">Maratha Heritage</button>
+          <span>/</span>
+          <span id="detailBreadcrumbName" class="font-bold text-[#13261b]">Raigad Fort (किल्ले रायगड)</span>
+        </div>
+        <div class="px-3 py-0.5 rounded-full bg-[#eab308]/25 text-amber-900 font-bold text-[10px] uppercase tracking-wider">
+          🏆 UNESCO WORLD HERITAGE MARATHA MILITARY LANDSCAPES
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Citadel Switcher Bar (Switch between Raigad and all 12 Forts!) -->
+    <div class="bg-[#efeae0] border-b border-stone-300/80 px-4 sm:px-6 py-2">
+      <div class="max-w-7xl mx-auto flex items-center gap-2 overflow-x-auto no-scrollbar">
+        <span class="text-[10px] font-extrabold uppercase tracking-wider text-stone-500 shrink-0">Select Citadel:</span>
+        <div id="fortDetailSwitcher" class="flex items-center gap-1.5"></div>
+      </div>
+    </div>
+
+    <!-- Hero Banner with Real Wikimedia Photograph (Screen 1) -->
+    <div class="relative bg-[#0c1911] text-white min-h-[360px] sm:min-h-[420px] flex items-end overflow-hidden">
+      <img id="detailHeroImg" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Raigad_Fort-Rigad.JPG" alt="Raigad Fort" class="absolute inset-0 w-full h-full object-cover opacity-55" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#0c1911] via-[#0c1911]/55 to-black/25"></div>
+
+      <div class="relative max-w-7xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-10">
+        <!-- Badges -->
+        <div class="flex flex-wrap items-center gap-2 mb-3">
+          <span id="detailBadgeUnesco" class="px-2.5 py-1 rounded bg-[#eab308] text-[#13261b] font-extrabold text-[10px] uppercase tracking-wider">UNESCO World Heritage Site (2025)</span>
+          <span id="detailBadgeAsi" class="px-2.5 py-1 rounded bg-white/15 backdrop-blur text-white font-semibold text-[10px] uppercase tracking-wider border border-white/20">ASI Monument N-MH-M58</span>
+          <span id="detailBadgeCategory" class="px-2.5 py-1 rounded bg-[#1b3526] text-[#facc15] font-semibold text-[10px] uppercase tracking-wider border border-[#eab308]/40">ROYAL CAPITAL</span>
+        </div>
+
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <div class="max-w-2xl">
+            <h1 id="detailHeroTitle" class="font-serif-title font-extrabold text-3xl sm:text-5xl text-white leading-tight">
+              Raigad Fort <span class="font-marathi text-[#facc15] font-normal">(किल्ले रायगड)</span>
+            </h1>
+            <p id="detailHeroEpithet" class="font-serif-title italic text-base sm:text-xl text-amber-300 mt-1">
+              दुर्गराज रायगड — The Gibraltar of the East
+            </p>
+            <p id="detailHeroDesc" class="text-xs sm:text-sm text-stone-200 mt-2.5 leading-relaxed">
+              Perched high upon an inaccessible wedge-shaped basalt massif, Raigad was sculpted by Chhatrapati Shivaji Maharaj as the sovereign throne of Hindavi Swarajya.
+            </p>
+          </div>
+
+          <!-- Hero Action Buttons (matching Screen 1) -->
+          <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+            <button onclick="window.downloadFortGPX()" class="px-4 py-2.5 rounded-xl bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-xs transition shadow-lg flex items-center gap-1.5">
+              <span>📥 Download GPX &amp; 3D Trail Map</span>
+            </button>
+            <button onclick="window.openRopewayModal()" class="px-4 py-2.5 rounded-xl bg-white hover:bg-stone-100 text-[#13261b] font-bold text-xs transition shadow-lg flex items-center gap-1.5">
+              <span>🚡 Book Ropeway Pass</span>
+            </button>
+            <button onclick="window.toggleAudioGuide()" class="px-3.5 py-2.5 rounded-xl bg-[#1b3526] hover:bg-[#254734] text-[#facc15] font-semibold text-xs border border-[#eab308]/40 transition">
+              <span id="audioGuideBtnLabel">🎧 Audio Guide</span>
+            </button>
+            <button onclick="window.toggleBookmark(window.appState.currentFortId, event)" class="w-10 h-10 rounded-xl bg-[#1b3526] hover:bg-[#eab308] text-[#facc15] hover:text-[#13261b] border border-[#eab308]/40 flex items-center justify-center font-bold text-sm transition" title="Bookmark Citadel">
+              🔖
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6-Column Dark Forest Stats Strip (matching Screen 1) -->
+    <div class="bg-[#13261b] border-y border-white/15">
+      <div id="detailStatsStrip" class="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6"></div>
+    </div>
+
+    <!-- Sticky Section Sub-Navigation Bar (matching Screen 1) -->
+    <div class="bg-[#faf8f3] border-b border-stone-200 sticky top-16 z-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2.5 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs">
+        <button onclick="window.scrollToDetailSection('sec-overview')" class="px-3.5 py-1.5 rounded-full bg-[#13261b] text-white font-semibold shrink-0">Overview &amp; Architecture</button>
+        <button onclick="window.scrollToDetailSection('sec-sites')" class="px-3.5 py-1.5 rounded-full bg-white hover:bg-stone-200 text-stone-700 font-medium border border-stone-200 shrink-0">Key Historical Sites (6)</button>
+        <button onclick="window.scrollToDetailSection('sec-timeline')" class="px-3.5 py-1.5 rounded-full bg-white hover:bg-stone-200 text-stone-700 font-medium border border-stone-200 shrink-0">Chronicle &amp; Chronology</button>
+        <button onclick="window.scrollToDetailSection('sec-routes')" class="px-3.5 py-1.5 rounded-full bg-white hover:bg-stone-200 text-stone-700 font-medium border border-stone-200 shrink-0">Trek &amp; Ropeway</button>
+        <button onclick="window.scrollToDetailSection('sec-elevation')" class="px-3.5 py-1.5 rounded-full bg-white hover:bg-stone-200 text-stone-700 font-medium border border-stone-200 shrink-0">Topographical Profile</button>
+        <button onclick="window.scrollToDetailSection('sec-connected')" class="px-3.5 py-1.5 rounded-full bg-white hover:bg-stone-200 text-stone-700 font-medium border border-stone-200 shrink-0">Connected Fortresses</button>
+      </div>
+    </div>
+
+    <!-- Main Content Body of Fort Detail Page -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-10 space-y-14">
+
+      <!-- SECTION 1: Architectural Narrative & Infobox (Screen 1) -->
+      <div id="sec-overview" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-8 space-y-5">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800">🏛️ IMPERIAL CAPITAL ARCHITECTURE</span>
+            <h2 id="detailOverviewTitle" class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-1">
+              The Unvanquished Capital of Hindavi Swarajya
+            </h2>
+          </div>
+          <p id="detailOverviewP1" class="text-xs sm:text-sm text-stone-700 leading-relaxed"></p>
+          <p id="detailOverviewP2" class="text-xs sm:text-sm text-stone-700 leading-relaxed"></p>
+
+          <!-- 3 Architectural Pillar Cards -->
+          <div id="detailArchPillars" class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2"></div>
+        </div>
+
+        <!-- Right Sidebar Infobox & Quote Card -->
+        <div id="detailInfoboxCard" class="lg:col-span-4 space-y-4"></div>
+      </div>
+
+      <!-- SECTION 2: Key Historical Sites to Explore (Screen 1) -->
+      <div id="sec-sites" class="pt-4 border-t border-stone-200">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800">🧭 CITADEL MONUMENTS &amp; PRECINCTS</span>
+            <h2 class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-1">Key Historical Sites to Explore</h2>
+            <p class="text-xs text-stone-600 mt-0.5">Major architectural precincts, gateways, temples, and reservoirs across the summit plateau.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full bg-white border border-stone-300 text-xs font-semibold text-[#13261b] self-start sm:self-auto">
+            ⏱️ Estimated Walking Circuit: 3.5 – 4.0 Hours
+          </span>
+        </div>
+
+        <div id="detailSitesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+      </div>
+
+      <!-- SECTION 3: Chronicle of the Deccan — Epochs of the Fort (Screen 1) -->
+      <div id="sec-timeline" class="bg-[#faf8f3] rounded-3xl p-6 sm:p-10 border border-stone-200/90 shadow-sm">
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800">📜 CHRONICLE OF THE DECCAN</span>
+          <h2 id="detailTimelineHeading" class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-1">Epochs of Raigad Fort</h2>
+          <p class="text-xs text-stone-600 mt-1">From an impregnable mountain spur of Javli to the sovereign coronation throne of the Maratha Empire.</p>
+        </div>
+
+        <div id="detailTimelineList" class="max-w-3xl mx-auto"></div>
+      </div>
+
+      <!-- SECTION 4: Ascent Routes, Elevation Profile & Expedition Essentials (Screen 1) -->
+      <div id="sec-routes" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-8 space-y-6">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800">🥾 TREK &amp; ROPEWAY GUIDE</span>
+            <h2 class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-1">Ascent Routes &amp; Trail Navigation</h2>
+            <p class="text-xs text-stone-600 mt-0.5">Choose between the historic stone-stepped heritage climb or the modern aerial ropeway.</p>
+          </div>
+
+          <div id="detailRoutesGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-5"></div>
+
+          <!-- Topographical Elevation Profile Chart (matching Screen 1) -->
+          <div id="sec-elevation" class="bg-white rounded-2xl p-5 border border-stone-200/90 shadow-sm">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-[#13261b]">📈 TOPOGRAPHICAL ELEVATION PROFILE</span>
+              <span class="text-[11px] text-stone-500 font-medium">Base Village to Upper Balekilla Summit</span>
+            </div>
+            <div id="detailElevationSvgBox"></div>
+          </div>
+
+          <!-- Monsoon Advisory Callout Box -->
+          <div class="bg-[#efeae0] rounded-2xl p-4 border border-amber-300/80 flex items-start gap-3">
+            <span class="text-lg">🌧️</span>
+            <div class="text-xs text-stone-700 leading-relaxed">
+              <strong class="text-[#13261b] block mb-0.5">Monsoon Advisory (July – September)</strong>
+              Rock-cut basalt steps experience heavy cloud-mist and waterfall runoff. Wear high-grip trekking footwear, avoid leaning over cliff parapets during high thermal wind gusts, and carry waterproof dry-bags for electronics.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar: Expedition Essentials, Trailhead Map & Sanctity Notice (Screen 1) -->
+        <div class="lg:col-span-4 space-y-5">
+          <div class="bg-white rounded-2xl p-5 border border-stone-200/90 shadow-sm">
+            <h3 class="font-serif-title font-bold text-base text-[#13261b] mb-3">Expedition Essentials</h3>
+            <ul class="space-y-3 text-xs text-stone-600">
+              <li class="flex items-start gap-2.5"><span class="text-amber-700 font-bold">🗓️</span><span><strong>Best Season:</strong> October to March for crisp panoramas; June to September for lush monsoon cloud treks.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-amber-700 font-bold">🎟️</span><span><strong>Entry &amp; Timings:</strong> ASI portal opens 08:00 AM to 06:00 PM daily. Digital UPI ticketing available at base gate.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-amber-700 font-bold">🍲</span><span><strong>Local Cuisine:</strong> Traditional villager zunka-bhakri, kanda bhaji, and fresh kokum sharbat stalls operate along the route.</span></li>
+              <li class="flex items-start gap-2.5"><span class="text-amber-700 font-bold">🏡</span><span><strong>Night Stay:</strong> MTDC heritage cottages and Pachad villager homestays available at the foothills.</span></li>
+            </ul>
+          </div>
+
+          <!-- Trailhead Interactive Mini-Map Card -->
+          <div class="bg-white rounded-2xl p-4 border border-stone-200/90 shadow-sm">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-stone-500">TRAILHEAD LOCATION</span>
+              <button onclick="window.selectMapFort(window.appState.currentFortId); window.navigatePage('map');" class="text-[11px] font-bold text-[#ca8a04] hover:underline">Open Full Atlas ↗</button>
+            </div>
+            <div class="relative h-44 rounded-xl bg-[#dce7d4] overflow-hidden border border-stone-200">
+              <div id="detailTrailheadMapCanvas" class="w-full h-full"></div>
+            </div>
+            <p id="detailMiniMapCoords" class="text-[10px] text-stone-500 font-medium mt-2 text-center">Pachad Village · 18.2347° N, 73.4464° E</p>
+          </div>
+
+          <!-- Sacred Sanctity Notice (Dark Green Card matching Screen 1) -->
+          <div class="bg-[#13261b] text-stone-200 rounded-2xl p-5 border border-[#eab308]/40 shadow-md">
+            <h4 class="font-bold text-xs uppercase tracking-wider text-[#facc15] flex items-center gap-1.5 mb-2">
+              <span>🛡️</span> <span>SACRED SANCTITY NOTICE</span>
+            </h4>
+            <p class="text-xs leading-relaxed text-stone-300">
+              Every Sahyadri fort is a revered monument of national martyrdom and heritage. Consumption of alcohol or tobacco, littering plastic, or climbing fragile masonry walls is strictly prohibited under ASI &amp; Forest Department regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 5: Connected Maratha Fortresses (Screen 1) -->
+      <div id="sec-connected" class="pt-6 border-t border-stone-200">
+        <div class="flex items-end justify-between gap-4 mb-6">
+          <div>
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800">🔗 SAHYADRI STRATEGIC CIRCUIT</span>
+            <h2 class="font-serif-title font-extrabold text-2xl sm:text-3xl text-[#13261b] mt-1">Connected Maratha Fortresses</h2>
+          </div>
+          <button onclick="window.navigatePage('explore')" class="text-xs font-bold text-[#ca8a04] hover:underline">Explore All 12 Forts →</button>
+        </div>
+        <div id="detailConnectedGrid" class="grid grid-cols-1 sm:grid-cols-3 gap-5"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===================================================================== -->
+  <!-- PAGE 4: EXPLORE ALL FORTS DIRECTORY                                   -->
+  <!-- ===================================================================== -->
+  <section id="page-explore" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-10">
+    <div class="bg-[#13261b] text-white rounded-3xl p-6 sm:p-8 mb-8 border border-[#eab308]/40 shadow-lg">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-[#eab308] text-[#13261b] font-extrabold text-[10px] uppercase tracking-wider">COMPLETE SAHYADRI DIRECTORY</span>
+          <h1 class="font-serif-title font-extrabold text-2xl sm:text-4xl mt-2">Explore All Historic Forts of Maharashtra</h1>
+          <p class="text-xs sm:text-sm text-stone-300 mt-1">Filter all 12 UNESCO &amp; ASI protected Hill Forts (Giridurg), Sea Forts (Jaldurg), and Royal Capitals.</p>
+        </div>
+        <span id="exploreCountBadge" class="px-3.5 py-1.5 rounded-full bg-[#1b3526] text-[#facc15] font-bold text-xs border border-[#eab308]/40 self-start md:self-auto">12 Citadels Found</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6">
+        <input id="dirSearchInput" type="text" placeholder="Search fort name or Marathi name..." oninput="window.filterDirectory('search', this.value)" class="px-3.5 py-2.5 rounded-xl bg-[#0c1911] text-white text-xs border border-white/15 focus:outline-none" />
+        <select onchange="window.filterDirectory('region', this.value)" class="px-3.5 py-2.5 rounded-xl bg-[#0c1911] text-white text-xs border border-white/15 focus:outline-none">
+          <option value="All">All Districts / Regions</option>
+          <option value="Pune">Pune District</option>
+          <option value="Raigad">Raigad District</option>
+          <option value="Satara">Satara District</option>
+          <option value="Sindhudurg">Sindhudurg District</option>
+          <option value="Ratnagiri">Ratnagiri District</option>
+          <option value="Kolhapur">Kolhapur District</option>
+          <option value="Nashik">Nashik District</option>
+          <option value="Sambhajinagar">Chhatrapati Sambhajinagar</option>
+        </select>
+        <select onchange="window.filterDirectory('type', this.value)" class="px-3.5 py-2.5 rounded-xl bg-[#0c1911] text-white text-xs border border-white/15 focus:outline-none">
+          <option value="All">All Fort Classifications</option>
+          <option value="Capital">Capital Citadels</option>
+          <option value="Hill">Hill Forts (Giridurg)</option>
+          <option value="Sea">Sea Forts (Jaldurg)</option>
+        </select>
+        <select onchange="window.filterDirectory('grade', this.value)" class="px-3.5 py-2.5 rounded-xl bg-[#0c1911] text-white text-xs border border-white/15 focus:outline-none">
+          <option value="All">All Trek Grades</option>
+          <option value="Easy">Easy / Beginner</option>
+          <option value="Moderate">Moderate Endurance</option>
+          <option value="Difficult">Difficult / Technical</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="exploreDirectoryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PAGE 5: TREKKING GUIDES & GPX CIRCUITS                                -->
+  <!-- ===================================================================== -->
+  <section id="page-guides" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-10 space-y-8">
+    <div class="bg-[#13261b] text-white rounded-3xl p-6 sm:p-8 border border-[#eab308]/40">
+      <span class="px-2.5 py-1 rounded bg-[#eab308] text-[#13261b] font-extrabold text-[10px] uppercase tracking-wider">SAHYADRI EXPEDITION MANUAL</span>
+      <h1 class="font-serif-title font-extrabold text-2xl sm:text-4xl mt-2">Trekking Guides, Multi-Fort Circuits &amp; Gear</h1>
+      <p class="text-xs sm:text-sm text-stone-300 mt-1 max-w-2xl">Curated classic multi-day ridge traverses, GPS waypoint packs, and season-by-season preparation for the Western Ghats.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-rose-100 text-rose-900 font-bold text-[10px] uppercase">CLASSIC RIDGE TRAVERSE</span>
+          <h3 class="font-serif-title font-bold text-xl text-[#13261b] mt-2">Torna to Rajgad High-Ridge Trek</h3>
+          <p class="text-xs text-stone-600 mt-2 leading-relaxed">Traverse the thrilling 12 km high-altitude saddle linking Prachandagad (Torna) via Budhla Machi directly to Rajgad's Sanjivani Machi.</p>
+          <div class="mt-4 p-3 rounded-xl bg-[#f4f0e6] text-xs space-y-1">
+            <div><strong>Duration:</strong> 2 Days / 1 Night (Padmavati Machi Stay)</div>
+            <div><strong>Total Distance:</strong> 18.5 km Ridge Walk</div>
+            <div><strong>Max Altitude:</strong> 1,403 m (Torna Summit)</div>
+          </div>
+        </div>
+        <button onclick="window.openFortDetail('torna')" class="mt-5 w-full py-2.5 rounded-xl bg-[#13261b] text-[#facc15] font-bold text-xs">Open Torna &amp; Rajgad Guide →</button>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-amber-100 text-amber-900 font-bold text-[10px] uppercase">MONSOON TWIN CITADELS</span>
+          <h3 class="font-serif-title font-bold text-xl text-[#13261b] mt-2">Lohagad &amp; Visapur Twin Plateau</h3>
+          <p class="text-xs text-stone-600 mt-2 leading-relaxed">Ascend the cascading waterfall ravine of Visapur in the morning and cross the Gaymukh saddle to walk Lohagad's 1.5 km Vinchu Kata in the afternoon.</p>
+          <div class="mt-4 p-3 rounded-xl bg-[#f4f0e6] text-xs space-y-1">
+            <div><strong>Duration:</strong> 1 Full Day (Start from Malavli Station)</div>
+            <div><strong>Total Distance:</strong> 11 km Combined</div>
+            <div><strong>Max Altitude:</strong> 1,084 m (Visapur Summit)</div>
+          </div>
+        </div>
+        <button onclick="window.openFortDetail('lohagad')" class="mt-5 w-full py-2.5 rounded-xl bg-[#13261b] text-[#facc15] font-bold text-xs">Open Lohagad-Visapur Guide →</button>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col justify-between">
+        <div>
+          <span class="px-2.5 py-1 rounded bg-sky-100 text-sky-900 font-bold text-[10px] uppercase">MARATHA NAVAL CIRCUIT</span>
+          <h3 class="font-serif-title font-bold text-xl text-[#13261b] mt-2">Konkan Jaldurg Coastal Odyssey</h3>
+          <p class="text-xs text-stone-600 mt-2 leading-relaxed">Explore the four great maritime fortresses of the Arabian Sea: Murud-Janjira, Suvarnadurg (Harnai), Vijaydurg, and Sindhudurg (Malvan).</p>
+          <div class="mt-4 p-3 rounded-xl bg-[#f4f0e6] text-xs space-y-1">
+            <div><strong>Duration:</strong> 3 Days Coastal Drive &amp; Ferry</div>
+            <div><strong>Highlights:</strong> Submerged Reef Wall &amp; Molten Lead Walls</div>
+            <div><strong>Grade:</strong> Easy &amp; Family Friendly</div>
+          </div>
+        </div>
+        <button onclick="window.openFortDetail('sindhudurg')" class="mt-5 w-full py-2.5 rounded-xl bg-[#13261b] text-[#facc15] font-bold text-xs">Open Naval Circuit Guide →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PAGE 6: HISTORY OF HINDAVI SWARAJYA                                   -->
+  <!-- ===================================================================== -->
+  <section id="page-history" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-10 space-y-8">
+    <div class="bg-[#13261b] text-white rounded-3xl p-6 sm:p-8 border border-[#eab308]/40">
+      <span class="px-2.5 py-1 rounded bg-[#eab308] text-[#13261b] font-extrabold text-[10px] uppercase tracking-wider">ARCHITECTURAL &amp; MILITARY HERITAGE</span>
+      <h1 class="font-serif-title font-extrabold text-2xl sm:text-4xl mt-2">Chronicle of the Maratha Military Landscapes</h1>
+      <p class="text-xs sm:text-sm text-stone-300 mt-1 max-w-3xl">How Chhatrapati Shivaji Maharaj transformed the basalt peaks of the Sahyadris and rocky islets of the Konkan into an unconquerable defensive network.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm space-y-3">
+        <h3 class="font-serif-title font-bold text-xl text-[#13261b]">1. Philosophy of the Ajnapatra (आज्ञापत्र)</h3>
+        <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+          Authored in 1715 by Ramchandra Pant Amatya, Chapter 8 of the <a href="https://en.wikipedia.org/wiki/Adnyapatra" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Ajnapatra</a> codifies Chhatrapati Shivaji Maharaj's doctrine on fort administration: <em>"The entire essence of the kingdom is its forts. If there are no forts, during a foreign invasion the land becomes shelterless and subjects are scattered."</em>
+        </p>
+        <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+          Every fort was governed by a triumvirate of officers from different castes to prevent collusion: the <strong>Havildar</strong> (commander of the garrison and keys), the <strong>Sabnis</strong> (muster and treasury officer), and the <strong>Karkhanis</strong> (commissariat and ordinance officer).
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm space-y-3">
+        <h3 class="font-serif-title font-bold text-xl text-[#13261b]">2. Gomukhi Gateways &amp; Machi Fortification</h3>
+        <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+          Maratha military architects led by <strong>Hiroji Indulkar</strong> perfected the <em>Gomukhi</em> (cow-mouth) gateway layout seen at <a href="https://en.wikipedia.org/wiki/Raigad_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Raigad's Maha Darwaza</a> and <a href="https://en.wikipedia.org/wiki/Lohagad" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Lohagad</a>: flanking semi-circular bastions curve around an angled entrance so enemy war elephants could never charge the spiked teakwood doors head-on.
+        </p>
+        <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+          Below the summit citadel (<em>Balekilla</em>), sprawling volcanic spurs were enclosed with double-curtain walls (<em>Chilkhati Machi</em>) as seen on <a href="https://en.wikipedia.org/wiki/Rajgad_Fort" target="_blank" rel="noopener noreferrer" class="text-[#ca8a04] font-semibold underline">Rajgad's Sanjivani Machi</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PAGE 7: REAL PHOTOGRAPHIC GALLERY                                     -->
+  <!-- ===================================================================== -->
+  <section id="page-gallery" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-10 space-y-6">
+    <div class="bg-[#13261b] text-white rounded-3xl p-6 sm:p-8 border border-[#eab308]/40 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+      <div>
+        <span class="px-2.5 py-1 rounded bg-[#eab308] text-[#13261b] font-extrabold text-[10px] uppercase tracking-wider">100% REAL ARCHIVAL PHOTOGRAPHS</span>
+        <h1 class="font-serif-title font-extrabold text-2xl sm:text-4xl mt-2">Sahyadri Fort Photographic Archive</h1>
+        <p class="text-xs sm:text-sm text-stone-300 mt-1">Authentic field photographs of Maharashtra's forts sourced from Wikimedia Commons &amp; ASI Wiki Loves Monuments.</p>
+      </div>
+      <a href="https://commons.wikimedia.org/wiki/Category:Maratha_Military_Landscapes_of_India" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-[#eab308] text-[#13261b] font-bold text-xs self-start sm:self-auto">
+        Wikimedia Archive ↗
+      </a>
+    </div>
+
+    <div id="realPhotoGalleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PAGE 8: ABOUT & CONTACT                                               -->
+  <!-- ===================================================================== -->
+  <section id="page-about" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-6 bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm space-y-4">
+        <div class="flex items-center gap-3">
+          <img src="../assets/icons/fort-pin.png" alt="Emblem" class="w-12 h-12 object-contain" />
+          <div>
+            <span class="text-[10px] font-bold uppercase tracking-widest text-amber-800">HERITAGE CONSERVATION ALLIANCE</span>
+            <h2 class="font-serif-title font-extrabold text-2xl text-[#13261b]">About Shivdurg Sahyadri Heritage</h2>
+          </div>
+        </div>
+        <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+          Shivdurg Sahyadri Fort Heritage is dedicated to the archival documentation, responsible trekking advocacy, and conservation of the historic Western Ghats and Konkan coastal fortresses built and championed by Chhatrapati Shivaji Maharaj.
+        </p>
+        <div class="p-4 rounded-2xl bg-[#f4f0e6] border border-stone-200 space-y-2 text-xs">
+          <div class="font-bold text-[#13261b]">Modular Project Architecture Included:</div>
+          <ul class="list-disc pl-5 text-stone-600 space-y-1">
+            <li><code>forts-data/</code> — Unified folder containing all fort JSON &amp; JS datasets</li>
+            <li><code>pages/</code> — Dedicated HTML page files for Home, Fort Map, Fort Detail, Explore, Guides, History, Gallery &amp; Contact</li>
+            <li><code>css/styles.css</code> &amp; <code>js/app.js</code> — Responsive mobile-first styling &amp; interactive atlas logic</li>
+            <li><code>assets/icons/fort-pin.png</code> — Custom golden fort-and-swords map pin emblem</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 bg-white rounded-3xl p-6 sm:p-8 border border-stone-200 shadow-sm">
+        <h3 class="font-serif-title font-bold text-xl text-[#13261b] mb-1">Contact &amp; Conservation Dispatch</h3>
+        <p class="text-xs text-stone-500 mb-5">Reach out to register for weekend fort clean-up drives (गड संवर्धन मोहीम) or submit verified GPX trail logs.</p>
+        <form onsubmit="window.submitContactForm(event)" class="space-y-3.5 text-xs">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div><label class="block font-semibold text-stone-700 mb-1">Your Name</label><input type="text" required placeholder="Siddharth Patil" class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300" /></div>
+            <div><label class="block font-semibold text-stone-700 mb-1">Email Address</label><input type="email" required placeholder="siddharth@example.com" class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300" /></div>
+          </div>
+          <div>
+            <label class="block font-semibold text-stone-700 mb-1">Inquiry Topic</label>
+            <select class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300">
+              <option>Volunteer for Fort Clean-Up &amp; Conservation Drive</option>
+              <option>Submit GPX Trail Log / Cistern Water Update</option>
+              <option>School / University Heritage Study Tour</option>
+            </select>
+          </div>
+          <div>
+            <label class="block font-semibold text-stone-700 mb-1">Message</label>
+            <textarea rows="3" required placeholder="Share your fort conservation query or trek report..." class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 rounded-xl bg-[#13261b] hover:bg-[#254734] text-[#facc15] font-bold text-xs transition">
+            Send Heritage Dispatch
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- ===================================================================== -->
+  <!-- HERITAGE FOOTER (Matching Screens 1, 2 & 3)                           -->
+  <!-- ===================================================================== -->
+  <footer class="bg-[#0c1911] text-stone-300 border-t border-[#eab308]/30 mt-12 mobile-bottom-pad">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8">
+      <!-- Col 1: Brand -->
+      <div class="lg:col-span-4 space-y-3">
+        <div class="flex items-center gap-2.5">
+          <img src="../assets/icons/fort-pin.png" alt="Shivdurg Emblem" class="w-9 h-9 object-contain" />
+          <div>
+            <span class="font-cinzel font-bold text-base text-white block leading-none">SHIVDURG</span>
+            <span class="text-[9px] uppercase tracking-widest text-[#facc15] font-semibold block mt-0.5">PRESERVING SAHYADRI SANCTUARIES</span>
+          </div>
+        </div>
+        <p class="text-xs text-stone-400 leading-relaxed">
+          Dedicated to the archival documentation, responsible trekking, and sustainable conservation of the historic Western Ghats fort network built and championed by Chhatrapati Shivaji Maharaj and the Maratha Empire.
+        </p>
+        <div class="inline-flex items-center gap-1.5 text-[10px] font-bold text-[#facc15] uppercase tracking-wider pt-1">
+          <span>✓ UNESCO WORLD HERITAGE MARATHA MILITARY CIRCUIT</span>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="lg:col-span-2 space-y-2 text-xs">
+        <h4 class="font-serif-title font-bold text-sm text-white mb-2.5">Quick Links</h4>
+        <ul class="space-y-2 text-stone-400">
+          <li><button onclick="window.quickFilterExplore('type', 'Hill')" class="hover:text-[#facc15]">All Hill Forts (Giridurg)</button></li>
+          <li><button onclick="window.quickFilterExplore('type', 'Sea')" class="hover:text-[#facc15]">Coastal &amp; Sea Forts</button></li>
+          <li><button onclick="window.navigatePage('guides')" class="hover:text-[#facc15]">Trail Guides &amp; GPX</button></li>
+          <li><button onclick="window.navigatePage('map')" class="hover:text-[#facc15]">Topographical Fort Map</button></li>
+          <li><button onclick="window.openMonsoonModal()" class="hover:text-[#facc15]">Monsoon Advisories</button></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Historical Timeline -->
+      <div class="lg:col-span-3 space-y-2 text-xs">
+        <h4 class="font-serif-title font-bold text-sm text-white mb-2.5">Historical Timeline</h4>
+        <ul class="space-y-2 text-stone-400">
+          <li><button onclick="window.openFortDetail('torna')" class="hover:text-[#facc15]">1645: Torna Fort Conquest</button></li>
+          <li><button onclick="window.openFortDetail('pratapgad')" class="hover:text-[#facc15]">1659: Battle of Pratapgad</button></li>
+          <li><button onclick="window.openFortDetail('sindhudurg')" class="hover:text-[#facc15]">1664: Sindhudurg Naval Foundation</button></li>
+          <li><button onclick="window.openFortDetail('sinhagad')" class="hover:text-[#facc15]">1670: Battle of Sinhagad</button></li>
+          <li><button onclick="window.openFortDetail('raigad')" class="hover:text-[#facc15]">1674: Raigad Imperial Coronation</button></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Sahyadri Dispatch Newsletter -->
+      <div class="lg:col-span-3 space-y-2.5 text-xs">
+        <h4 class="font-serif-title font-bold text-sm text-white">Sahyadri Dispatch</h4>
+        <p class="text-stone-400 leading-relaxed">Receive monthly field notes, new route surveys, clean-up drives, and heritage lectures.</p>
+        <form onsubmit="window.submitNewsletter(event)" class="space-y-2 pt-1">
+          <input id="footerEmailInput" type="email" required placeholder="Your email address" class="w-full px-3.5 py-2.5 rounded-lg bg-[#13261b] border border-white/15 text-white placeholder-stone-400 focus:outline-none text-xs" />
+          <button type="submit" class="w-full py-2.5 rounded-lg bg-[#eab308] hover:bg-[#ca8a04] text-[#13261b] font-bold text-xs transition">
+            Join Conservation Guard
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 py-4 px-4 sm:px-6 text-[11px] text-stone-500">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+        <span>© 2026 Shivdurg Heritage &amp; Trekking Alliance. Sahyadri Conservation Initiative.</span>
+        <div class="flex items-center gap-4">
+          <button onclick="window.openMonsoonModal()" class="hover:text-stone-300">Trekker Ethics &amp; Leave No Trace</button>
+          <a href="https://commons.wikimedia.org/wiki/Category:Forts_in_Maharashtra" target="_blank" rel="noopener noreferrer" class="hover:text-stone-300">Wikimedia Photo Credits</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Phone Bottom Navigation Bar -->
+  <nav class="md:hidden fixed bottom-0 inset-x-0 z-40 bg-[#0c1911]/95 backdrop-blur border-t border-[#eab308]/30 grid grid-cols-5 px-1 py-1">
+    <button id="bnav-home" onclick="window.navigatePage('home')" class="flex flex-col items-center justify-center py-1.5 text-[#facc15] font-semibold text-[11px]">
+      <span>🏠</span><span>Home</span>
+    </button>
+    <button id="bnav-map" onclick="window.navigatePage('map')" class="flex flex-col items-center justify-center py-1.5 text-stone-300 hover:text-white text-[11px]">
+      <span>🗺️</span><span>Fort Map</span>
+    </button>
+    <button id="bnav-detail" onclick="window.navigatePage('detail', 'raigad')" class="flex flex-col items-center justify-center py-1.5 text-stone-300 hover:text-white text-[11px]">
+      <span>👑</span><span>Raigad</span>
+    </button>
+    <button id="bnav-explore" onclick="window.navigatePage('explore')" class="flex flex-col items-center justify-center py-1.5 text-stone-300 hover:text-white text-[11px]">
+      <span>🧭</span><span>Explore</span>
+    </button>
+    <button onclick="window.openSavedModal()" class="flex flex-col items-center justify-center py-1.5 text-stone-300 hover:text-white text-[11px] relative">
+      <span>🔖</span><span>Saved (<span id="mobileSavedBadge">8</span>)</span>
+    </button>
+  </nav>
+
+  <!-- Universal Modal Dialog -->
+  <div id="universalModal" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4" onclick="if(event.target===this) window.closeModal()">
+    <div class="bg-[#faf8f3] rounded-2xl max-w-lg w-full p-5 sm:p-6 shadow-2xl border border-[#eab308]/50">
+      <div class="flex items-center justify-between pb-3 mb-4 border-b border-stone-200">
+        <div class="flex items-center gap-2">
+          <img src="../assets/icons/fort-pin.png" alt="Icon" class="w-6 h-6 object-contain" />
+          <h3 id="universalModalTitle" class="font-serif-title font-bold text-lg text-[#13261b]">Modal Title</h3>
+        </div>
+        <button onclick="window.closeModal()" class="w-8 h-8 rounded-full bg-stone-200 hover:bg-stone-300 text-stone-800 flex items-center justify-center font-bold text-xs">✕</button>
+      </div>
+      <div id="universalModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="fixed bottom-16 md:bottom-5 right-4 z-50 space-y-2 pointer-events-none"></div>
+<script>window.addEventListener('DOMContentLoaded', function() { window.navigatePage('about'); });</script>
+</body>
+</html>

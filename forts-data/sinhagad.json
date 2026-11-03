@@ -1,0 +1,114 @@
+{
+  "id": "sinhagad",
+  "name": "Sinhagad Fort",
+  "marathiName": "किल्ले सिंहगड (कोंढाणा)",
+  "epithet": "गड आला पण सिंह गेला — The Lion's Citadel",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "TANHAJI'S VALOR (1670)",
+  "unesco": "State Protected Heritage Monument",
+  "asi": "Maharashtra Protected Monument",
+  "elevationMeters": 1312,
+  "elevationDisplay": "1,312 m (4,304 ft)",
+  "grade": "Moderate",
+  "baseVillage": "Atkarwadi / Donje",
+  "endurance": "1.5 – 2.0 Hours",
+  "trailTime": "1.8 Hours",
+  "steps": "Kalyan & Pune Darwaza Steps",
+  "era": "Maratha Empire (Battle of 1670)",
+  "water": "Perennial (Devtake Spring)",
+  "lat": 18.3663,
+  "lng": 73.7559,
+  "mapX": 43.8,
+  "mapY": 46.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sinhagad_Fort_-_Pune_-_Maharashtra_-_003.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sinhagad",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Sinhagad",
+  "shortDesc": "Immortalized on the night of 4 February 1670 when Subhedar Tanaji Malusare scaled the sheer Donagiri cliff to recapture Kondhana for Swarajya.",
+  "mapSubtitle": "Battle of Sinhagad (1670)",
+  "overviewTitle": "Where Subhedar Tanaji Malusare Wrote History in Blood",
+  "overviewP1": "Standing 1,312 meters high on an isolated spur of the Bhuleshwar range 30 km southwest of Pune, Sinhagad (originally Kondhana) is guarded by natural vertical basalt precipices up to 40 meters high. Only two triple-gated entrances — the Pune Darwaza on the northeast and the Kalyan Darwaza on the southeast — pierce its natural ramparts.",
+  "overviewP2": "On the moonless night of 4 February 1670 (Magh Vadya Navami), Subhedar Tanaji Malusare and 300 Mavala warriors scaled the overhanging western Donagiri cliff using ropes, overpowering Udaybhan Rathod's garrison. Upon hearing of Tanaji's martyrdom, Chhatrapati Shivaji Maharaj uttered the immortal tribute: 'Gad aala, pan Sinha gela' ('The fort is won, but the Lion is gone').",
+  "architecturalPillars": [
+    {
+      "title": "Triple-Tiered Pune Darwaza",
+      "desc": "Three successive rock-cut gateways built across centuries (Yadava to Maratha) with concealed guard recesses.",
+      "meta": "NORTHEAST CITADEL GATE"
+    },
+    {
+      "title": "Devtake Natural Spring Cistern",
+      "desc": "Crystal-clear mineral-rich rock cistern atop the 1,312 m plateau that has supplied cold drinking water for centuries.",
+      "meta": "NATURAL BASALT AQUIFER"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Kondhana, The Lion's Fort",
+    "architect": "Koli Chief Nag Naik / Maratha Enhancements",
+    "rulingDynasty": "Maratha Empire",
+    "preservation": "Protected Heritage Monument of Maharashtra",
+    "quote": "Gad aala, pan Sinha gela — The fort is captured, but the Lion is lost.",
+    "quoteAuthor": "Chhatrapati Shivaji Maharaj (4 Feb 1670)"
+  },
+  "sites": [
+    {
+      "name": "Tanaji Malusare Samadhi & Memorial (तानाजी मालुसरे समाधी)",
+      "subtitle": "Heroic Memorial at the Exact Site of the 1670 Duel",
+      "badge": "MARTYR MEMORIAL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sinhagad_Fort_-_Pune_-_Maharashtra_-_003.jpg",
+      "desc": "Bronze bust and stone memorial honoring Subhedar Tanaji Malusare alongside the sacred Samadhi of Chhatrapati Rajaram Maharaj (1700 CE).",
+      "loc": "Central Plateau",
+      "elev": "1,305 m Elevation"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1670",
+      "title": "4 Feb 1670 — The Night Assault of Tanaji Malusare",
+      "badge": "LEGENDARY VALOR",
+      "desc": "Subhedar Tanaji Malusare and his brother Suryaji recapture Kondhana from Mughal commander Udaybhan Rathod.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "POPULAR FITNESS TREK",
+      "gradeLabel": "Moderate",
+      "title": "Atkarwadi — Pune Darwaza Trail",
+      "desc": "Well-marked mountain trail from Atkarwadi base village ascending directly to the three gates of Pune Darwaza.",
+      "distance": "2.7 km One Way",
+      "duration": "1.5 Hours",
+      "gain": "+560 m Vertical",
+      "water": "Devtake Cistern & Pithla-Bhakri Stalls",
+      "cta": "Download Sinhagad Atkarwadi GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Atkarwadi Base (750m)",
+      "elev": 750
+    },
+    {
+      "label": "Midway Plateau (990m)",
+      "elev": 990
+    },
+    {
+      "label": "Wind Point (1180m)",
+      "elev": 1180
+    },
+    {
+      "label": "Pune Darwaza (1290m)",
+      "elev": 1290
+    },
+    {
+      "label": "Sinhagad Summit (1312m)",
+      "elev": 1312
+    }
+  ],
+  "connectedForts": [
+    "rajgad",
+    "torna",
+    "lohagad"
+  ]
+}

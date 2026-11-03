@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "raigad",
+    "name": "Raigad Fort",
+    "marathiName": "किल्ले रायगड",
+    "epithet": "दुर्गराज रायगड — The Gibraltar of the East",
+    "district": "Raigad",
+    "region": "Raigad",
+    "type": "Capital Citadel",
+    "categoryBadge": "ROYAL CAPITAL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-M58",
+    "elevationMeters": 820,
+    "elevationDisplay": "820 m (2,700 ft)",
+    "grade": "Moderate",
+    "baseVillage": "Pachad Village",
+    "endurance": "2.5 – 3.0 Hours",
+    "trailTime": "2.5 Hours",
+    "steps": "1,737 Steps",
+    "era": "Maratha Empire (1656–1689)",
+    "water": "Perennial (Ganga Sagar)",
+    "lat": 18.2347,
+    "lng": 73.4464,
+    "mapX": 35.5,
+    "mapY": 51.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Raigad_Fort-Rigad.JPG",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Raigad_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Raigad_Fort",
+    "shortDesc": "Perched high upon an inaccessible wedge-shaped basalt massif, Raigad was sculpted by Chhatrapati Shivaji Maharaj as the sovereign throne of Hindavi Swarajya.",
+    "mapSubtitle": "Sovereign Capital (1674)",
+    "overviewTitle": "The Unvanquished Capital of Hindavi Swarajya",
+    "overviewP1": "Rising 820 meters above sea level in the Mahad taluka of Raigad district, this iconic wedge-shaped massif rises abruptly from the Konkan plains, separated from the main Sahyadri range by deep valleys on all sides. Chosen specifically by Chhatrapati Shivaji Maharaj in 1656 after annexing the Javli valley, Raigad was elevated into the administrative, cultural, and military nerve center of an emerging sovereign Maratha state.",
+    "overviewP2": "Unlike medieval citadels built solely as military outposts, Raigad was envisioned as a complete imperial city on a mountain summit. Master architect Hiroji Indulkar supervised the creation of stone granaries, ministerial residences (Ashta Pradhan quarters), market streets, rock-cut water reservoirs, acoustic durbar halls, and sheer cliffside defensive bastions engineered to withstand protracted Mughal sieges.",
+    "architecturalPillars": [
+      {
+        "title": "Bastion Camouflage",
+        "desc": "Curved Maha Darwaza twin bastions hide the massive teakwood gate from direct cannon line-of-sight along the steep Chiseling Gorge.",
+        "meta": "CHISELED BASALT FORTIFICATION"
+      },
+      {
+        "title": "Coronation Durbar Acoustics",
+        "desc": "Whispered commands from the Nagarkhana gateway carry clearly to the royal throne 200 feet away through tuned stone arches.",
+        "meta": "HIROJI INDULKAR ENGINEERING"
+      },
+      {
+        "title": "Hydraulic Mastery",
+        "desc": "Over 84 rock-cut cisterns and the 12-acre Ganga Sagar Talav supplied fresh water to a garrison of 10,000+ residents year-round.",
+        "meta": "PERENNIAL MONSOON CATCHMENT"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Rairi, Gibraltar of the East, Nandadeep",
+      "architect": "Hiroji Indulkar (Chief Architect)",
+      "rulingDynasty": "Maratha Empire (Chhatrapati Shivaji Maharaj)",
+      "preservation": "ASI Monument of National Importance & UNESCO Site",
+      "quote": "The European Gibraltar is as nothing compared to this impregnable rocky citadel of the Western Ghats.",
+      "quoteAuthor": "British East India Gazetteer (1818)"
+    },
+    "sites": [
+      {
+        "name": "Maha Darwaza (महादरवाजा)",
+        "subtitle": "Colossal 65-Foot Twin-Bastion Main Gateway",
+        "badge": "DEFENSIVE ARCHITECTURE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Raigad_Maha_Darwaja.jpg",
+        "desc": "Flanked by two massive curved bastions standing 65 and 70 feet tall, the Maha Darwaza is angled at 90 degrees to the cliff steps so enemy battering elephants could never gain momentum.",
+        "loc": "West Cliff Ascent",
+        "elev": "720 m Elevation"
+      },
+      {
+        "name": "Takmak Tok (टकमक टोक)",
+        "subtitle": "Sheer 1,200-Foot Basalt Overhang & Watchpoint",
+        "badge": "CLIFF PRECIPICE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Takmak_Tok%2C_Raigad_Fort_in_Raigad%2C_India.jpg",
+        "desc": "A narrow basalt spur projecting over a vertical 1,200-foot drop into the Kal River valley. Historically used both as a sentinel lookout over the Konkan trade passes and for capital punishment.",
+        "loc": "North-East Spur",
+        "elev": "815 m Elevation"
+      },
+      {
+        "name": "Raj Sabha & Nagarkhana (राजसभा)",
+        "subtitle": "Imperial Coronation Court of 6 June 1674",
+        "badge": "IMPERIAL DURBAR HALL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nagarkhana%2C_Raigad_Fort%2C_India.jpg",
+        "desc": "The grand royal court where Chhatrapati Shivaji Maharaj was crowned on the 32-man golden Sinhasan. The towering Nagarkhana gateway creates remarkable natural voice amplification.",
+        "loc": "Central Balekilla",
+        "elev": "820 m Summit"
+      },
+      {
+        "name": "Jagdishwar Temple & Samadhi (जगदीश्वर मंदिर)",
+        "subtitle": "Sacred Shiva Shrine & Royal Memorial",
+        "badge": "SACRED MEMORIAL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jagdishwar_Mandir.jpg",
+        "desc": "Built by Hiroji Indulkar with his famous engraved plinth inscription ('Seveche Thayi Tatpar Hiroji Indulkar'). Directly adjacent stands the octagonal stone Samadhi of Chhatrapati Shivaji Maharaj.",
+        "loc": "Eastern Plateau",
+        "elev": "805 m Elevation"
+      },
+      {
+        "name": "Bazar Peth (प्राचीन बाजारपेठ)",
+        "subtitle": "40-Foot Elevated Dual-Row Stone Marketplace",
+        "badge": "MARATHA COMMERCE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bazarpeth.jpg",
+        "desc": "Two parallel rows of 22 stone shop-plinths each, raised high off the central avenue so cavalrymen and citizens could purchase provisions directly from horseback without dismounting.",
+        "loc": "Holi Cha Mal North",
+        "elev": "810 m Elevation"
+      },
+      {
+        "name": "Ganga Sagar Lake (गंगासागर तलाव)",
+        "subtitle": "Perennial Royal Rock-Cut Reservoir",
+        "badge": "HYDRO-ENGINEERING",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gangasagar_Lake.jpg",
+        "desc": "Legend and court chronicles record that sacred waters from the Ganga and seven rivers brought for the 1674 Rajyabhishek ceremony were poured into this deep mountain reservoir.",
+        "loc": "South of Rani Vasa",
+        "elev": "800 m Elevation"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1656",
+        "title": "1656 — Conquest of Rairi from Javli",
+        "badge": "STRATEGIC ANNEXATION",
+        "desc": "Chhatrapati Shivaji Maharaj captures the mountain stronghold of Rairi from Chandrarao More of Javli. Recognizing its sheer four-sided basalt cliffs, he renames it Raigad ('The King's Fort') and orders its transformation into the royal capital.",
+        "highlight": false
+      },
+      {
+        "year": "1662",
+        "title": "1662 — Master Blueprint of Hiroji Indulkar",
+        "badge": "CAPITAL CONSTRUCTION",
+        "desc": "Chief architect Hiroji Indulkar leads thousands of stone masons for over a decade, constructing the Rani Vasa (six queen chambers), Ashtapradhan towers, Ambarkhana granaries, and 84 water reservoirs.",
+        "highlight": false
+      },
+      {
+        "year": "1674",
+        "title": "6 June 1674 — Rajyabhishek (Imperial Coronation)",
+        "badge": "FOUNDATION OF HINDAVI SWARAJYA",
+        "desc": "Pandit Gaga Bhatt of Varanasi presides over the grand Vedic coronation in the Raj Sabha. Chhatrapati Shivaji Maharaj ascends the golden Sinhasan as Chhatrapati, initiating the Rajyabhishek Shak calendar and issuing the gold Hon and copper Shivrai coins.",
+        "highlight": true
+      },
+      {
+        "year": "1680",
+        "title": "3 April 1680 — Demise of Chhatrapati Shivaji Maharaj",
+        "badge": "SACRED MEMORIAL",
+        "desc": "On Hanuman Jayanti (3 April 1680), Chhatrapati Shivaji Maharaj passes away at Raigad at age 50. His octagonal stone Samadhi is erected beside the Jagdishwar Temple on the eastern plateau.",
+        "highlight": false
+      },
+      {
+        "year": "1689",
+        "title": "1689 — The Epic Siege of Zulfiqar Khan",
+        "badge": "MARATHA DEFENSE",
+        "desc": "Following Chhatrapati Sambhaji Maharaj's martyrdom, Mughal general Zulfiqar Khan besieges Raigad for 8 months while Chhatrapati Rajaram escapes toward Jinji to continue the Maratha War of Independence.",
+        "highlight": false
+      },
+      {
+        "year": "1818",
+        "title": "May 1818 — British Artillery Bombardment",
+        "badge": "COLONIAL SIEGE",
+        "desc": "East India Company forces under Colonel Prother haul heavy howitzers onto the neighboring Kalkai hill ridge and bombard Raigad for 11 days, burning the timber superstructures while the stone citadel endures.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "HERITAGE STEP TRAIL",
+        "gradeLabel": "Moderate Endurance",
+        "title": "Chit Darwaza Step Trail (पायरी मार्ग)",
+        "desc": "Traditional stone-stepped ascent starting from Pachad / Хирkani-wadi base village, passing through Khubladha Buruj, Nana Darwaza, and the monumental Maha Darwaza.",
+        "distance": "4.2 km One Way",
+        "duration": "2.5 – 3.0 Hours",
+        "gain": "+580 m Vertical",
+        "water": "3 Limbu Pani Stalls",
+        "cta": "Download GPX Route (Chit Darwaza)",
+        "primary": false
+      },
+      {
+        "badge": "AERIAL CABLE CAR",
+        "gradeLabel": "Family & Senior Friendly",
+        "title": "Raigad Aerial Ropeway (रायगड रोपवे)",
+        "desc": "Engineered aerial tramway ascending a 420-meter vertical cliff drop in just 4 minutes, landing directly beside Mena Darwaza and the royal palace enclave.",
+        "distance": "760 m Span",
+        "duration": "4 Minutes (8 AM – 5 PM)",
+        "gain": "420 m Vertical Lift",
+        "water": "Upper Terminal Cafe",
+        "cta": "Reserve Ropeway Boarding Pass",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Pachad Base (240m)",
+        "elev": 240
+      },
+      {
+        "label": "Nana Darwaza (460m)",
+        "elev": 460
+      },
+      {
+        "label": "Khubladha Buruj (610m)",
+        "elev": 610
+      },
+      {
+        "label": "Maha Darwaza (720m)",
+        "elev": 720
+      },
+      {
+        "label": "Raj Bhavan / Balekilla (820m)",
+        "elev": 820
+      }
+    ],
+    "connectedForts": [
+      "rajgad",
+      "torna",
+      "pratapgad"
+    ]
+  },
+  {
+    "id": "rajgad",
+    "name": "Rajgad Fort",
+    "marathiName": "किल्ले राजगड",
+    "epithet": "गडांचा राजा — The King of Forts",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Capital Citadel",
+    "categoryBadge": "26-YEAR SWARAJYA CAPITAL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-P62",
+    "elevationMeters": 1376,
+    "elevationDisplay": "1,376 m (4,514 ft)",
+    "grade": "Difficult",
+    "baseVillage": "Gunjavane / Pali",
+    "endurance": "3.5 – 4.0 Hours",
+    "trailTime": "3.5 Hours",
+    "steps": "Rock-Cut Chor Darwaza",
+    "era": "Maratha Empire (1647–1672)",
+    "water": "Perennial (Padmavati Tank)",
+    "lat": 18.2461,
+    "lng": 73.6822,
+    "mapX": 43.0,
+    "mapY": 49.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Rajgad_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Rajgad_Fort",
+    "shortDesc": "First capital of Hindavi Swarajya for 26 years, famous for its three colossal fortified spurs — Padmavati, Suvela, and Sanjivani Machi — and towering Balekilla.",
+    "mapSubtitle": "First Capital (1647–1672)",
+    "overviewTitle": "The Tri-Machi Citadel Where Swarajya Was Forged",
+    "overviewP1": "Commanding the Bhima-Nira watershed in Pune district at 1,376 meters, Rajgad (formerly Murumbdev) served as Chhatrapati Shivaji Maharaj's residence and capital for 26 years — longer than any other fort. With a base diameter of 40 kilometers, its three sprawling fortified ridges (Padmavati Machi, Suvela Machi, and the 2.5 km triple-walled Sanjivani Machi) made it virtually impossible to encircle.",
+    "overviewP2": "Rajgad witnessed historic milestones including the birth of Chhatrapati Rajaram Maharaj, the planning of the Afzal Khan campaign and Shaista Khan raid, and Chhatrapati Shivaji Maharaj's triumphant return from Agra in 1666.",
+    "architecturalPillars": [
+      {
+        "title": "Chilkhati Double Ramparts",
+        "desc": "Sanjivani Machi features a 2.5 km zigzag double-curtain fortification wall with hidden subterranean escape drains.",
+        "meta": "TRIPLE-TIERED MACHI DEFENSE"
+      },
+      {
+        "title": "Nedhe (Eye of the Needle)",
+        "desc": "A natural wind-carved rock aperture beneath the eastern tip of Suvela Machi offering 360-degree views toward Torna and Bhatghar.",
+        "meta": "SUVELA MACHI PINNACLE"
+      },
+      {
+        "title": "Balekilla Vertical Keep",
+        "desc": "Rising 1,376 m above sea level with a near-vertical rock-cut staircase guarded by the crescent Mahadarwaza.",
+        "meta": "SUPREME CITADEL KEEP"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Murumbdev, King of Forts",
+      "architect": "Moro Trimal Pingale & Hiroji Indulkar",
+      "rulingDynasty": "Maratha Empire (1647–1818)",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "Whoever holds the three Machis of Rajgad commands the entire Maval highlands.",
+      "quoteAuthor": "Sabhasad Bakhar Chronicle"
+    },
+    "sites": [
+      {
+        "name": "Sanjivani Machi (संजीवनी माची)",
+        "subtitle": "2.5 km Triple-Tiered Western Fortified Spur",
+        "badge": "MILITARY ARCHITECTURE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+        "desc": "Stretching 2.5 kilometers west toward Torna Fort, engineered with double Chilkhati walls, underground cisterns, and bastion watchtowers.",
+        "loc": "Western Ridge",
+        "elev": "1,250 m Elevation"
+      },
+      {
+        "name": "Suvela Machi & Nedhe (सुवेळा माची)",
+        "subtitle": "Eastern Sunrise Spur & Natural Rock Arch",
+        "badge": "NATURAL PINNACLE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+        "desc": "Narrow eastern ridge featuring Kalakrai Buruj, Ganesh sculpture, and the iconic 'Nedhe' (Eye of the Needle) natural opening in the cliff.",
+        "loc": "Eastern Ridge",
+        "elev": "1,260 m Elevation"
+      },
+      {
+        "name": "Balekilla (बालेकिल्ला)",
+        "subtitle": "Highest Central Acropolis of Rajgad",
+        "badge": "ROYAL CITADEL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajgad_Fort.jpg",
+        "desc": "Reached via a thrilling vertical rock-cut stair with iron railings, housing the Rajwada ruins, Chandra Talav, and Brahmarshi Temple.",
+        "loc": "Central Summit",
+        "elev": "1,376 m Summit"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1647",
+        "title": "1647 — Capture of Murumbdev & Naming of Rajgad",
+        "badge": "FIRST ROYAL CAPITAL",
+        "desc": "Using the treasury discovered during repairs on neighboring Torna Fort, Chhatrapati Shivaji Maharaj fortifies the three ridges of Murumbdev and renames it Rajgad.",
+        "highlight": true
+      },
+      {
+        "year": "1666",
+        "title": "1666 — Triumphant Return from Agra",
+        "badge": "HISTORIC ESCAPE",
+        "desc": "Following his legendary escape from Aurangzeb's captivity in Agra, Chhatrapati Shivaji Maharaj returns in disguise to Rajgad to reunite with Rajmata Jijabai.",
+        "highlight": false
+      },
+      {
+        "year": "1670",
+        "title": "24 Feb 1670 — Birth of Chhatrapati Rajaram Maharaj",
+        "badge": "ROYAL LINEAGE",
+        "desc": "Maharani Soyarabai gives birth to Prince Rajaram on Padmavati Machi inside Rajgad Fort.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "CLASSIC TREK",
+        "gradeLabel": "Moderate-Difficult",
+        "title": "Gunjavane — Chor Darwaza Trail",
+        "desc": "Popular ridge climb from Gunjavane village ascending directly into the secret rock-cut Chor Darwaza on Padmavati Machi.",
+        "distance": "5.5 km One Way",
+        "duration": "3.0 – 3.5 Hours",
+        "gain": "+670 m Vertical",
+        "water": "Padmavati Temple Cisterns",
+        "cta": "Download GPX Route (Chor Darwaza)",
+        "primary": true
+      },
+      {
+        "badge": "ROYAL GATE TRAIL",
+        "gradeLabel": "Moderate",
+        "title": "Pali Darwaza Heritage Route",
+        "desc": "Broad historical stone pathway from Pali village passing through the grand double gates of Pali Darwaza.",
+        "distance": "6.0 km One Way",
+        "duration": "3.5 Hours",
+        "gain": "+650 m Vertical",
+        "water": "Perennial Spring",
+        "cta": "Download GPX Route (Pali Gate)",
+        "primary": false
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Gunjavane Base (700m)",
+        "elev": 700
+      },
+      {
+        "label": "Forest Saddle (940m)",
+        "elev": 940
+      },
+      {
+        "label": "Chor Darwaza (1190m)",
+        "elev": 1190
+      },
+      {
+        "label": "Padmavati Machi (1240m)",
+        "elev": 1240
+      },
+      {
+        "label": "Balekilla Summit (1376m)",
+        "elev": 1376
+      }
+    ],
+    "connectedForts": [
+      "torna",
+      "raigad",
+      "sinhagad"
+    ]
+  },
+  {
+    "id": "sindhudurg",
+    "name": "Sindhudurg Fort",
+    "marathiName": "किल्ले सिंधुदुर्ग",
+    "epithet": "अजिंक्य जलदुर्ग — Ocean Citadel of the Konkan",
+    "district": "Sindhudurg",
+    "region": "Sindhudurg",
+    "type": "Sea Fort (Jaldurg)",
+    "categoryBadge": "NAVAL CITADEL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-S12",
+    "elevationMeters": 10,
+    "elevationDisplay": "Sea Level (Kurte Island)",
+    "grade": "Easy",
+    "baseVillage": "Malvan Jetty",
+    "endurance": "15 Min Boat + 2 Hr Walk",
+    "trailTime": "1.5 Hours",
+    "steps": "Marine Rampart Walk",
+    "era": "Maratha Navy (1664–1667)",
+    "water": "3 Freshwater Wells in Sea!",
+    "lat": 16.0426,
+    "lng": 73.4596,
+    "mapX": 38.0,
+    "mapY": 89.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/SINDHUDURG_FORT_%281%29.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sindhudurg_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Sindhudurg_Fort",
+    "shortDesc": "Built by Chhatrapati Shivaji Maharaj right into the rocky bed of Kurte Island using 73,000 kg of molten lead foundations and 42 serpentine sea bastions.",
+    "mapSubtitle": "Naval Citadel (1664)",
+    "overviewTitle": "Masterpiece of the Maratha Blue-Water Navy",
+    "overviewP1": "Constructed between 1664 and 1667 on the rocky Kurte islet off the coast of Malvan under chief architect Hiroji Indulkar, Sindhudurg ('Fortress of the Ocean') anchored Chhatrapati Shivaji Maharaj's vision that 'He who commands the sea is all-powerful.' Over 73,000 kilograms of molten lead and lime mortar were poured into the wave-lashed basalt reefs to anchor its 30-foot-high, 12-foot-thick zigzag walls.",
+    "overviewP2": "Spanning 48 acres with 42 semi-circular bastions, its Dindi Darwaza is cleverly concealed between overlapping stone walls so approaching enemy ships see only an unbroken rock face. Astonishingly, inside this saltwater island sit three sweet-water wells (Dudhbaav, Dahibaav, and Sakharbaav) that never run dry.",
+    "architecturalPillars": [
+      {
+        "title": "Molten Lead Reef Foundation",
+        "desc": "73,000 kg of molten lead bound massive dressed laterite blocks directly to the submerged Arabian Sea basalt reef.",
+        "meta": "MARINE STRUCTURAL ENGINEERING"
+      },
+      {
+        "title": "Concealed Dindi Darwaza",
+        "desc": "The main landing gate is invisible from open water, tucked inside an S-curve bastion pocket guarded by submerged razor reefs.",
+        "meta": "STEALTH AMPHIBIOUS ENTRY"
+      },
+      {
+        "title": "Preserved Royal Imprints",
+        "desc": "Inside two small domed lime shrines near the main gate are preserved the actual handprint and footprint of Chhatrapati Shivaji Maharaj.",
+        "meta": "SACRED HERITAGE ARTIFACT"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Kurte Bet Jaldurg, Ocean Citadel",
+      "architect": "Hiroji Indulkar (with 3,000 Artisans)",
+      "rulingDynasty": "Maratha Navy (Chhatrapati Shivaji Maharaj)",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "Chhatrapati Shivaji Maharaj personally laid the foundation stone at Kurte Island on 25 November 1664.",
+      "quoteAuthor": "Malvan Naval Archives"
+    },
+    "sites": [
+      {
+        "name": "Shivrajeshwar Temple (शिवराजेश्वर मंदिर)",
+        "subtitle": "Historic 1695 Shrine Built by Chhatrapati Rajaram",
+        "badge": "ROYAL SANCTUARY",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/SINDHUDURG_FORT_%281%29.jpg",
+        "desc": "The only historical temple dedicated to Chhatrapati Shivaji Maharaj built during the Maratha era (1695 CE), housing a seated idol in a sailor's cap.",
+        "loc": "Central Island Plaza",
+        "elev": "Sea Level"
+      },
+      {
+        "name": "West Sea Wall & 42 Bastions (पश्चिम तटबंदी)",
+        "subtitle": "3-Kilometer Serpentine Wave-Breaking Rampart",
+        "badge": "NAVAL DEFENSE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sindhudurg_Fort%2C_Back_Wall.jpg",
+        "desc": "Twelve-foot-wide rampart walk withstanding 360 years of Arabian Sea monsoon swells without structural collapse.",
+        "loc": "Western Seaward Edge",
+        "elev": "10 m Rampart Crest"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1664",
+        "title": "25 Nov 1664 — Foundation Stone on Kurte Island",
+        "badge": "NAVAL EXPANSION",
+        "desc": "Chhatrapati Shivaji Maharaj selects Kurte rock island off Malvan to counter the Siddis of Janjira and Portuguese of Goa, deploying 200 warships to guard construction.",
+        "highlight": true
+      },
+      {
+        "year": "1667",
+        "title": "March 1667 — Completion of the 48-Acre Sea Citadel",
+        "badge": "FORT COMMISSIONED",
+        "desc": "Hiroji Indulkar completes the 3-kilometer perimeter wall and 42 bastions at a cost of 1 crore gold Hons.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "FERRY LAUNCH",
+        "gradeLabel": "Easy Family Visit",
+        "title": "Malvan Bunder Boat Crossing",
+        "desc": "15-minute scenic motorboat transfer from Malvan Dandi Beach / Jetty through reef channels to Dindi Darwaza.",
+        "distance": "1.2 km Sea Crossing",
+        "duration": "15 Mins Boat + 2 Hrs Explore",
+        "gain": "Sea Level (Flat Walk)",
+        "water": "3 Freshwater Wells & Kiosks",
+        "cta": "Download Sindhudurg Heritage Map",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Malvan Jetty (0m)",
+        "elev": 2
+      },
+      {
+        "label": "Reef Channel (0m)",
+        "elev": 0
+      },
+      {
+        "label": "Dindi Darwaza (4m)",
+        "elev": 4
+      },
+      {
+        "label": "Shivrajeshwar Plaza (8m)",
+        "elev": 8
+      },
+      {
+        "label": "West Sea Bastion (12m)",
+        "elev": 12
+      }
+    ],
+    "connectedForts": [
+      "vijaydurg",
+      "suvarnadurg",
+      "janjira"
+    ]
+  },
+  {
+    "id": "pratapgad",
+    "name": "Pratapgad Fort",
+    "marathiName": "किल्ले प्रतापगड",
+    "epithet": "शौर्याचे प्रतीक — Valorous Citadel of Javli",
+    "district": "Satara",
+    "region": "Satara",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "VALOROUS CITADEL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Protected Heritage Site",
+    "elevationMeters": 1080,
+    "elevationDisplay": "1,080 m (3,543 ft)",
+    "grade": "Moderate",
+    "baseVillage": "Kuposhi / Wada",
+    "endurance": "1.5 Hours (450 Steps)",
+    "trailTime": "1.5 Hours",
+    "steps": "450 Stone Steps",
+    "era": "Maratha Empire (1656)",
+    "water": "Perennial (Rahat Talav)",
+    "lat": 17.9339,
+    "lng": 73.5784,
+    "mapX": 40.5,
+    "mapY": 60.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pratapgad_fort_front_view.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Pratapgad",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Pratapgad",
+    "shortDesc": "Crowning the Bhorpya spur overlooking the Par Ghat and Kineshwar valleys, site of the decisive 1659 Battle of Pratapgad against Afzal Khan.",
+    "mapSubtitle": "Battle of Pratapgad (1659)",
+    "overviewTitle": "Sentinel of the Javli Jungles & Par Ghat Pass",
+    "overviewP1": "Commissioned by Chhatrapati Shivaji Maharaj in 1656 and built by Prime Minister Moropant Trimbak Pingale on the Bhorpya hill crest 24 km west of Mahabaleshwar, Pratapgad guards the strategic Par Ghat connecting the Deccan plateau to the Konkan ports.",
+    "overviewP2": "On 10 November 1659, Pratapgad became the stage for one of Indian military history's most celebrated turning points: the Battle of Pratapgad, where Chhatrapati Shivaji Maharaj defeated Bijapur general Afzal Khan and his 30,000-strong army inside the dense forests of the Koyna valley.",
+    "architecturalPillars": [
+      {
+        "title": "Dual-Tiered Citadel Layout",
+        "desc": "Divided into the Lower Fort (housing the Tulja Bhavani Temple built in 1661) and the Upper Balekilla crowning the sheer crest.",
+        "meta": "BHORPYA RIDGE FORTIFICATION"
+      },
+      {
+        "title": "Afzal Buruj Watchtower",
+        "desc": "Southern projecting bastion overlooking the exact spur where the diplomatic shamiana meeting of 10 November 1659 took place.",
+        "meta": "STRATEGIC BATTLEFIELD OVERLOOK"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Bhorpya Hill Citadel",
+      "architect": "Moropant Trimbak Pingale",
+      "rulingDynasty": "Maratha Empire (Completed 1656)",
+      "preservation": "UNESCO World Heritage Site (2025)",
+      "quote": "From the dense bamboo thickets of Javli burst the Maratha infantry upon the signal cannon from Pratapgad.",
+      "quoteAuthor": "Jedhe Shakavali Chronicle (1659)"
+    },
+    "sites": [
+      {
+        "name": "Shree Tulja Bhavani Temple (तुळजाभवानी मंदिर)",
+        "subtitle": "Consecrated by Chhatrapati Shivaji Maharaj in 1661",
+        "badge": "SACRED SHRINE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pratapgad_fort_front_view.jpg",
+        "desc": "Built with black Gandaki river stone, featuring an ornate wooden sabhamandap and the historic six-tiered Deepmal pillar outside.",
+        "loc": "Lower Fort Enclave",
+        "elev": "1,020 m Elevation"
+      },
+      {
+        "name": "Equestrian Bronze Statue & Balekilla (शिवस्मारक)",
+        "subtitle": "17-Foot Bronze Statue Unveiled in 1957",
+        "badge": "UPPER CITADEL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pratapgad_fort_in_Maharashtra.jpg",
+        "desc": "Located in the centre of the Upper Balekilla alongside the Kedareshwar Mahadev temple and panoramic views of the Koyna backwaters.",
+        "loc": "Upper Balekilla",
+        "elev": "1,080 m Summit"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1656",
+        "title": "1656 — Fortification of Bhorpya Hill",
+        "badge": "PASS CONTROL",
+        "desc": "Moropant Trimbak Pingale completes Pratapgad to secure the newly conquered Javli valley and the Par Ghat trade route.",
+        "highlight": false
+      },
+      {
+        "year": "1659",
+        "title": "10 Nov 1659 — The Battle of Pratapgad",
+        "badge": "DECISIVE VICTORY",
+        "desc": "Chhatrapati Shivaji Maharaj overcomes Afzal Khan in the foothills of Pratapgad and routs the Adilshahi army in the surrounding Javli ravines.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "ROYAL STEPWAY",
+        "gradeLabel": "Easy-Moderate",
+        "title": "Maha Darwaza Heritage Staircase",
+        "desc": "Well-maintained stone steps from the upper parking plaza through Maha Darwaza, Tulja Bhavani Temple, and up to the Balekilla.",
+        "distance": "1.8 km Round Trip",
+        "duration": "1.5 Hours",
+        "gain": "+140 m (from Parking) / +450 m (from Kuposhi)",
+        "water": "Perennial Refreshment Stalls",
+        "cta": "Download Pratapgad Trail GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Kuposhi Base (630m)",
+        "elev": 630
+      },
+      {
+        "label": "Ghat Road Plaza (940m)",
+        "elev": 940
+      },
+      {
+        "label": "Maha Darwaza (995m)",
+        "elev": 995
+      },
+      {
+        "label": "Bhavani Mandir (1025m)",
+        "elev": 1025
+      },
+      {
+        "label": "Balekilla Summit (1080m)",
+        "elev": 1080
+      }
+    ],
+    "connectedForts": [
+      "raigad",
+      "rajgad",
+      "torna"
+    ]
+  },
+  {
+    "id": "lohagad",
+    "name": "Lohagad Fort",
+    "marathiName": "किल्ले लोहगड",
+    "epithet": "लोहदुर्ग — The Iron Fortress of Maval",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "IRON CITADEL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-M80",
+    "elevationMeters": 1033,
+    "elevationDisplay": "1,033 m (3,389 ft)",
+    "grade": "Moderate",
+    "baseVillage": "Lohagadwadi",
+    "endurance": "2.0 Hours",
+    "trailTime": "2.0 Hours",
+    "steps": "350 Serpentine Steps",
+    "era": "Satavahana & Maratha (1648)",
+    "water": "Perennial (Stepwell & Tanks)",
+    "lat": 18.7093,
+    "lng": 73.4758,
+    "mapX": 37.5,
+    "mapY": 38.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lohagad_fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Lohagad",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Lohagad",
+    "shortDesc": "Iconic Iron Fortress guarding the ancient Bhaja trade route. Known for its 1.5 km long Vinchu Kata (Scorpion Tail) cliff face and 4 grand succession gates.",
+    "mapSubtitle": "Grade: Moderate",
+    "overviewTitle": "Guardian of the Ancient Bhor Ghat & Indrayani Valley",
+    "overviewP1": "Rising 1,033 meters above the Pavana and Indrayani basins near Lonavala, Lohagad ('Iron Fort') spans over 2,000 years of Deccan history from the Satavahanas to Chhatrapati Shivaji Maharaj, who captured it in 1648 and used its impregnable vaults to store the rich plunder from the second sack of Surat (1670).",
+    "overviewP2": "Approached via a dramatic serpentine stone stairway pierced by four successive fortified gateways — Ganesh Darwaza, Narayan Darwaza, Hanuman Darwaza, and Maha Darwaza — the fort extends west into the famous 1.5-kilometer-long Vinchu Kata ('Scorpion's Tail') spur.",
+    "architecturalPillars": [
+      {
+        "title": "Four-Gate Serpentine Ascent",
+        "desc": "Ganesh, Narayan, Hanuman, and Maha Darwaza form an S-curved kill-zone carved directly into the vertical northern cliff.",
+        "meta": "ASI MONUMENT N-MH-M80"
+      },
+      {
+        "title": "Vinchu Kata (Scorpion's Tail)",
+        "desc": "A 1,500-meter-long, 30-meter-wide natural basalt ridge shaped like a scorpion's stinger watching over the Konkan passes.",
+        "meta": "ICONIC WESTERN SPUR"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Iron Fort of Lonavala",
+      "architect": "Maratha & Peshwa Restoration (Nana Phadnavis)",
+      "rulingDynasty": "Satavahana, Nizamshahi, Maratha Empire",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "The second treasury of Surat was safely hauled up the four gates of Lohagad.",
+      "quoteAuthor": "Maratha Treasury Records (1670)"
+    },
+    "sites": [
+      {
+        "name": "Vinchu Kata (विंचूकाटा माची)",
+        "subtitle": "1.5 km Narrow Basalt Ridge Resembling a Scorpion's Tail",
+        "badge": "GEOLOGICAL WONDER",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lohagad_fort.jpg",
+        "desc": "Detached narrow ridge extending westward with sheer 800-foot drops on both sides and views of Pavana Dam and Tung-Tikona.",
+        "loc": "Western Spur",
+        "elev": "1,010 m Ridge"
+      },
+      {
+        "name": "Sixteen-Cornered Stepwell (सोळा कोनी विहीर)",
+        "subtitle": "Hexadecagonal Stone Reservoir Built by Nana Phadnavis",
+        "badge": "WATER ARCHITECTURE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Lohagad_as_seen_from_Visapur.JPG",
+        "desc": "Geometric 16-sided stepped tank on the central plateau constructed during Peshwa statesman Nana Phadnavis's administration in 1789.",
+        "loc": "Central Plateau",
+        "elev": "1,030 m Elevation"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1648",
+        "title": "1648 — Captured by Chhatrapati Shivaji Maharaj",
+        "badge": "MAVAL CAMPAIGN",
+        "desc": "Chhatrapati Shivaji Maharaj secures Lohagad to control the Bhor Ghat trade corridor linking Pune with the Konkan coast.",
+        "highlight": true
+      },
+      {
+        "year": "1670",
+        "title": "1670 — Treasury Vault of the Second Surat Expedition",
+        "badge": "IMPERIAL TREASURY",
+        "desc": "Following the 1670 expedition to Surat, the Maratha cavalry deposits 66 lakh rupees of bullion inside Lohagad's stone vaults.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "MONSOON FAVORITE",
+        "gradeLabel": "Easy-Moderate",
+        "title": "Lohagadwadi — Four Gates Stairway",
+        "desc": "Stone steps from Gaymukh saddle (Lohagadwadi) climbing through Ganesh, Narayan, Hanuman, and Maha Darwaza.",
+        "distance": "2.5 km One Way",
+        "duration": "1.5 – 2.0 Hours",
+        "gain": "+210 m from Lohagadwadi (+480 m from Malavli)",
+        "water": "Perennial Cisterns & Base Villagers",
+        "cta": "Download Lohagad & Vinchu Kata GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Malavli Station (550m)",
+        "elev": 550
+      },
+      {
+        "label": "Bhaja Caves (680m)",
+        "elev": 680
+      },
+      {
+        "label": "Lohagadwadi Saddle (840m)",
+        "elev": 840
+      },
+      {
+        "label": "Ganesh Darwaza (960m)",
+        "elev": 960
+      },
+      {
+        "label": "Lohagad Summit (1033m)",
+        "elev": 1033
+      }
+    ],
+    "connectedForts": [
+      "visapur",
+      "sinhagad",
+      "shivneri"
+    ]
+  },
+  {
+    "id": "visapur",
+    "name": "Visapur Fort",
+    "marathiName": "किल्ले विसापूर",
+    "epithet": "पेशवेकालीन दुर्ग — Twin Plateau Fortress of Lohagad",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "MONSOON CITADEL",
+    "unesco": "State Protected Heritage Monument",
+    "asi": "Maharashtra Heritage Grade-I",
+    "elevationMeters": 1084,
+    "elevationDisplay": "1,084 m (3,556 ft)",
+    "grade": "Moderate",
+    "baseVillage": "Patan / Bhaje",
+    "endurance": "2.5 Hours",
+    "trailTime": "2.5 Hours",
+    "steps": "Waterfall Rock Steps",
+    "era": "Peshwa Era (1713–1720)",
+    "water": "Perennial (82 Cisterns)",
+    "lat": 18.7214,
+    "lng": 73.4889,
+    "mapX": 38.8,
+    "mapY": 37.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Visapur_Fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Visapur_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Visapur_Fort",
+    "shortDesc": "Twin fort companion to Lohagad, celebrated for its monsoon waterfall staircase climbs, massive stone grinders, and sweeping 1,084 m plateau ramparts.",
+    "mapSubtitle": "Twin of Lohagad (1,084 m)",
+    "overviewTitle": "The Expansive High Plateau Above Lohagad",
+    "overviewP1": "Built between 1713 and 1720 CE by Balaji Vishwanath, the first Peshwa of the Maratha Empire, Visapur Fort crowns the eastern half of the same volcanic tableland as Lohagad but rises 51 meters higher (1,084 m) with a far broader fortified perimeter.",
+    "overviewP2": "During the Sahyadri monsoon, the rock-cut eastern staircase turns into a cascading stream, making it one of Maharashtra's most iconic rain treks. Atop the plateau stand Peshwa wada ruins, Hanuman carvings, an iron cannon, and giant stone mortar mills (Chunam Ghani).",
+    "architecturalPillars": [
+      {
+        "title": "Continuous Outer Curtain Wall",
+        "desc": "Unlike Lohagad's natural cliff reliance, Visapur's entire massive plateau rim is ringed by dressed basalt ramparts.",
+        "meta": "PESHWA BALAJI VISHWANATH (1713)"
+      },
+      {
+        "title": "Chunam Mortar Mills",
+        "desc": "Massive circular stone grinding troughs turned by oxen to mix lime, jaggery, and bel-fruit mortar during fort construction.",
+        "meta": "18TH-CENTURY MASONRY TECH"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Visapoor Fort",
+      "architect": "Peshwa Balaji Vishwanath",
+      "rulingDynasty": "Maratha Empire (1713–1818)",
+      "preservation": "Protected Monument of Maharashtra",
+      "quote": "Because Visapur stood 160 feet higher than Lohagad, British batteries placed here in 1818 forced Lohagad's surrender.",
+      "quoteAuthor": "Bombay Gazetteer (Poona Volume)"
+    },
+    "sites": [
+      {
+        "name": "Monsoon Waterfall Staircase (धबधबा पायरी मार्ग)",
+        "subtitle": "Rock-Cut Ravine Ascent Along the Southern Escarpment",
+        "badge": "TREK HIGHLIGHT",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Visapur_Fort.jpg",
+        "desc": "Chiseled steps ascending through a basalt gorge that carries clear mountain runoff from July to September.",
+        "loc": "South-West Approach",
+        "elev": "980 m Gorge"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1713",
+        "title": "1713–1720 — Built by First Peshwa Balaji Vishwanath",
+        "badge": "PESHWA CITADEL",
+        "desc": "Constructed under Chhatrapati Shahu Maharaj's reign to reinforce Lohagad and prevent enemies from occupying the higher eastern plateau.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "GORGE TRAIL",
+        "gradeLabel": "Moderate",
+        "title": "Patan Village / Gaymukh Trail",
+        "desc": "Scenic forest and rock-step climb from Patan village or the Gaymukh saddle between Lohagad and Visapur.",
+        "distance": "3.8 km One Way",
+        "duration": "2.0 – 2.5 Hours",
+        "gain": "+380 m Vertical",
+        "water": "Plateau Rock Cisterns",
+        "cta": "Download Visapur Plateau GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Patan Base (680m)",
+        "elev": 680
+      },
+      {
+        "label": "Gaymukh Col (840m)",
+        "elev": 840
+      },
+      {
+        "label": "Waterfall Gorge (960m)",
+        "elev": 960
+      },
+      {
+        "label": "Visapur Plateau (1084m)",
+        "elev": 1084
+      }
+    ],
+    "connectedForts": [
+      "lohagad",
+      "sinhagad",
+      "rajgad"
+    ]
+  },
+  {
+    "id": "suvarnadurg",
+    "name": "Suvarnadurg Fort",
+    "marathiName": "किल्ले सुवर्णदुर्ग",
+    "epithet": "कोंकणचा सुवर्णदुर्ग — The Golden Sea Fortress",
+    "district": "Ratnagiri",
+    "region": "Ratnagiri",
+    "type": "Sea Fort (Jaldurg)",
+    "categoryBadge": "GOLDEN SEA FORT",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-R21",
+    "elevationMeters": 15,
+    "elevationDisplay": "Sea Level (Harnai Island)",
+    "grade": "Easy",
+    "baseVillage": "Harnai Port (Dapoli)",
+    "endurance": "20 Min Boat + 1.5 Hr Walk",
+    "trailTime": "1.5 Hours",
+    "steps": "Rock-Cut Island Steps",
+    "era": "Chhatrapati Shivaji Maharaj & Kanhoji Angre",
+    "water": "Stepwells & Cisterns",
+    "lat": 17.8161,
+    "lng": 73.0844,
+    "mapX": 33.0,
+    "mapY": 64.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Suvarnadurg_fort.JPG",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Suvarnadurg",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Suvarnadurg",
+    "shortDesc": "The Golden Fortress, a major shipbuilding hub and impenetrable island naval station of Sarkhel Kanhoji Angre's Maratha fleet off Harnai.",
+    "mapSubtitle": "Island Bastion",
+    "overviewTitle": "The Golden Feather in the Maratha Naval Crown",
+    "overviewP1": "Set on an 8-acre rocky island 1.5 km off Harnai port in Dapoli (Ratnagiri district), Suvarnadurg ('Golden Fort') was captured and rebuilt by Chhatrapati Shivaji Maharaj in 1660. Protected on the mainland by a trio of coastal support forts — Kanakdurg, Fatehdurg, and Goa Fort — it formed an interlocking coastal artillery complex.",
+    "overviewP2": "In the early 18th century, Suvarnadurg served as the headquarters and shipbuilding dockyard of Sarkhel Kanhoji Angre, the legendary Admiral of the Maratha Navy, where fast Gurab and Galbat warships were built.",
+    "architecturalPillars": [
+      {
+        "title": "Rock-Cut Bedrock Walls",
+        "desc": "Much of Suvarnadurg's perimeter is carved directly out of the natural island bedrock rather than stacked masonry.",
+        "meta": "MONOLITHIC MARINE WALLS"
+      },
+      {
+        "title": "Hanuman Engraved Mahadarwaza",
+        "desc": "The eastern landing gate features a carved Maruti (Hanuman) relief and a sculpted turtle on the threshold stone.",
+        "meta": "EASTERN CHANNEL ENTRY"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Golden Fort of Harnai",
+      "architect": "Chhatrapati Shivaji Maharaj (1660 Rebuild)",
+      "rulingDynasty": "Maratha Empire & Angre Naval Admiralty",
+      "preservation": "UNESCO World Heritage Site (2025)",
+      "quote": "Suvarnadurg was the cradle where Sarkhel Kanhoji Angre's unbeaten Konkan squadron was forged.",
+      "quoteAuthor": "Konkan Naval Gazetteer"
+    },
+    "sites": [
+      {
+        "name": "Mahadarwaza & Turtle Threshold (महादरवाजा)",
+        "subtitle": "Hidden Seaward Gate Facing Harnai Mainland",
+        "badge": "MARINE GATEWAY",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Entrance_to_Suvarnadurg.JPG",
+        "desc": "Narrow stone stairway rising between twin bastions with a sacred turtle carved into the floor step.",
+        "loc": "Eastern Shore",
+        "elev": "Sea Level"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1660",
+        "title": "1660 — Strengthened by Chhatrapati Shivaji Maharaj",
+        "badge": "KONKAN FLEET BASE",
+        "desc": "Chhatrapati Shivaji Maharaj reinforces Suvarnadurg and establishes the mainland support forts of Kanakdurg, Fatehdurg, and Goa Fort.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "BOAT EXPEDITION",
+        "gradeLabel": "Easy",
+        "title": "Harnai Beach Boat Transfer",
+        "desc": "Local fishermen ferry trekkers across the 1.5 km channel from Harnai Bunder during low-to-mid tide.",
+        "distance": "1.5 km Sea Channel",
+        "duration": "20 Mins Boat + 1.5 Hrs Walk",
+        "gain": "15 m Island Crest",
+        "water": "Carry Drinking Water from Harnai",
+        "cta": "Download Suvarnadurg Coastal GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Harnai Beach (0m)",
+        "elev": 1
+      },
+      {
+        "label": "Channel Crossing (0m)",
+        "elev": 0
+      },
+      {
+        "label": "Turtle Gate (5m)",
+        "elev": 5
+      },
+      {
+        "label": "Island Citadel Crest (15m)",
+        "elev": 15
+      }
+    ],
+    "connectedForts": [
+      "sindhudurg",
+      "vijaydurg",
+      "janjira"
+    ]
+  },
+  {
+    "id": "torna",
+    "name": "Torna Fort (Prachandagad)",
+    "marathiName": "किल्ले तोरणा (प्रचंडगड)",
+    "epithet": "स्वराज्याचे तोरण — The First Conquest of Swarajya",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "FIRST CONQUEST (1645)",
+    "unesco": "ASI Protected Heritage Site",
+    "asi": "ASI Monument N-MH-P68",
+    "elevationMeters": 1403,
+    "elevationDisplay": "1,403 m (4,603 ft)",
+    "grade": "Difficult",
+    "baseVillage": "Velhe Village",
+    "endurance": "3.0 – 3.5 Hours",
+    "trailTime": "3.0 Hours",
+    "steps": "Steep Ridge & Rock Ladders",
+    "era": "Maratha Empire (1645)",
+    "water": "Perennial (Mengai Tank)",
+    "lat": 18.2764,
+    "lng": 73.6228,
+    "mapX": 41.2,
+    "mapY": 50.8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Torna_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Torna_Fort",
+    "shortDesc": "First fort captured by Chhatrapati Shivaji Maharaj in 1645 at age 16; the highest hill fort in Pune district renamed Prachandagad for its sheer scale.",
+    "mapSubtitle": "First Fort of Swarajya (1645)",
+    "overviewTitle": "The Auspicious Archway Where Hindavi Swarajya Began",
+    "overviewP1": "Towering at 1,403 meters (4,603 ft) above Velhe taluka, Torna is the highest hill fort in Pune district and the inaugural milestone of Hindavi Swarajya. In 1645, at just 16 years of age, Chhatrapati Shivaji Maharaj captured Torna, hoisting the Bhagwa Dhwaj and renaming the colossal mountain citadel *Prachandagad* ('The Massive Fort').",
+    "overviewP2": "Famous for its two dramatic knife-edge ridges — the razor-thin Zunjar Machi on the east and the sprawling Budhla Machi on the west — Torna also connects to Rajgad via a legendary high-altitude saddle ridge trek.",
+    "architecturalPillars": [
+      {
+        "title": "Zunjar Machi Knife-Edge",
+        "desc": "A thrilling rocky spur jutting out from the eastern cliff face, guarded by iron ladders and sheer vertical drops.",
+        "meta": "EASTERN COMBAT SPUR"
+      },
+      {
+        "title": "Budhla Machi Ridge",
+        "desc": "Named after its inverted oil-vessel rock pinnacle (Budhla), stretching nearly 2 km with multiple gates including Chincha and Konkan Darwaza.",
+        "meta": "WESTERN HIGHLAND SPUR"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Prachandagad (The Massive Fort)",
+      "architect": "Shaiva Panth Origins / Maratha Fortification (1645)",
+      "rulingDynasty": "Maratha Empire (First Fort of Swarajya)",
+      "preservation": "Protected Monument of Maharashtra",
+      "quote": "While repairing the ramparts of Torna, Mother Bhavani blessed the young Chhatrapati Shivaji Maharaj with pots of gold mohurs buried in the rock.",
+      "quoteAuthor": "Chitnis Bakhar Chronicle"
+    },
+    "sites": [
+      {
+        "name": "Zunjar Machi (झुंजार माची)",
+        "subtitle": "Dramatic Razor-Edge Eastern Bastion Spur",
+        "badge": "CLIFF BASTION",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+        "desc": "Narrow fortified spur offering breathtaking views of Rajgad's Sanjivani Machi right across the Gunjavane valley.",
+        "loc": "Eastern Precipice",
+        "elev": "1,350 m Spur"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1645",
+        "title": "1645 — First Conquest of Chhatrapati Shivaji Maharaj",
+        "badge": "DAWN OF SWARAJYA",
+        "desc": "At age 16, Chhatrapati Shivaji Maharaj captures Torna Fort with his Mavala companions, marking the birth of the sovereign Maratha state.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "HIGHLAND RIDGE",
+        "gradeLabel": "Difficult",
+        "title": "Velhe — Bini Darwaza Ascent",
+        "desc": "Steep mountain trail from Velhe base village climbing along the northern ridge to Bini Darwaza and Kothi Darwaza.",
+        "distance": "4.8 km One Way",
+        "duration": "3.0 Hours",
+        "gain": "+620 m Vertical",
+        "water": "Mengai Devi Temple Cistern",
+        "cta": "Download Torna-Rajgad Ridge GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Velhe Base (780m)",
+        "elev": 780
+      },
+      {
+        "label": "Ridge Saddle (1050m)",
+        "elev": 1050
+      },
+      {
+        "label": "Bini Darwaza (1340m)",
+        "elev": 1340
+      },
+      {
+        "label": "Mengai Plateau (1403m)",
+        "elev": 1403
+      }
+    ],
+    "connectedForts": [
+      "rajgad",
+      "raigad",
+      "sinhagad"
+    ]
+  },
+  {
+    "id": "sinhagad",
+    "name": "Sinhagad Fort",
+    "marathiName": "किल्ले सिंहगड (कोंढाणा)",
+    "epithet": "गड आला पण सिंह गेला — The Lion's Citadel",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "TANHAJI'S VALOR (1670)",
+    "unesco": "State Protected Heritage Monument",
+    "asi": "Maharashtra Protected Monument",
+    "elevationMeters": 1312,
+    "elevationDisplay": "1,312 m (4,304 ft)",
+    "grade": "Moderate",
+    "baseVillage": "Atkarwadi / Donje",
+    "endurance": "1.5 – 2.0 Hours",
+    "trailTime": "1.8 Hours",
+    "steps": "Kalyan & Pune Darwaza Steps",
+    "era": "Maratha Empire (Battle of 1670)",
+    "water": "Perennial (Devtake Spring)",
+    "lat": 18.3663,
+    "lng": 73.7559,
+    "mapX": 43.8,
+    "mapY": 46.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sinhagad_Fort_-_Pune_-_Maharashtra_-_003.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sinhagad",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Sinhagad",
+    "shortDesc": "Immortalized on the night of 4 February 1670 when Subhedar Tanaji Malusare scaled the sheer Donagiri cliff to recapture Kondhana for Swarajya.",
+    "mapSubtitle": "Battle of Sinhagad (1670)",
+    "overviewTitle": "Where Subhedar Tanaji Malusare Wrote History in Blood",
+    "overviewP1": "Standing 1,312 meters high on an isolated spur of the Bhuleshwar range 30 km southwest of Pune, Sinhagad (originally Kondhana) is guarded by natural vertical basalt precipices up to 40 meters high. Only two triple-gated entrances — the Pune Darwaza on the northeast and the Kalyan Darwaza on the southeast — pierce its natural ramparts.",
+    "overviewP2": "On the moonless night of 4 February 1670 (Magh Vadya Navami), Subhedar Tanaji Malusare and 300 Mavala warriors scaled the overhanging western Donagiri cliff using ropes, overpowering Udaybhan Rathod's garrison. Upon hearing of Tanaji's martyrdom, Chhatrapati Shivaji Maharaj uttered the immortal tribute: 'Gad aala, pan Sinha gela' ('The fort is won, but the Lion is gone').",
+    "architecturalPillars": [
+      {
+        "title": "Triple-Tiered Pune Darwaza",
+        "desc": "Three successive rock-cut gateways built across centuries (Yadava to Maratha) with concealed guard recesses.",
+        "meta": "NORTHEAST CITADEL GATE"
+      },
+      {
+        "title": "Devtake Natural Spring Cistern",
+        "desc": "Crystal-clear mineral-rich rock cistern atop the 1,312 m plateau that has supplied cold drinking water for centuries.",
+        "meta": "NATURAL BASALT AQUIFER"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Kondhana, The Lion's Fort",
+      "architect": "Koli Chief Nag Naik / Maratha Enhancements",
+      "rulingDynasty": "Maratha Empire",
+      "preservation": "Protected Heritage Monument of Maharashtra",
+      "quote": "Gad aala, pan Sinha gela — The fort is captured, but the Lion is lost.",
+      "quoteAuthor": "Chhatrapati Shivaji Maharaj (4 Feb 1670)"
+    },
+    "sites": [
+      {
+        "name": "Tanaji Malusare Samadhi & Memorial (तानाजी मालुसरे समाधी)",
+        "subtitle": "Heroic Memorial at the Exact Site of the 1670 Duel",
+        "badge": "MARTYR MEMORIAL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sinhagad_Fort_-_Pune_-_Maharashtra_-_003.jpg",
+        "desc": "Bronze bust and stone memorial honoring Subhedar Tanaji Malusare alongside the sacred Samadhi of Chhatrapati Rajaram Maharaj (1700 CE).",
+        "loc": "Central Plateau",
+        "elev": "1,305 m Elevation"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1670",
+        "title": "4 Feb 1670 — The Night Assault of Tanaji Malusare",
+        "badge": "LEGENDARY VALOR",
+        "desc": "Subhedar Tanaji Malusare and his brother Suryaji recapture Kondhana from Mughal commander Udaybhan Rathod.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "POPULAR FITNESS TREK",
+        "gradeLabel": "Moderate",
+        "title": "Atkarwadi — Pune Darwaza Trail",
+        "desc": "Well-marked mountain trail from Atkarwadi base village ascending directly to the three gates of Pune Darwaza.",
+        "distance": "2.7 km One Way",
+        "duration": "1.5 Hours",
+        "gain": "+560 m Vertical",
+        "water": "Devtake Cistern & Pithla-Bhakri Stalls",
+        "cta": "Download Sinhagad Atkarwadi GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Atkarwadi Base (750m)",
+        "elev": 750
+      },
+      {
+        "label": "Midway Plateau (990m)",
+        "elev": 990
+      },
+      {
+        "label": "Wind Point (1180m)",
+        "elev": 1180
+      },
+      {
+        "label": "Pune Darwaza (1290m)",
+        "elev": 1290
+      },
+      {
+        "label": "Sinhagad Summit (1312m)",
+        "elev": 1312
+      }
+    ],
+    "connectedForts": [
+      "rajgad",
+      "torna",
+      "lohagad"
+    ]
+  },
+  {
+    "id": "shivneri",
+    "name": "Shivneri Fort",
+    "marathiName": "किल्ले शिवनेरी",
+    "epithet": "शिवजन्मभूमी — Sacred Birthplace of Chhatrapati Shivaji Maharaj",
+    "district": "Pune",
+    "region": "Pune",
+    "type": "Capital Citadel",
+    "categoryBadge": "ROYAL BIRTHPLACE (1630)",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-P35",
+    "elevationMeters": 1067,
+    "elevationDisplay": "1,067 m (3,500 ft)",
+    "grade": "Easy",
+    "baseVillage": "Junnar Town",
+    "endurance": "1.5 Hours",
+    "trailTime": "1.5 Hours",
+    "steps": "7 Fortified Gateways",
+    "era": "19 February 1630 (Shivjayanti)",
+    "water": "Perennial (Ganga-Jamuna & Badami Talav)",
+    "lat": 19.1992,
+    "lng": 73.8597,
+    "mapX": 43.2,
+    "mapY": 32.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Inside_shivneri_fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Shivneri_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Shivneri_Fort",
+    "shortDesc": "Sacred triangular hill fortress in Junnar where Chhatrapati Shivaji Maharaj was born on 19 February 1630, protected by seven monumental gates.",
+    "mapSubtitle": "Birthplace of Chhatrapati Shivaji Maharaj",
+    "overviewTitle": "The Sacred Cradle of Hindavi Swarajya in Junnar",
+    "overviewP1": "Overlooking the ancient trade city of Junnar and the Naneghat pass in northern Pune district, Shivneri is a triangular flat-topped hill fortress protected by sheer basalt scarp walls and a remarkable sequence of seven iron-spiked gates (Maha Darwaza, Parvangicha, Hatti, Peer, शिवाय, Kulup, and Ambar).",
+    "overviewP2": "Here, on 19 February 1630, Rajmata Jijabai gave birth to Chhatrapati Shivaji Maharaj, naming him after Goddess Shivai Devi whose ancient rock-cut shrine sits on the fort's eastern escarpment.",
+    "architecturalPillars": [
+      {
+        "title": "Seven-Gate Defense Concentricity",
+        "desc": "Seven successive arched gateways with anti-elephant iron spikes guard the winding stairway up the western slope.",
+        "meta": "SEVEN-TIERED GATEWAY SYSTEM"
+      },
+      {
+        "title": "Badami Talav & Ganga-Jamuna Cisterns",
+        "desc": "Almond-shaped central water reservoir flanked by rock-cut Satavahana-era cisterns.",
+        "meta": "2,000-YEAR HYDROLOGY"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Shivjanmabhoomi Junnar",
+      "architect": "Satavahana, Yadava & Bhosale Era",
+      "rulingDynasty": "Shahaji Raje Bhosale (1630)",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "On the auspicious hilltop of Shivneri, Rajmata Jijabai instilled the dream of Swarajya in young Shivba.",
+      "quoteAuthor": "Shivbharat by Kavindra Paramanand"
+    },
+    "sites": [
+      {
+        "name": "Shiv Janmasthan Building (शिवजन्मस्थान इमारत)",
+        "subtitle": "Historic Two-Storey Stone Residence of 19 Feb 1630",
+        "badge": "SACRED BIRTHPLACE",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Inside_shivneri_fort.jpg",
+        "desc": "Preserved stone mansion featuring the sacred cradle chamber on the ground floor and panoramic upper terrace.",
+        "loc": "Central Summit",
+        "elev": "1,060 m Elevation"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1630",
+        "title": "19 Feb 1630 — Birth of Chhatrapati Shivaji Maharaj",
+        "badge": "SHIVJAYANTI",
+        "desc": "Chhatrapati Shivaji Maharaj is born to Rajmata Jijabai and Shahaji Raje Bhosale inside Shivneri Fort.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "SEVEN GATES STEPWAY",
+        "gradeLabel": "Easy",
+        "title": "Maha Darwaza Seven-Gate Ascent",
+        "desc": "Paved stone stairway passing through all seven historic fortified gates (or alternative Chain Route on the eastern rock face).",
+        "distance": "2.2 km One Way",
+        "duration": "1.0 – 1.5 Hours",
+        "gain": "+300 m Vertical",
+        "water": "Ganga-Jamuna Cisterns & Gardens",
+        "cta": "Download Shivneri Heritage GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Junnar Base (760m)",
+        "elev": 760
+      },
+      {
+        "label": "Maha Darwaza (850m)",
+        "elev": 850
+      },
+      {
+        "label": "Shivai Devi Shrine (960m)",
+        "elev": 960
+      },
+      {
+        "label": "Shiv Janmasthan (1067m)",
+        "elev": 1067
+      }
+    ],
+    "connectedForts": [
+      "lohagad",
+      "harishchandragad",
+      "sinhagad"
+    ]
+  },
+  {
+    "id": "vijaydurg",
+    "name": "Vijaydurg Fort",
+    "marathiName": "किल्ले विजयदुर्ग",
+    "epithet": "पूर्वेकडील जिब्राल्टर — The Eastern Gibraltar",
+    "district": "Sindhudurg",
+    "region": "Sindhudurg",
+    "type": "Sea Fort (Jaldurg)",
+    "categoryBadge": "TRIPLE-WALLED JALDURG",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-S14",
+    "elevationMeters": 18,
+    "elevationDisplay": "Sea Level (Waghotan Estuary)",
+    "grade": "Easy",
+    "baseVillage": "Vijaydurg Port",
+    "endurance": "2.0 Hours",
+    "trailTime": "2.0 Hours",
+    "steps": "Landward Gate & 27 Bastions",
+    "era": "Shilahara & Chhatrapati Shivaji Maharaj (1653)",
+    "water": "Perennial Wells",
+    "lat": 16.5608,
+    "lng": 73.3333,
+    "mapX": 36.2,
+    "mapY": 82.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vijaydurg_Fort_20.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vijaydurg_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Vijaydurg",
+    "shortDesc": "Oldest and mightiest coastal fortress on the Konkan shore, enlarged by Chhatrapati Shivaji Maharaj with triple laterite walls and a hidden underwater reef wall.",
+    "mapSubtitle": "Triple-Walled Sea Citadel",
+    "overviewTitle": "The Impregnable Peninsula Fortress & Dry Dock of the Konkan",
+    "overviewP1": "Surrounded on three sides by the Arabian Sea and the deep Waghotan River creek, Vijaydurg (originally Gheria) was captured by Chhatrapati Shivaji Maharaj in 1653 and renamed 'Fortress of Victory.' He expanded its single wall into three concentric layers of 36-foot-high laterite ramparts fortified with 27 massive bastions.",
+    "overviewP2": "Underwater off the western ramparts lies a remarkable feat of 17th-century marine engineering: a submerged 3-meter-thick laterite wall built 8 feet below high-tide level that silently tore open the hulls of attacking European frigates. Remarkably, in 1868, astronomer Norman Lockyer and Pierre Janssen discovered the element Helium during a solar eclipse observed from Vijaydurg's Sadashiv Buruj!",
+    "architecturalPillars": [
+      {
+        "title": "Submerged Anti-Ship Reef Wall",
+        "desc": "An underwater stone barrier 122 meters long built beneath the waves to wreck approaching enemy warships.",
+        "meta": "SUBSURFACE NAVAL TRAP"
+      },
+      {
+        "title": "Waghotan Creek Graving Dock",
+        "desc": "Up the adjacent Waghotan creek, Admiral Kanhoji Angre built dry docks capable of repairing 500-ton Pal and Gurab warships.",
+        "meta": "MARATHA SHIPBUILDING DOCKYARD"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Gheria, Fortress of Victory",
+      "architect": "Raja Bhoja II / Chhatrapati Shivaji Maharaj (1653)",
+      "rulingDynasty": "Maratha Empire & Angre Admiralty",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "On 18 August 1868, solar spectroscopy from Vijaydurg Fort revealed the element Helium to science.",
+      "quoteAuthor": "Royal Astronomical Society Archives"
+    },
+    "sites": [
+      {
+        "name": "Triple Laterite Ramparts & 27 Bastions (तिहेरी तटबंदी)",
+        "subtitle": "Three Concentric Defensive Rings Rising 36 Feet",
+        "badge": "COASTAL CITADEL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vijaydurg_Fort_20.jpg",
+        "desc": "Massive laterite masonry walls with two-storey cannon embrasures overlooking the Waghotan estuary.",
+        "loc": "Northern & Western Front",
+        "elev": "18 m Rampart"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1653",
+        "title": "1653 — Captured & Expanded as Vijaydurg",
+        "badge": "VICTORY CITADEL",
+        "desc": "Chhatrapati Shivaji Maharaj captures Gheria from Adilshah, adds two outer defensive walls, and renames it Vijaydurg.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "PENINSULA WALK",
+        "gradeLabel": "Easy",
+        "title": " हनुमान दरवाजा & Dindi Gate Circuit",
+        "desc": "Direct walk-in entrance from Vijaydurg port jetty through Hanuman Darwaza and around the 17-acre ramparts.",
+        "distance": "2.4 km Circuit",
+        "duration": "2.0 Hours",
+        "gain": "18 m Coastal Peninsula",
+        "water": "Port Village & ASI Entrance",
+        "cta": "Download Vijaydurg Circuit GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Vijaydurg Jetty (0m)",
+        "elev": 2
+      },
+      {
+        "label": "Hanuman Darwaza (8m)",
+        "elev": 8
+      },
+      {
+        "label": "Khalbatkhana (14m)",
+        "elev": 14
+      },
+      {
+        "label": "Sadashiv Buruj (18m)",
+        "elev": 18
+      }
+    ],
+    "connectedForts": [
+      "sindhudurg",
+      "suvarnadurg",
+      "panhala"
+    ]
+  },
+  {
+    "id": "panhala",
+    "name": "Panhala Fort",
+    "marathiName": "किल्ले पन्हाळा",
+    "epithet": "पावनखिंडीची साक्ष — Sentinel of the Sahyadri Pass",
+    "district": "Kolhapur",
+    "region": "Kolhapur",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "SOUTHERN CAPITAL",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Monument N-MH-K18",
+    "elevationMeters": 845,
+    "elevationDisplay": "845 m (2,772 ft)",
+    "grade": "Easy",
+    "baseVillage": "Panhala Town",
+    "endurance": "2.5 Hours Heritage Walk",
+    "trailTime": "2.5 Hours",
+    "steps": "Teen Darwaza & Rampart Circuit",
+    "era": "Shilahara, Chhatrapati Shivaji Maharaj & Maharani Tarabai",
+    "water": "Perennial (Andhar Bavadi & Someshwar)",
+    "lat": 16.8115,
+    "lng": 74.1078,
+    "mapX": 46.5,
+    "mapY": 77.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Panhala_fort.JPG",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Panhala_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Panhala_Fort",
+    "shortDesc": "Largest fort in the Deccan with a 14 km perimeter, site of Chhatrapati Shivaji Maharaj's 1660 breakout to Vishalgad and Maharani Tarabai's capital.",
+    "mapSubtitle": "Pavan Khind Heritage (1660)",
+    "overviewTitle": "The 14-Kilometer Citadel of Baji Prabhu Deshpande & Maharani Tarabai",
+    "overviewP1": "Commanding the Bavda pass between Kolhapur and the Konkan at 845 meters, Panhala is one of India's largest hill forts, enclosed by 7 kilometers of double-walled stone ramparts. Here Chhatrapati Shivaji Maharaj spent over 500 days across his lifetime.",
+    "overviewP2": "On the stormy monsoon night of 13 July 1660, Chhatrapati Shivaji Maharaj broke out of Siddi Jauhar's 40,000-man siege toward Vishalgad while Shiva Kashid acted as a royal decoy and Baji Prabhu Deshpande with 300 Bandal warriors made their immortal last stand at Ghod Khind (Pavan Khind). Later, Maharani Tarabai ruled the Maratha Empire from Panhala.",
+    "architecturalPillars": [
+      {
+        "title": "Andhar Bavadi (Three-Storey Hidden Well)",
+        "desc": "A three-tiered subterranean fort-within-a-fort built over the main water source so besieging armies could never poison the well.",
+        "meta": "HYDRO-DEFENSIVE ARCHITECTURE"
+      },
+      {
+        "title": "Amberkhana Royal Granaries",
+        "desc": "Three colossal vaulted stone granaries — Ganga, Yamuna, and Saraswati — capable of storing 25,000 khandis of grain.",
+        "meta": "STRATEGIC SIEGE RESERVES"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Panhalgad, Panhalla",
+      "architect": "Raja Bhoja II (1178) & Maratha Expansions",
+      "rulingDynasty": "Chhatrapati Shivaji Maharaj & Maharani Tarabai",
+      "preservation": "UNESCO World Heritage Site & ASI Protected",
+      "quote": "Let the cannon roar from Vishalgad first — only then will Baji Prabhu yield his breath at Pavan Khind.",
+      "quoteAuthor": "Panhala-Vishalgad Powada Ballad"
+    },
+    "sites": [
+      {
+        "name": "Sajja Kothi & Teen Darwaza (सज्जा कोठी आणि तीन दरवाजा)",
+        "subtitle": "Cliffside Pavilion & Triple-Arched Western Gate",
+        "badge": "ARCHITECTURAL GEM",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Panhala_fort.JPG",
+        "desc": "Sajja Kothi overlooks the Warana valley where Prince Sambhaji once stayed, while Teen Darwaza features intricate stone carvings and lead-inlaid bastions.",
+        "loc": "Western & Eastern Rim",
+        "elev": "845 m Plateau"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1660",
+        "title": "13 July 1660 — The Epic Escape to Vishalgad & Pavan Khind",
+        "badge": "IMMORTAL SACRIFICE",
+        "desc": "Chhatrapati Shivaji Maharaj escapes Siddi Jauhar's siege through torrential monsoon rain; Baji Prabhu Deshpande holds Ghod Khind until the signal cannons fire.",
+        "highlight": true
+      },
+      {
+        "year": "1700",
+        "title": "1700–1707 — Capital of Maharani Tarabai",
+        "badge": "WAR OF INDEPENDENCE",
+        "desc": "Maharani Tarabai directs the Maratha counter-offensive against Aurangzeb from Panhala, founding the Kolhapur Chhatrapati seat.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "LEGENDARY ENDURANCE TRAIL",
+        "gradeLabel": "Moderate-Difficult",
+        "title": "Panhala to Pavan Khind Heritage Trek",
+        "desc": "Historic monsoon footsteps trail departing Pusati Buruj on Panhala toward Mhalunge, Masai Plateau, and Pavan Khind.",
+        "distance": "6.5 km Fort Circuit (44 km Full Pavan Khind Trail)",
+        "duration": "2.5 Hours Fort Circuit",
+        "gain": "845 m Plateau",
+        "water": "Abundant throughout Panhala",
+        "cta": "Download Panhala Heritage GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Char Darwaza Base (680m)",
+        "elev": 680
+      },
+      {
+        "label": "Teen Darwaza (810m)",
+        "elev": 810
+      },
+      {
+        "label": "Amberkhana Plaza (835m)",
+        "elev": 835
+      },
+      {
+        "label": "Sajja Kothi Crest (845m)",
+        "elev": 845
+      }
+    ],
+    "connectedForts": [
+      "vijaydurg",
+      "pratapgad",
+      "sindhudurg"
+    ]
+  },
+  {
+    "id": "janjira",
+    "name": "Murud-Janjira Fort",
+    "marathiName": "किल्ले मुरुड-जंजिरा",
+    "epithet": "अजिंक्य सागरी किल्ला — Oval Island Marine Fortress",
+    "district": "Raigad",
+    "region": "Raigad",
+    "type": "Sea Fort (Jaldurg)",
+    "categoryBadge": "ISLAND MARINE CITADEL",
+    "unesco": "ASI Protected National Monument",
+    "asi": "ASI Monument N-MH-M64",
+    "elevationMeters": 14,
+    "elevationDisplay": "Sea Level (Rajapuri Bay)",
+    "grade": "Easy",
+    "baseVillage": "Rajapuri Jetty (Murud)",
+    "endurance": "20 Min Sailboat + 1.5 Hr Walk",
+    "trailTime": "1.5 Hours",
+    "steps": "Marine Gate & Balekilla Steps",
+    "era": "16th–17th Century Coastal History",
+    "water": "2 Large Freshwater Lakes",
+    "lat": 18.2999,
+    "lng": 72.9644,
+    "mapX": 31.8,
+    "mapY": 49.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Murud-Janjira_Fort%2C_Raigad%2C_India.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Murud-Janjira",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Murud-Janjira",
+    "shortDesc": "Oval marine citadel rising 40 feet out of the Arabian Sea off Rajapuri, encircled by 19 intact rounded bastions and housing the famous Kalal Bangadi cannon.",
+    "mapSubtitle": "19-Bastion Marine Citadel",
+    "overviewTitle": "The 40-Foot Wall Rising Directly Out of the Arabian Sea",
+    "overviewP1": "Located on an oval rock island off the coastal town of Murud in Raigad district, Janjira is ringed by 40-foot-high granite and basalt walls that rise straight from the sea without a beach apron. Nineteen massive rounded bastions — still armed with giant cannons including *Kalal Bangadi*, *Chavri*, and *Landa Kasam* — guard every compass bearing.",
+    "overviewP2": "To counter Janjira and blockade its harbor, Chhatrapati Shivaji Maharaj and Chhatrapati Sambhaji Maharaj constructed the nearby island fortress of Padmadurg (Kasa Fort) directly across the bay.",
+    "architecturalPillars": [
+      {
+        "title": "Kalal Bangadi 22-Ton Cannon",
+        "desc": "Forged from five-metal Panchdhatu alloy, resting heat-resistant even under the midday Konkan sun.",
+        "meta": "3RD LARGEST CANNON IN INDIA"
+      },
+      {
+        "title": "Sher-Shikari Relief & Hidden Gate",
+        "desc": "The main Pir-Panjatan gate faces the mainland at an oblique angle so boats must turn 90 degrees right at the steps.",
+        "meta": "AMPHIBIOUS GATEWAY DESIGN"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Jazira-e-Mahroob, Janjira",
+      "architect": "Koli Chief Ram Patil (Origins) / Malik Ambar (Stone Rebuild)",
+      "rulingDynasty": "Konkan Maritime Era",
+      "preservation": "ASI Monument of National Importance",
+      "quote": "Its nineteen semi-circular bastions rise directly out of the tide like a stone battleship anchored in Rajapuri creek.",
+      "quoteAuthor": "Archaeological Survey of India Gazetteer"
+    },
+    "sites": [
+      {
+        "name": "Kalal Bangadi Cannon Bastion (कलाल बांगडी तोफ)",
+        "subtitle": "18-Foot Panchdhatu Artillery Piece Overlooking the Sea",
+        "badge": "COASTAL ARTILLERY",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Murud-Janjira_Fort%2C_Raigad%2C_India.jpg",
+        "desc": "Famous long-range coastal cannon mounted on the western bastion facing the open Arabian Sea and Padmadurg.",
+        "loc": "Western Sea Bastion",
+        "elev": "12 m Bastion"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1676",
+        "title": "1676 — Construction of Neighboring Padmadurg by Chhatrapati Shivaji Maharaj",
+        "badge": "MARATHA NAVAL COUNTER",
+        "desc": "Chhatrapati Shivaji Maharaj builds Padmadurg (Kasa Fort) on the Kansa rock reef northwest of Janjira to contest command of Rajapuri bay.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "SAILBOAT CROSSING",
+        "gradeLabel": "Easy",
+        "title": "Rajapuri Jetty Sailboat Transfer",
+        "desc": "Traditional wooden sailboats carry visitors from Rajapuri jetty across the bay directly to the stone steps of Janjira.",
+        "distance": "1.0 km Sea Channel",
+        "duration": "20 Mins Sail + 1.5 Hrs Explore",
+        "gain": "14 m Central Citadel",
+        "water": "Available at Rajapuri Jetty",
+        "cta": "Download Janjira & Padmadurg Map",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Rajapuri Jetty (0m)",
+        "elev": 1
+      },
+      {
+        "label": "Pir-Panjatan Gate (2m)",
+        "elev": 2
+      },
+      {
+        "label": "Freshwater Talav (8m)",
+        "elev": 8
+      },
+      {
+        "label": "Upper Citadel (14m)",
+        "elev": 14
+      }
+    ],
+    "connectedForts": [
+      "raigad",
+      "suvarnadurg",
+      "sindhudurg"
+    ]
+  },
+  {
+    "id": "harishchandragad",
+    "name": "Harishchandragad Fort",
+    "marathiName": "किल्ले हरिश्चंद्रगड",
+    "epithet": "कोकणकड्याचा महामेरू — Ancient Citadel of Konkan Kada",
+    "district": "Nashik",
+    "region": "Nashik",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "KONKAN KADA PRECIPICE",
+    "unesco": "ASI Protected Ancient Temple & Caves",
+    "asi": "ASI Monument N-MH-A19",
+    "elevationMeters": 1424,
+    "elevationDisplay": "1,424 m (4,671 ft)",
+    "grade": "Difficult",
+    "baseVillage": "Pachnai / Khireshwar",
+    "endurance": "2.5 Hrs (Pachnai) / 5 Hrs (Khireshwar)",
+    "trailTime": "3.5 Hours",
+    "steps": "Rock-Cut Junnar Darwaza & Tolar Khind",
+    "era": "Kalachuri (6th Century) & Maratha (1747)",
+    "water": "Perennial (Saptatirtha & Caves)",
+    "lat": 19.3864,
+    "lng": 73.7781,
+    "mapX": 43.0,
+    "mapY": 26.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Harishchandragad_Pano4.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Harishchandragad",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Harishchandragad",
+    "shortDesc": "Ancient mountain citadel straddling the Nashik-Ahilyanagar-Thane border, world-famous for the 1,800-foot concave overhang of Konkan Kada and Kedareshwar Cave.",
+    "mapSubtitle": "Konkan Kada (1,424 m)",
+    "overviewTitle": "The 1,800-Foot Concave Cobra Hood Overlooking the Konkan",
+    "overviewP1": "Dating back to the 6th-century Kalachuri dynasty and referenced in the Matsya and Skanda Puranas, Harishchandragad towers at 1,424 meters on the Malshej-Bhandardara crest. Captured by the Marathas from the Mughals in 1747, it combines rugged Sahyadri geology with 11th-century Hemadpanti rock-cut architecture.",
+    "overviewP2": "Its crown jewel is the *Konkan Kada* — a colossal semi-circular basalt cliff dropping 1,800 feet vertically into the Konkan plains with a natural concave overhang shaped like a cobra's hood, famous for vertical updrafts and rare circular Brocken spectre rainbows.",
+    "architecturalPillars": [
+      {
+        "title": "Konkan Kada Concave Overhang",
+        "desc": "A 1.5-km-wide horseshoe amphitheater cliff dropping 1,800 feet straight down into the Thane-Konkan foothills.",
+        "meta": "GEOLOGICAL AMPHITHEATER"
+      },
+      {
+        "title": "Kedareshwar Monolithic Cave",
+        "desc": "A subterranean rock cave housing a 5-foot Shiva Linga surrounded by waist-deep ice-cold mountain water and a single standing pillar.",
+        "meta": "11TH-CENTURY ROCK-CUT SANCTUARY"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Suvarnagiri, Harishchandreshwar",
+      "architect": "Kalachuri & Hemadpanti Artisans",
+      "rulingDynasty": "Kalachuri, Yadava, Maratha Empire (1747)",
+      "preservation": "ASI Protected Monument",
+      "quote": "At Konkan Kada, the Western Ghats plunge 1,800 feet in a single overhanging sweep of black basalt.",
+      "quoteAuthor": "Sahyadri Orographic Survey"
+    },
+    "sites": [
+      {
+        "name": "Konkan Kada (कोकणकडा)",
+        "subtitle": "1,800-Foot Vertical Concave Basalt Escarpment",
+        "badge": "NATURAL WONDER",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Harishchandragad_Pano4.jpg",
+        "desc": "Iconic overhanging cliff edge where strong thermal winds often blow lightweight objects upward into the sky.",
+        "loc": "Western Rim",
+        "elev": "1,380 m Overlook"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1747",
+        "title": "1747 — Maratha Conquest & Heroism of Joshi Kulkarni",
+        "badge": "MARATHA CAMPAIGN",
+        "desc": "Maratha forces capture Harishchandragad from the Mughals, securing the northern Malshej-Naneghat frontier.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "SCENIC RIDGE",
+        "gradeLabel": "Easy-Moderate",
+        "title": "Pachnai Village Route",
+        "desc": "Shortest and easiest approach from the Akole/Nashik side climbing up a gentle gorge in 2 hours.",
+        "distance": "3.5 km One Way",
+        "duration": "2.0 – 2.5 Hours",
+        "gain": "+380 m Vertical",
+        "water": "Saptatirtha Pushkarni & Cave Cisterns",
+        "cta": "Download Harishchandragad GPX",
+        "primary": true
+      },
+      {
+        "badge": "CLASSIC PASS",
+        "gradeLabel": "Difficult",
+        "title": "Khireshwar — Tolar Khind Trail",
+        "desc": "Historic Malshej-side trek ascending through Tolar Khind rock patches and seven successive ridges.",
+        "distance": "8.0 km One Way",
+        "duration": "4.5 – 5.0 Hours",
+        "gain": "+760 m Vertical",
+        "water": "Carry 3 Liters on Ridge",
+        "cta": "Download Tolar Khind GPX",
+        "primary": false
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Khireshwar Base (660m)",
+        "elev": 660
+      },
+      {
+        "label": "Tolar Khind (1020m)",
+        "elev": 1020
+      },
+      {
+        "label": "Harishchandreshwar (1290m)",
+        "elev": 1290
+      },
+      {
+        "label": "Konkan Kada (1380m)",
+        "elev": 1380
+      },
+      {
+        "label": "Taramati Peak (1424m)",
+        "elev": 1424
+      }
+    ],
+    "connectedForts": [
+      "salher",
+      "shivneri",
+      "lohagad"
+    ]
+  },
+  {
+    "id": "salher",
+    "name": "Salher Fort",
+    "marathiName": "किल्ले साल्हेर",
+    "epithet": "सह्याद्रीचे सर्वोच्च शिखरदुर्ग — Highest Fort in Maharashtra",
+    "district": "Nashik",
+    "region": "Nashik",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "HIGHEST FORT (1,567 m)",
+    "unesco": "UNESCO World Heritage Site (2025)",
+    "asi": "ASI Protected Heritage Site",
+    "elevationMeters": 1567,
+    "elevationDisplay": "1,567 m (5,141 ft)",
+    "grade": "Difficult",
+    "baseVillage": "Salher / Waghambe",
+    "endurance": "3.0 – 3.5 Hours",
+    "trailTime": "3.0 Hours",
+    "steps": "8 Rock-Cut Gateways",
+    "era": "Maratha Empire (Battle of Salher 1672)",
+    "water": "Perennial (Ganga Sagar Pond)",
+    "lat": 20.7239,
+    "lng": 73.9428,
+    "mapX": 46.5,
+    "mapY": 16.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Salher_Fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Salher",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Salher_Fort",
+    "shortDesc": "Standing at 1,567 meters in the Baglan (Selbari) range of Nashik, Salher is the highest fortified peak in the Sahyadris and site of the great 1672 Maratha victory.",
+    "mapSubtitle": "Highest Fort in Sahyadri (1,567 m)",
+    "overviewTitle": "Roof of the Fortified Sahyadris & Site of the 1672 Battle of Salher",
+    "overviewP1": "Soaring to 1,567 meters (5,141 ft) in the Baglan region of Nashik district — second only to Kalsubai peak in overall height — Salher is the highest fort in Maharashtra. Paired with its twin fortress Mulher, it commanded the vital Baglan trade routes connecting the Deccan with Surat and Burhanpur.",
+    "overviewP2": "In February 1672, the plains below Salher witnessed the first large-scale open-field pitched battle won by the Maratha army under Peshwa Moropant Pingale and Senapati Prataprao Gujar against a 40,000-strong Mughal army led by Ikhlas Khan and Bahlol Khan, during which Suryarao Kakade fell heroically.",
+    "architecturalPillars": [
+      {
+        "title": "Eight Successive Rock-Cut Gates",
+        "desc": "Both the Salherwadi and Waghambe routes climb through series of rock-chiseled stairways and arched stone gates.",
+        "meta": "SELBARI RANGE ACROPOLIS"
+      },
+      {
+        "title": "Parashurama Summit Shrine",
+        "desc": "At the very highest 1,567 m pinnacle sits the ancient temple of Lord Parashurama with 360-degree views across Gujarat and Baglan.",
+        "meta": "1,567 M SUMMIT SANCTUARY"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Roof of Baglan, Salher-Salota Twin",
+      "architect": "Bagul Dynasty & Maratha Fortification",
+      "rulingDynasty": "Maratha Empire (Captured Jan 1671)",
+      "preservation": "UNESCO World Heritage Site (2025)",
+      "quote": "As many horses, elephants, and camels were captured at Salher as had never before fallen into Maratha hands in a single pitched battle.",
+      "quoteAuthor": "Sabhasad Bakhar (Battle of Salher, 1672)"
+    },
+    "sites": [
+      {
+        "name": "Parashurama Summit & Ganga Sagar Talav (परशुराम मंदिर)",
+        "subtitle": "1,567-Meter Apex of Fortified Maharashtra",
+        "badge": "HIGHEST SUMMIT",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Salher_Fort.jpg",
+        "desc": "High mountain reservoir surrounded by rock-cut caves and the steep final stair climb to the 1,567 m peak.",
+        "loc": "Summit Pinnacle",
+        "elev": "1,567 m Peak"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1671",
+        "title": "Jan 1671 — Captured Personally by Chhatrapati Shivaji Maharaj",
+        "badge": "BAGLAN CAMPAIGN",
+        "desc": "Chhatrapati Shivaji Maharaj storms Salher during his northern offensive following the second sack of Surat.",
+        "highlight": false
+      },
+      {
+        "year": "1672",
+        "title": "Feb 1672 — The Historic Open-Field Battle of Salher",
+        "badge": "LANDMARK PITCHED BATTLE",
+        "desc": "Moropant Pingale and Prataprao Gujar crush the besieging Mughal army of Ikhlas Khan in a legendary open-field victory.",
+        "highlight": true
+      }
+    ],
+    "routes": [
+      {
+        "badge": "BAGLAN HIGHLAND",
+        "gradeLabel": "Moderate-Difficult",
+        "title": "Waghambe — Salher-Salota Col Route",
+        "desc": "Scenic ascent via the col between Salher and neighboring Salota fort, passing through six rock-cut gates.",
+        "distance": "4.5 km One Way",
+        "duration": "2.5 – 3.0 Hours",
+        "gain": "+590 m Vertical",
+        "water": "Ganga Sagar Talav Cisterns",
+        "cta": "Download Salher-Salota GPX",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Waghambe Base (970m)",
+        "elev": 970
+      },
+      {
+        "label": "Salher-Salota Col (1240m)",
+        "elev": 1240
+      },
+      {
+        "label": "Ganga Sagar Plateau (1440m)",
+        "elev": 1440
+      },
+      {
+        "label": "Parashurama Peak (1567m)",
+        "elev": 1567
+      }
+    ],
+    "connectedForts": [
+      "harishchandragad",
+      "daulatabad",
+      "shivneri"
+    ]
+  },
+  {
+    "id": "daulatabad",
+    "name": "Daulatabad (Devagiri) Fort",
+    "marathiName": "किल्ले देवगिरी (दौलताबाद)",
+    "epithet": "अभेद्य देवगिरी — Conical Monolithic Citadel of the Deccan",
+    "district": "Sambhajinagar",
+    "region": "Sambhajinagar",
+    "type": "Hill Fort (Giridurg)",
+    "categoryBadge": "YADAVA CAPITAL CITADEL",
+    "unesco": "ASI Protected National Monument",
+    "asi": "ASI Monument N-MH-A42",
+    "elevationMeters": 600,
+    "elevationDisplay": "600 m (200 m Conical Monolith)",
+    "grade": "Moderate",
+    "baseVillage": "Daulatabad (Sambhajinagar)",
+    "endurance": "2.5 Hours",
+    "trailTime": "2.5 Hours",
+    "steps": "750 Steps + Andheri Dark Passage",
+    "era": "Yadava Dynasty (1187) & Maratha Era",
+    "water": "Perennial (Hathi Haud & Moat)",
+    "lat": 19.9427,
+    "lng": 75.2135,
+    "mapX": 68.5,
+    "mapY": 21.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Daulatabad_Fort.jpg",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+    "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Daulatabad_Fort",
+    "shortDesc": "Carved out of an isolated 200-meter conical basalt hill by Yadava King Bhillama V in 1187, defended by triple walls, a wet moat, and the pitch-dark Andheri labyrinth.",
+    "mapSubtitle": "Yadava Capital (Devagiri)",
+    "overviewTitle": "The Engineered Conical Monolith & Pitch-Dark Labyrinth",
+    "overviewP1": "Founded around 1187 CE by Yadava sovereign Bhillama V as *Devagiri* ('Hill of the Gods'), this extraordinary citadel in Chhatrapati Sambhajinagar stands on an isolated conical basalt hill whose lower 50 meters were hand-chiseled completely smooth and vertical so not even a lizard could scale the rock.",
+    "overviewP2": "No enemy ever took Devagiri by direct military storm. To reach the upper Balakot summit, attackers had to cross a concentric triple-walled city (Amberkot and Mahakot), a 40-foot crocodile moat with a submerging drawbridge, and the *Andheri* — a spiraling pitch-black subterranean rock tunnel fitted with false doors pointing over cliff drops and an iron brazier that filled the tunnel with suffocating smoke.",
+    "architecturalPillars": [
+      {
+        "title": "Andheri Subterranean Labyrinth",
+        "desc": "Spiral pitch-black tunnel chiseled through the heart of the mountain with uneven steps, blind traps, and smoke chambers.",
+        "meta": "INGENIOUS ANTI-SIEGE LABYRINTH"
+      },
+      {
+        "title": "50-Meter Shaved Vertical Escarpment",
+        "desc": "Yadava stonecutters chiselled the entire circumference of the conical mountain base into a mirror-smooth 90-degree vertical wall.",
+        "meta": "MONOLITHIC SCARP CHISELING"
+      }
+    ],
+    "infobox": {
+      "otherNames": "Devagiri (Hill of the Gods)",
+      "architect": "Yadava King Bhillama V (1187 CE)",
+      "rulingDynasty": "Seuna Yadavas of Devagiri, Nizamshahi, Maratha Empire",
+      "preservation": "ASI Ticketed National Monument",
+      "quote": "Every yard of Devagiri is a treatise on medieval counter-siege engineering.",
+      "quoteAuthor": "Deccan Archaeological Survey"
+    },
+    "sites": [
+      {
+        "name": "Andheri Tunnel & Mendha Toph (अंधेरी भुयार आणि मेंढा तोफ)",
+        "subtitle": "Subterranean Defense Maze & Ram-Headed Bronze Cannon",
+        "badge": "DEFENSE MARVEL",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Daulatabad_Fort_-_Exterior_of_Inner_Fort.JPG",
+        "desc": "Features the massive 16-foot Mendha Toph (Ram-headed cannon) and the Chini Mahal where Abul Hasan Tana Shah was imprisoned.",
+        "loc": "Mid-Citadel & Balakot",
+        "elev": "600 m Summit"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1187",
+        "title": "1187 — Founded as Devagiri by Yadava King Bhillama V",
+        "badge": "YADAVA CAPITAL",
+        "desc": "Bhillama V establishes Devagiri as the royal capital of the Seuna Yadava Empire, fostering early Marathi literature including Sant Dnyaneshwar's era.",
+        "highlight": true
+      },
+      {
+        "year": "1760",
+        "title": "1760 — Brought Under Maratha Control by Sadashivrao Bhau",
+        "badge": "MARATHA EXPANSION",
+        "desc": "Following the Battle of Udgir, Devagiri enters the Maratha dominion.",
+        "highlight": false
+      }
+    ],
+    "routes": [
+      {
+        "badge": "HERITAGE CITADEL CLIMB",
+        "gradeLabel": "Moderate",
+        "title": "Mahakot — Andheri — Baradari Summit Walk",
+        "desc": "Guided heritage ascent from the outer triple gate past Chand Minar, over the moat bridge, through the Andheri tunnel to the Baradari apex.",
+        "distance": "3.2 km Round Trip",
+        "duration": "2.0 – 2.5 Hours",
+        "gain": "+200 m Conical Climb",
+        "water": "ASI Facilities & Base Plaza",
+        "cta": "Download Devagiri Citadel Map",
+        "primary": true
+      }
+    ],
+    "elevationProfile": [
+      {
+        "label": "Mahakot Gate (400m)",
+        "elev": 400
+      },
+      {
+        "label": "Moat Drawbridge (445m)",
+        "elev": 445
+      },
+      {
+        "label": "Andheri Tunnel (510m)",
+        "elev": 510
+      },
+      {
+        "label": "Baradari Summit (600m)",
+        "elev": 600
+      }
+    ],
+    "connectedForts": [
+      "salher",
+      "harishchandragad",
+      "shivneri"
+    ]
+  }
+]

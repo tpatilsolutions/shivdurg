@@ -1,0 +1,110 @@
+{
+  "id": "shivneri",
+  "name": "Shivneri Fort",
+  "marathiName": "किल्ले शिवनेरी",
+  "epithet": "शिवजन्मभूमी — Sacred Birthplace of Chhatrapati Shivaji Maharaj",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Capital Citadel",
+  "categoryBadge": "ROYAL BIRTHPLACE (1630)",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-P35",
+  "elevationMeters": 1067,
+  "elevationDisplay": "1,067 m (3,500 ft)",
+  "grade": "Easy",
+  "baseVillage": "Junnar Town",
+  "endurance": "1.5 Hours",
+  "trailTime": "1.5 Hours",
+  "steps": "7 Fortified Gateways",
+  "era": "19 February 1630 (Shivjayanti)",
+  "water": "Perennial (Ganga-Jamuna & Badami Talav)",
+  "lat": 19.1992,
+  "lng": 73.8597,
+  "mapX": 43.2,
+  "mapY": 32.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Inside_shivneri_fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Shivneri_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Shivneri_Fort",
+  "shortDesc": "Sacred triangular hill fortress in Junnar where Chhatrapati Shivaji Maharaj was born on 19 February 1630, protected by seven monumental gates.",
+  "mapSubtitle": "Birthplace of Chhatrapati Shivaji Maharaj",
+  "overviewTitle": "The Sacred Cradle of Hindavi Swarajya in Junnar",
+  "overviewP1": "Overlooking the ancient trade city of Junnar and the Naneghat pass in northern Pune district, Shivneri is a triangular flat-topped hill fortress protected by sheer basalt scarp walls and a remarkable sequence of seven iron-spiked gates (Maha Darwaza, Parvangicha, Hatti, Peer, शिवाय, Kulup, and Ambar).",
+  "overviewP2": "Here, on 19 February 1630, Rajmata Jijabai gave birth to Chhatrapati Shivaji Maharaj, naming him after Goddess Shivai Devi whose ancient rock-cut shrine sits on the fort's eastern escarpment.",
+  "architecturalPillars": [
+    {
+      "title": "Seven-Gate Defense Concentricity",
+      "desc": "Seven successive arched gateways with anti-elephant iron spikes guard the winding stairway up the western slope.",
+      "meta": "SEVEN-TIERED GATEWAY SYSTEM"
+    },
+    {
+      "title": "Badami Talav & Ganga-Jamuna Cisterns",
+      "desc": "Almond-shaped central water reservoir flanked by rock-cut Satavahana-era cisterns.",
+      "meta": "2,000-YEAR HYDROLOGY"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Shivjanmabhoomi Junnar",
+    "architect": "Satavahana, Yadava & Bhosale Era",
+    "rulingDynasty": "Shahaji Raje Bhosale (1630)",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "On the auspicious hilltop of Shivneri, Rajmata Jijabai instilled the dream of Swarajya in young Shivba.",
+    "quoteAuthor": "Shivbharat by Kavindra Paramanand"
+  },
+  "sites": [
+    {
+      "name": "Shiv Janmasthan Building (शिवजन्मस्थान इमारत)",
+      "subtitle": "Historic Two-Storey Stone Residence of 19 Feb 1630",
+      "badge": "SACRED BIRTHPLACE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Inside_shivneri_fort.jpg",
+      "desc": "Preserved stone mansion featuring the sacred cradle chamber on the ground floor and panoramic upper terrace.",
+      "loc": "Central Summit",
+      "elev": "1,060 m Elevation"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1630",
+      "title": "19 Feb 1630 — Birth of Chhatrapati Shivaji Maharaj",
+      "badge": "SHIVJAYANTI",
+      "desc": "Chhatrapati Shivaji Maharaj is born to Rajmata Jijabai and Shahaji Raje Bhosale inside Shivneri Fort.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "SEVEN GATES STEPWAY",
+      "gradeLabel": "Easy",
+      "title": "Maha Darwaza Seven-Gate Ascent",
+      "desc": "Paved stone stairway passing through all seven historic fortified gates (or alternative Chain Route on the eastern rock face).",
+      "distance": "2.2 km One Way",
+      "duration": "1.0 – 1.5 Hours",
+      "gain": "+300 m Vertical",
+      "water": "Ganga-Jamuna Cisterns & Gardens",
+      "cta": "Download Shivneri Heritage GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Junnar Base (760m)",
+      "elev": 760
+    },
+    {
+      "label": "Maha Darwaza (850m)",
+      "elev": 850
+    },
+    {
+      "label": "Shivai Devi Shrine (960m)",
+      "elev": 960
+    },
+    {
+      "label": "Shiv Janmasthan (1067m)",
+      "elev": 1067
+    }
+  ],
+  "connectedForts": [
+    "lohagad",
+    "harishchandragad",
+    "sinhagad"
+  ]
+}

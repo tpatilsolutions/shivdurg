@@ -1,0 +1,110 @@
+{
+  "id": "janjira",
+  "name": "Murud-Janjira Fort",
+  "marathiName": "किल्ले मुरुड-जंजिरा",
+  "epithet": "अजिंक्य सागरी किल्ला — Oval Island Marine Fortress",
+  "district": "Raigad",
+  "region": "Raigad",
+  "type": "Sea Fort (Jaldurg)",
+  "categoryBadge": "ISLAND MARINE CITADEL",
+  "unesco": "ASI Protected National Monument",
+  "asi": "ASI Monument N-MH-M64",
+  "elevationMeters": 14,
+  "elevationDisplay": "Sea Level (Rajapuri Bay)",
+  "grade": "Easy",
+  "baseVillage": "Rajapuri Jetty (Murud)",
+  "endurance": "20 Min Sailboat + 1.5 Hr Walk",
+  "trailTime": "1.5 Hours",
+  "steps": "Marine Gate & Balekilla Steps",
+  "era": "16th–17th Century Coastal History",
+  "water": "2 Large Freshwater Lakes",
+  "lat": 18.2999,
+  "lng": 72.9644,
+  "mapX": 31.8,
+  "mapY": 49.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Murud-Janjira_Fort%2C_Raigad%2C_India.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Murud-Janjira",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Murud-Janjira",
+  "shortDesc": "Oval marine citadel rising 40 feet out of the Arabian Sea off Rajapuri, encircled by 19 intact rounded bastions and housing the famous Kalal Bangadi cannon.",
+  "mapSubtitle": "19-Bastion Marine Citadel",
+  "overviewTitle": "The 40-Foot Wall Rising Directly Out of the Arabian Sea",
+  "overviewP1": "Located on an oval rock island off the coastal town of Murud in Raigad district, Janjira is ringed by 40-foot-high granite and basalt walls that rise straight from the sea without a beach apron. Nineteen massive rounded bastions — still armed with giant cannons including *Kalal Bangadi*, *Chavri*, and *Landa Kasam* — guard every compass bearing.",
+  "overviewP2": "To counter Janjira and blockade its harbor, Chhatrapati Shivaji Maharaj and Chhatrapati Sambhaji Maharaj constructed the nearby island fortress of Padmadurg (Kasa Fort) directly across the bay.",
+  "architecturalPillars": [
+    {
+      "title": "Kalal Bangadi 22-Ton Cannon",
+      "desc": "Forged from five-metal Panchdhatu alloy, resting heat-resistant even under the midday Konkan sun.",
+      "meta": "3RD LARGEST CANNON IN INDIA"
+    },
+    {
+      "title": "Sher-Shikari Relief & Hidden Gate",
+      "desc": "The main Pir-Panjatan gate faces the mainland at an oblique angle so boats must turn 90 degrees right at the steps.",
+      "meta": "AMPHIBIOUS GATEWAY DESIGN"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Jazira-e-Mahroob, Janjira",
+    "architect": "Koli Chief Ram Patil (Origins) / Malik Ambar (Stone Rebuild)",
+    "rulingDynasty": "Konkan Maritime Era",
+    "preservation": "ASI Monument of National Importance",
+    "quote": "Its nineteen semi-circular bastions rise directly out of the tide like a stone battleship anchored in Rajapuri creek.",
+    "quoteAuthor": "Archaeological Survey of India Gazetteer"
+  },
+  "sites": [
+    {
+      "name": "Kalal Bangadi Cannon Bastion (कलाल बांगडी तोफ)",
+      "subtitle": "18-Foot Panchdhatu Artillery Piece Overlooking the Sea",
+      "badge": "COASTAL ARTILLERY",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Murud-Janjira_Fort%2C_Raigad%2C_India.jpg",
+      "desc": "Famous long-range coastal cannon mounted on the western bastion facing the open Arabian Sea and Padmadurg.",
+      "loc": "Western Sea Bastion",
+      "elev": "12 m Bastion"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1676",
+      "title": "1676 — Construction of Neighboring Padmadurg by Chhatrapati Shivaji Maharaj",
+      "badge": "MARATHA NAVAL COUNTER",
+      "desc": "Chhatrapati Shivaji Maharaj builds Padmadurg (Kasa Fort) on the Kansa rock reef northwest of Janjira to contest command of Rajapuri bay.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "SAILBOAT CROSSING",
+      "gradeLabel": "Easy",
+      "title": "Rajapuri Jetty Sailboat Transfer",
+      "desc": "Traditional wooden sailboats carry visitors from Rajapuri jetty across the bay directly to the stone steps of Janjira.",
+      "distance": "1.0 km Sea Channel",
+      "duration": "20 Mins Sail + 1.5 Hrs Explore",
+      "gain": "14 m Central Citadel",
+      "water": "Available at Rajapuri Jetty",
+      "cta": "Download Janjira & Padmadurg Map",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Rajapuri Jetty (0m)",
+      "elev": 1
+    },
+    {
+      "label": "Pir-Panjatan Gate (2m)",
+      "elev": 2
+    },
+    {
+      "label": "Freshwater Talav (8m)",
+      "elev": 8
+    },
+    {
+      "label": "Upper Citadel (14m)",
+      "elev": 14
+    }
+  ],
+  "connectedForts": [
+    "raigad",
+    "suvarnadurg",
+    "sindhudurg"
+  ]
+}

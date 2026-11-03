@@ -1,0 +1,117 @@
+{
+  "id": "daulatabad",
+  "name": "Daulatabad (Devagiri) Fort",
+  "marathiName": "किल्ले देवगिरी (दौलताबाद)",
+  "epithet": "अभेद्य देवगिरी — Conical Monolithic Citadel of the Deccan",
+  "district": "Sambhajinagar",
+  "region": "Sambhajinagar",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "YADAVA CAPITAL CITADEL",
+  "unesco": "ASI Protected National Monument",
+  "asi": "ASI Monument N-MH-A42",
+  "elevationMeters": 600,
+  "elevationDisplay": "600 m (200 m Conical Monolith)",
+  "grade": "Moderate",
+  "baseVillage": "Daulatabad (Sambhajinagar)",
+  "endurance": "2.5 Hours",
+  "trailTime": "2.5 Hours",
+  "steps": "750 Steps + Andheri Dark Passage",
+  "era": "Yadava Dynasty (1187) & Maratha Era",
+  "water": "Perennial (Hathi Haud & Moat)",
+  "lat": 19.9427,
+  "lng": 75.2135,
+  "mapX": 68.5,
+  "mapY": 21.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Daulatabad_Fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Daulatabad_Fort",
+  "shortDesc": "Carved out of an isolated 200-meter conical basalt hill by Yadava King Bhillama V in 1187, defended by triple walls, a wet moat, and the pitch-dark Andheri labyrinth.",
+  "mapSubtitle": "Yadava Capital (Devagiri)",
+  "overviewTitle": "The Engineered Conical Monolith & Pitch-Dark Labyrinth",
+  "overviewP1": "Founded around 1187 CE by Yadava sovereign Bhillama V as *Devagiri* ('Hill of the Gods'), this extraordinary citadel in Chhatrapati Sambhajinagar stands on an isolated conical basalt hill whose lower 50 meters were hand-chiseled completely smooth and vertical so not even a lizard could scale the rock.",
+  "overviewP2": "No enemy ever took Devagiri by direct military storm. To reach the upper Balakot summit, attackers had to cross a concentric triple-walled city (Amberkot and Mahakot), a 40-foot crocodile moat with a submerging drawbridge, and the *Andheri* — a spiraling pitch-black subterranean rock tunnel fitted with false doors pointing over cliff drops and an iron brazier that filled the tunnel with suffocating smoke.",
+  "architecturalPillars": [
+    {
+      "title": "Andheri Subterranean Labyrinth",
+      "desc": "Spiral pitch-black tunnel chiseled through the heart of the mountain with uneven steps, blind traps, and smoke chambers.",
+      "meta": "INGENIOUS ANTI-SIEGE LABYRINTH"
+    },
+    {
+      "title": "50-Meter Shaved Vertical Escarpment",
+      "desc": "Yadava stonecutters chiselled the entire circumference of the conical mountain base into a mirror-smooth 90-degree vertical wall.",
+      "meta": "MONOLITHIC SCARP CHISELING"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Devagiri (Hill of the Gods)",
+    "architect": "Yadava King Bhillama V (1187 CE)",
+    "rulingDynasty": "Seuna Yadavas of Devagiri, Nizamshahi, Maratha Empire",
+    "preservation": "ASI Ticketed National Monument",
+    "quote": "Every yard of Devagiri is a treatise on medieval counter-siege engineering.",
+    "quoteAuthor": "Deccan Archaeological Survey"
+  },
+  "sites": [
+    {
+      "name": "Andheri Tunnel & Mendha Toph (अंधेरी भुयार आणि मेंढा तोफ)",
+      "subtitle": "Subterranean Defense Maze & Ram-Headed Bronze Cannon",
+      "badge": "DEFENSE MARVEL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Daulatabad_Fort_-_Exterior_of_Inner_Fort.JPG",
+      "desc": "Features the massive 16-foot Mendha Toph (Ram-headed cannon) and the Chini Mahal where Abul Hasan Tana Shah was imprisoned.",
+      "loc": "Mid-Citadel & Balakot",
+      "elev": "600 m Summit"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1187",
+      "title": "1187 — Founded as Devagiri by Yadava King Bhillama V",
+      "badge": "YADAVA CAPITAL",
+      "desc": "Bhillama V establishes Devagiri as the royal capital of the Seuna Yadava Empire, fostering early Marathi literature including Sant Dnyaneshwar's era.",
+      "highlight": true
+    },
+    {
+      "year": "1760",
+      "title": "1760 — Brought Under Maratha Control by Sadashivrao Bhau",
+      "badge": "MARATHA EXPANSION",
+      "desc": "Following the Battle of Udgir, Devagiri enters the Maratha dominion.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "HERITAGE CITADEL CLIMB",
+      "gradeLabel": "Moderate",
+      "title": "Mahakot — Andheri — Baradari Summit Walk",
+      "desc": "Guided heritage ascent from the outer triple gate past Chand Minar, over the moat bridge, through the Andheri tunnel to the Baradari apex.",
+      "distance": "3.2 km Round Trip",
+      "duration": "2.0 – 2.5 Hours",
+      "gain": "+200 m Conical Climb",
+      "water": "ASI Facilities & Base Plaza",
+      "cta": "Download Devagiri Citadel Map",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Mahakot Gate (400m)",
+      "elev": 400
+    },
+    {
+      "label": "Moat Drawbridge (445m)",
+      "elev": 445
+    },
+    {
+      "label": "Andheri Tunnel (510m)",
+      "elev": 510
+    },
+    {
+      "label": "Baradari Summit (600m)",
+      "elev": 600
+    }
+  ],
+  "connectedForts": [
+    "salher",
+    "harishchandragad",
+    "shivneri"
+  ]
+}

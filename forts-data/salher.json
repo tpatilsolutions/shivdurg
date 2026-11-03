@@ -1,0 +1,117 @@
+{
+  "id": "salher",
+  "name": "Salher Fort",
+  "marathiName": "किल्ले साल्हेर",
+  "epithet": "सह्याद्रीचे सर्वोच्च शिखरदुर्ग — Highest Fort in Maharashtra",
+  "district": "Nashik",
+  "region": "Nashik",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "HIGHEST FORT (1,567 m)",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Protected Heritage Site",
+  "elevationMeters": 1567,
+  "elevationDisplay": "1,567 m (5,141 ft)",
+  "grade": "Difficult",
+  "baseVillage": "Salher / Waghambe",
+  "endurance": "3.0 – 3.5 Hours",
+  "trailTime": "3.0 Hours",
+  "steps": "8 Rock-Cut Gateways",
+  "era": "Maratha Empire (Battle of Salher 1672)",
+  "water": "Perennial (Ganga Sagar Pond)",
+  "lat": 20.7239,
+  "lng": 73.9428,
+  "mapX": 46.5,
+  "mapY": 16.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Salher_Fort.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Salher",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Salher_Fort",
+  "shortDesc": "Standing at 1,567 meters in the Baglan (Selbari) range of Nashik, Salher is the highest fortified peak in the Sahyadris and site of the great 1672 Maratha victory.",
+  "mapSubtitle": "Highest Fort in Sahyadri (1,567 m)",
+  "overviewTitle": "Roof of the Fortified Sahyadris & Site of the 1672 Battle of Salher",
+  "overviewP1": "Soaring to 1,567 meters (5,141 ft) in the Baglan region of Nashik district — second only to Kalsubai peak in overall height — Salher is the highest fort in Maharashtra. Paired with its twin fortress Mulher, it commanded the vital Baglan trade routes connecting the Deccan with Surat and Burhanpur.",
+  "overviewP2": "In February 1672, the plains below Salher witnessed the first large-scale open-field pitched battle won by the Maratha army under Peshwa Moropant Pingale and Senapati Prataprao Gujar against a 40,000-strong Mughal army led by Ikhlas Khan and Bahlol Khan, during which Suryarao Kakade fell heroically.",
+  "architecturalPillars": [
+    {
+      "title": "Eight Successive Rock-Cut Gates",
+      "desc": "Both the Salherwadi and Waghambe routes climb through series of rock-chiseled stairways and arched stone gates.",
+      "meta": "SELBARI RANGE ACROPOLIS"
+    },
+    {
+      "title": "Parashurama Summit Shrine",
+      "desc": "At the very highest 1,567 m pinnacle sits the ancient temple of Lord Parashurama with 360-degree views across Gujarat and Baglan.",
+      "meta": "1,567 M SUMMIT SANCTUARY"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Roof of Baglan, Salher-Salota Twin",
+    "architect": "Bagul Dynasty & Maratha Fortification",
+    "rulingDynasty": "Maratha Empire (Captured Jan 1671)",
+    "preservation": "UNESCO World Heritage Site (2025)",
+    "quote": "As many horses, elephants, and camels were captured at Salher as had never before fallen into Maratha hands in a single pitched battle.",
+    "quoteAuthor": "Sabhasad Bakhar (Battle of Salher, 1672)"
+  },
+  "sites": [
+    {
+      "name": "Parashurama Summit & Ganga Sagar Talav (परशुराम मंदिर)",
+      "subtitle": "1,567-Meter Apex of Fortified Maharashtra",
+      "badge": "HIGHEST SUMMIT",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Salher_Fort.jpg",
+      "desc": "High mountain reservoir surrounded by rock-cut caves and the steep final stair climb to the 1,567 m peak.",
+      "loc": "Summit Pinnacle",
+      "elev": "1,567 m Peak"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1671",
+      "title": "Jan 1671 — Captured Personally by Chhatrapati Shivaji Maharaj",
+      "badge": "BAGLAN CAMPAIGN",
+      "desc": "Chhatrapati Shivaji Maharaj storms Salher during his northern offensive following the second sack of Surat.",
+      "highlight": false
+    },
+    {
+      "year": "1672",
+      "title": "Feb 1672 — The Historic Open-Field Battle of Salher",
+      "badge": "LANDMARK PITCHED BATTLE",
+      "desc": "Moropant Pingale and Prataprao Gujar crush the besieging Mughal army of Ikhlas Khan in a legendary open-field victory.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "BAGLAN HIGHLAND",
+      "gradeLabel": "Moderate-Difficult",
+      "title": "Waghambe — Salher-Salota Col Route",
+      "desc": "Scenic ascent via the col between Salher and neighboring Salota fort, passing through six rock-cut gates.",
+      "distance": "4.5 km One Way",
+      "duration": "2.5 – 3.0 Hours",
+      "gain": "+590 m Vertical",
+      "water": "Ganga Sagar Talav Cisterns",
+      "cta": "Download Salher-Salota GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Waghambe Base (970m)",
+      "elev": 970
+    },
+    {
+      "label": "Salher-Salota Col (1240m)",
+      "elev": 1240
+    },
+    {
+      "label": "Ganga Sagar Plateau (1440m)",
+      "elev": 1440
+    },
+    {
+      "label": "Parashurama Peak (1567m)",
+      "elev": 1567
+    }
+  ],
+  "connectedForts": [
+    "harishchandragad",
+    "daulatabad",
+    "shivneri"
+  ]
+}

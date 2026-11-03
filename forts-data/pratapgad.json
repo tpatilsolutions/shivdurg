@@ -1,0 +1,130 @@
+{
+  "id": "pratapgad",
+  "name": "Pratapgad Fort",
+  "marathiName": "किल्ले प्रतापगड",
+  "epithet": "शौर्याचे प्रतीक — Valorous Citadel of Javli",
+  "district": "Satara",
+  "region": "Satara",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "VALOROUS CITADEL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Protected Heritage Site",
+  "elevationMeters": 1080,
+  "elevationDisplay": "1,080 m (3,543 ft)",
+  "grade": "Moderate",
+  "baseVillage": "Kuposhi / Wada",
+  "endurance": "1.5 Hours (450 Steps)",
+  "trailTime": "1.5 Hours",
+  "steps": "450 Stone Steps",
+  "era": "Maratha Empire (1656)",
+  "water": "Perennial (Rahat Talav)",
+  "lat": 17.9339,
+  "lng": 73.5784,
+  "mapX": 40.5,
+  "mapY": 60.5,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pratapgad_fort_front_view.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Pratapgad",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Pratapgad",
+  "shortDesc": "Crowning the Bhorpya spur overlooking the Par Ghat and Kineshwar valleys, site of the decisive 1659 Battle of Pratapgad against Afzal Khan.",
+  "mapSubtitle": "Battle of Pratapgad (1659)",
+  "overviewTitle": "Sentinel of the Javli Jungles & Par Ghat Pass",
+  "overviewP1": "Commissioned by Chhatrapati Shivaji Maharaj in 1656 and built by Prime Minister Moropant Trimbak Pingale on the Bhorpya hill crest 24 km west of Mahabaleshwar, Pratapgad guards the strategic Par Ghat connecting the Deccan plateau to the Konkan ports.",
+  "overviewP2": "On 10 November 1659, Pratapgad became the stage for one of Indian military history's most celebrated turning points: the Battle of Pratapgad, where Chhatrapati Shivaji Maharaj defeated Bijapur general Afzal Khan and his 30,000-strong army inside the dense forests of the Koyna valley.",
+  "architecturalPillars": [
+    {
+      "title": "Dual-Tiered Citadel Layout",
+      "desc": "Divided into the Lower Fort (housing the Tulja Bhavani Temple built in 1661) and the Upper Balekilla crowning the sheer crest.",
+      "meta": "BHORPYA RIDGE FORTIFICATION"
+    },
+    {
+      "title": "Afzal Buruj Watchtower",
+      "desc": "Southern projecting bastion overlooking the exact spur where the diplomatic shamiana meeting of 10 November 1659 took place.",
+      "meta": "STRATEGIC BATTLEFIELD OVERLOOK"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Bhorpya Hill Citadel",
+    "architect": "Moropant Trimbak Pingale",
+    "rulingDynasty": "Maratha Empire (Completed 1656)",
+    "preservation": "UNESCO World Heritage Site (2025)",
+    "quote": "From the dense bamboo thickets of Javli burst the Maratha infantry upon the signal cannon from Pratapgad.",
+    "quoteAuthor": "Jedhe Shakavali Chronicle (1659)"
+  },
+  "sites": [
+    {
+      "name": "Shree Tulja Bhavani Temple (तुळजाभवानी मंदिर)",
+      "subtitle": "Consecrated by Chhatrapati Shivaji Maharaj in 1661",
+      "badge": "SACRED SHRINE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pratapgad_fort_front_view.jpg",
+      "desc": "Built with black Gandaki river stone, featuring an ornate wooden sabhamandap and the historic six-tiered Deepmal pillar outside.",
+      "loc": "Lower Fort Enclave",
+      "elev": "1,020 m Elevation"
+    },
+    {
+      "name": "Equestrian Bronze Statue & Balekilla (शिवस्मारक)",
+      "subtitle": "17-Foot Bronze Statue Unveiled in 1957",
+      "badge": "UPPER CITADEL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pratapgad_fort_in_Maharashtra.jpg",
+      "desc": "Located in the centre of the Upper Balekilla alongside the Kedareshwar Mahadev temple and panoramic views of the Koyna backwaters.",
+      "loc": "Upper Balekilla",
+      "elev": "1,080 m Summit"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1656",
+      "title": "1656 — Fortification of Bhorpya Hill",
+      "badge": "PASS CONTROL",
+      "desc": "Moropant Trimbak Pingale completes Pratapgad to secure the newly conquered Javli valley and the Par Ghat trade route.",
+      "highlight": false
+    },
+    {
+      "year": "1659",
+      "title": "10 Nov 1659 — The Battle of Pratapgad",
+      "badge": "DECISIVE VICTORY",
+      "desc": "Chhatrapati Shivaji Maharaj overcomes Afzal Khan in the foothills of Pratapgad and routs the Adilshahi army in the surrounding Javli ravines.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "ROYAL STEPWAY",
+      "gradeLabel": "Easy-Moderate",
+      "title": "Maha Darwaza Heritage Staircase",
+      "desc": "Well-maintained stone steps from the upper parking plaza through Maha Darwaza, Tulja Bhavani Temple, and up to the Balekilla.",
+      "distance": "1.8 km Round Trip",
+      "duration": "1.5 Hours",
+      "gain": "+140 m (from Parking) / +450 m (from Kuposhi)",
+      "water": "Perennial Refreshment Stalls",
+      "cta": "Download Pratapgad Trail GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Kuposhi Base (630m)",
+      "elev": 630
+    },
+    {
+      "label": "Ghat Road Plaza (940m)",
+      "elev": 940
+    },
+    {
+      "label": "Maha Darwaza (995m)",
+      "elev": 995
+    },
+    {
+      "label": "Bhavani Mandir (1025m)",
+      "elev": 1025
+    },
+    {
+      "label": "Balekilla Summit (1080m)",
+      "elev": 1080
+    }
+  ],
+  "connectedForts": [
+    "raigad",
+    "rajgad",
+    "torna"
+  ]
+}

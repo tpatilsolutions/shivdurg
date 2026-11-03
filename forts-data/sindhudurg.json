@@ -1,0 +1,135 @@
+{
+  "id": "sindhudurg",
+  "name": "Sindhudurg Fort",
+  "marathiName": "किल्ले सिंधुदुर्ग",
+  "epithet": "अजिंक्य जलदुर्ग — Ocean Citadel of the Konkan",
+  "district": "Sindhudurg",
+  "region": "Sindhudurg",
+  "type": "Sea Fort (Jaldurg)",
+  "categoryBadge": "NAVAL CITADEL",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-S12",
+  "elevationMeters": 10,
+  "elevationDisplay": "Sea Level (Kurte Island)",
+  "grade": "Easy",
+  "baseVillage": "Malvan Jetty",
+  "endurance": "15 Min Boat + 2 Hr Walk",
+  "trailTime": "1.5 Hours",
+  "steps": "Marine Rampart Walk",
+  "era": "Maratha Navy (1664–1667)",
+  "water": "3 Freshwater Wells in Sea!",
+  "lat": 16.0426,
+  "lng": 73.4596,
+  "mapX": 38.0,
+  "mapY": 89.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/SINDHUDURG_FORT_%281%29.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Sindhudurg_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Sindhudurg_Fort",
+  "shortDesc": "Built by Chhatrapati Shivaji Maharaj right into the rocky bed of Kurte Island using 73,000 kg of molten lead foundations and 42 serpentine sea bastions.",
+  "mapSubtitle": "Naval Citadel (1664)",
+  "overviewTitle": "Masterpiece of the Maratha Blue-Water Navy",
+  "overviewP1": "Constructed between 1664 and 1667 on the rocky Kurte islet off the coast of Malvan under chief architect Hiroji Indulkar, Sindhudurg ('Fortress of the Ocean') anchored Chhatrapati Shivaji Maharaj's vision that 'He who commands the sea is all-powerful.' Over 73,000 kilograms of molten lead and lime mortar were poured into the wave-lashed basalt reefs to anchor its 30-foot-high, 12-foot-thick zigzag walls.",
+  "overviewP2": "Spanning 48 acres with 42 semi-circular bastions, its Dindi Darwaza is cleverly concealed between overlapping stone walls so approaching enemy ships see only an unbroken rock face. Astonishingly, inside this saltwater island sit three sweet-water wells (Dudhbaav, Dahibaav, and Sakharbaav) that never run dry.",
+  "architecturalPillars": [
+    {
+      "title": "Molten Lead Reef Foundation",
+      "desc": "73,000 kg of molten lead bound massive dressed laterite blocks directly to the submerged Arabian Sea basalt reef.",
+      "meta": "MARINE STRUCTURAL ENGINEERING"
+    },
+    {
+      "title": "Concealed Dindi Darwaza",
+      "desc": "The main landing gate is invisible from open water, tucked inside an S-curve bastion pocket guarded by submerged razor reefs.",
+      "meta": "STEALTH AMPHIBIOUS ENTRY"
+    },
+    {
+      "title": "Preserved Royal Imprints",
+      "desc": "Inside two small domed lime shrines near the main gate are preserved the actual handprint and footprint of Chhatrapati Shivaji Maharaj.",
+      "meta": "SACRED HERITAGE ARTIFACT"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Kurte Bet Jaldurg, Ocean Citadel",
+    "architect": "Hiroji Indulkar (with 3,000 Artisans)",
+    "rulingDynasty": "Maratha Navy (Chhatrapati Shivaji Maharaj)",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "Chhatrapati Shivaji Maharaj personally laid the foundation stone at Kurte Island on 25 November 1664.",
+    "quoteAuthor": "Malvan Naval Archives"
+  },
+  "sites": [
+    {
+      "name": "Shivrajeshwar Temple (शिवराजेश्वर मंदिर)",
+      "subtitle": "Historic 1695 Shrine Built by Chhatrapati Rajaram",
+      "badge": "ROYAL SANCTUARY",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/SINDHUDURG_FORT_%281%29.jpg",
+      "desc": "The only historical temple dedicated to Chhatrapati Shivaji Maharaj built during the Maratha era (1695 CE), housing a seated idol in a sailor's cap.",
+      "loc": "Central Island Plaza",
+      "elev": "Sea Level"
+    },
+    {
+      "name": "West Sea Wall & 42 Bastions (पश्चिम तटबंदी)",
+      "subtitle": "3-Kilometer Serpentine Wave-Breaking Rampart",
+      "badge": "NAVAL DEFENSE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sindhudurg_Fort%2C_Back_Wall.jpg",
+      "desc": "Twelve-foot-wide rampart walk withstanding 360 years of Arabian Sea monsoon swells without structural collapse.",
+      "loc": "Western Seaward Edge",
+      "elev": "10 m Rampart Crest"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1664",
+      "title": "25 Nov 1664 — Foundation Stone on Kurte Island",
+      "badge": "NAVAL EXPANSION",
+      "desc": "Chhatrapati Shivaji Maharaj selects Kurte rock island off Malvan to counter the Siddis of Janjira and Portuguese of Goa, deploying 200 warships to guard construction.",
+      "highlight": true
+    },
+    {
+      "year": "1667",
+      "title": "March 1667 — Completion of the 48-Acre Sea Citadel",
+      "badge": "FORT COMMISSIONED",
+      "desc": "Hiroji Indulkar completes the 3-kilometer perimeter wall and 42 bastions at a cost of 1 crore gold Hons.",
+      "highlight": false
+    }
+  ],
+  "routes": [
+    {
+      "badge": "FERRY LAUNCH",
+      "gradeLabel": "Easy Family Visit",
+      "title": "Malvan Bunder Boat Crossing",
+      "desc": "15-minute scenic motorboat transfer from Malvan Dandi Beach / Jetty through reef channels to Dindi Darwaza.",
+      "distance": "1.2 km Sea Crossing",
+      "duration": "15 Mins Boat + 2 Hrs Explore",
+      "gain": "Sea Level (Flat Walk)",
+      "water": "3 Freshwater Wells & Kiosks",
+      "cta": "Download Sindhudurg Heritage Map",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Malvan Jetty (0m)",
+      "elev": 2
+    },
+    {
+      "label": "Reef Channel (0m)",
+      "elev": 0
+    },
+    {
+      "label": "Dindi Darwaza (4m)",
+      "elev": 4
+    },
+    {
+      "label": "Shivrajeshwar Plaza (8m)",
+      "elev": 8
+    },
+    {
+      "label": "West Sea Bastion (12m)",
+      "elev": 12
+    }
+  ],
+  "connectedForts": [
+    "vijaydurg",
+    "suvarnadurg",
+    "janjira"
+  ]
+}

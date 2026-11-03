@@ -1,0 +1,110 @@
+{
+  "id": "vijaydurg",
+  "name": "Vijaydurg Fort",
+  "marathiName": "किल्ले विजयदुर्ग",
+  "epithet": "पूर्वेकडील जिब्राल्टर — The Eastern Gibraltar",
+  "district": "Sindhudurg",
+  "region": "Sindhudurg",
+  "type": "Sea Fort (Jaldurg)",
+  "categoryBadge": "TRIPLE-WALLED JALDURG",
+  "unesco": "UNESCO World Heritage Site (2025)",
+  "asi": "ASI Monument N-MH-S14",
+  "elevationMeters": 18,
+  "elevationDisplay": "Sea Level (Waghotan Estuary)",
+  "grade": "Easy",
+  "baseVillage": "Vijaydurg Port",
+  "endurance": "2.0 Hours",
+  "trailTime": "2.0 Hours",
+  "steps": "Landward Gate & 27 Bastions",
+  "era": "Shilahara & Chhatrapati Shivaji Maharaj (1653)",
+  "water": "Perennial Wells",
+  "lat": 16.5608,
+  "lng": 73.3333,
+  "mapX": 36.2,
+  "mapY": 82.0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vijaydurg_Fort_20.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Vijaydurg_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Vijaydurg",
+  "shortDesc": "Oldest and mightiest coastal fortress on the Konkan shore, enlarged by Chhatrapati Shivaji Maharaj with triple laterite walls and a hidden underwater reef wall.",
+  "mapSubtitle": "Triple-Walled Sea Citadel",
+  "overviewTitle": "The Impregnable Peninsula Fortress & Dry Dock of the Konkan",
+  "overviewP1": "Surrounded on three sides by the Arabian Sea and the deep Waghotan River creek, Vijaydurg (originally Gheria) was captured by Chhatrapati Shivaji Maharaj in 1653 and renamed 'Fortress of Victory.' He expanded its single wall into three concentric layers of 36-foot-high laterite ramparts fortified with 27 massive bastions.",
+  "overviewP2": "Underwater off the western ramparts lies a remarkable feat of 17th-century marine engineering: a submerged 3-meter-thick laterite wall built 8 feet below high-tide level that silently tore open the hulls of attacking European frigates. Remarkably, in 1868, astronomer Norman Lockyer and Pierre Janssen discovered the element Helium during a solar eclipse observed from Vijaydurg's Sadashiv Buruj!",
+  "architecturalPillars": [
+    {
+      "title": "Submerged Anti-Ship Reef Wall",
+      "desc": "An underwater stone barrier 122 meters long built beneath the waves to wreck approaching enemy warships.",
+      "meta": "SUBSURFACE NAVAL TRAP"
+    },
+    {
+      "title": "Waghotan Creek Graving Dock",
+      "desc": "Up the adjacent Waghotan creek, Admiral Kanhoji Angre built dry docks capable of repairing 500-ton Pal and Gurab warships.",
+      "meta": "MARATHA SHIPBUILDING DOCKYARD"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Gheria, Fortress of Victory",
+    "architect": "Raja Bhoja II / Chhatrapati Shivaji Maharaj (1653)",
+    "rulingDynasty": "Maratha Empire & Angre Admiralty",
+    "preservation": "UNESCO World Heritage Site & ASI Protected",
+    "quote": "On 18 August 1868, solar spectroscopy from Vijaydurg Fort revealed the element Helium to science.",
+    "quoteAuthor": "Royal Astronomical Society Archives"
+  },
+  "sites": [
+    {
+      "name": "Triple Laterite Ramparts & 27 Bastions (तिहेरी तटबंदी)",
+      "subtitle": "Three Concentric Defensive Rings Rising 36 Feet",
+      "badge": "COASTAL CITADEL",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vijaydurg_Fort_20.jpg",
+      "desc": "Massive laterite masonry walls with two-storey cannon embrasures overlooking the Waghotan estuary.",
+      "loc": "Northern & Western Front",
+      "elev": "18 m Rampart"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1653",
+      "title": "1653 — Captured & Expanded as Vijaydurg",
+      "badge": "VICTORY CITADEL",
+      "desc": "Chhatrapati Shivaji Maharaj captures Gheria from Adilshah, adds two outer defensive walls, and renames it Vijaydurg.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "PENINSULA WALK",
+      "gradeLabel": "Easy",
+      "title": " हनुमान दरवाजा & Dindi Gate Circuit",
+      "desc": "Direct walk-in entrance from Vijaydurg port jetty through Hanuman Darwaza and around the 17-acre ramparts.",
+      "distance": "2.4 km Circuit",
+      "duration": "2.0 Hours",
+      "gain": "18 m Coastal Peninsula",
+      "water": "Port Village & ASI Entrance",
+      "cta": "Download Vijaydurg Circuit GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Vijaydurg Jetty (0m)",
+      "elev": 2
+    },
+    {
+      "label": "Hanuman Darwaza (8m)",
+      "elev": 8
+    },
+    {
+      "label": "Khalbatkhana (14m)",
+      "elev": 14
+    },
+    {
+      "label": "Sadashiv Buruj (18m)",
+      "elev": 18
+    }
+  ],
+  "connectedForts": [
+    "sindhudurg",
+    "suvarnadurg",
+    "panhala"
+  ]
+}

@@ -1,0 +1,175 @@
+/* Shivdurg Sahyadri Fort Heritage - Complete Responsive Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap');
+
+:root {
+  --forest-950: #0c1911;
+  --forest-900: #13261b;
+  --forest-800: #1b3526;
+  --forest-700: #254734;
+  --parchment-50: #faf8f3;
+  --parchment-100: #f4f0e6;
+  --parchment-200: #e8e1d1;
+  --parchment-300: #d6cbb5;
+  --gold-400: #facc15;
+  --gold-500: #eab308;
+  --gold-600: #ca8a04;
+  --saffron-600: #d97706;
+  --crimson-600: #dc2626;
+  --text-dark: #1c241e;
+  --text-muted: #57635a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+  background-color: var(--parchment-100);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif-title {
+  font-family: 'Playfair Display', 'Cinzel', 'Noto Sans Devanagari', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+.font-marathi {
+  font-family: 'Noto Sans Devanagari', 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ebe5d8;
+}
+::-webkit-scrollbar-thumb {
+  background: #254734;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #13261b;
+}
+
+/* Custom Fort Map Pin Animation */
+.fort-pin-marker {
+  position: absolute;
+  transform: translate(-50%, -92%);
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
+  z-index: 20;
+  user-select: none;
+}
+.fort-pin-marker:hover,
+.fort-pin-marker.active-pin {
+  transform: translate(-50%, -98%) scale(1.22);
+  z-index: 35;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.45));
+}
+.fort-pin-marker.active-pin::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 12px;
+  background: rgba(234, 179, 8, 0.45);
+  border: 2px solid #eab308;
+  border-radius: 50%;
+  animation: pinPulse 1.6s infinite ease-out;
+}
+@keyframes pinPulse {
+  0% { transform: translateX(-50%) scale(0.7); opacity: 1; }
+  100% { transform: translateX(-50%) scale(2.1); opacity: 0; }
+}
+
+/* Card hover polish */
+.heritage-card {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.heritage-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -8px rgba(19, 38, 27, 0.14);
+}
+
+/* Hide scrollbars on horizontal pill bars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/* Leaflet Interactive Map Overrides */
+#leafletMapContainer, #detailTrailheadMapCanvas {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: #cbe7f9;
+}
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+.custom-leaflet-pin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-42px);
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.22s ease;
+}
+.custom-leaflet-pin:hover,
+.custom-leaflet-pin.is-active-pin {
+  transform: translateY(-48px) scale(1.22);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.55));
+  z-index: 999 !important;
+}
+.custom-leaflet-pin.is-active-pin::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 14px;
+  background: rgba(234, 179, 8, 0.5);
+  border: 2px solid #eab308;
+  border-radius: 50%;
+  animation: pinPulse 1.5s infinite ease-out;
+}
+.leaflet-control-attribution {
+  font-size: 9px !important;
+  background: rgba(255,255,255,0.75) !important;
+  border-radius: 4px 0 0 0;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .mobile-bottom-pad {
+    padding-bottom: 74px;
+  }
+  .map-split-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .fort-pin-marker img {
+    width: 34px !important;
+    height: 38px !important;
+  }
+}

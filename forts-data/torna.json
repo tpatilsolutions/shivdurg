@@ -1,0 +1,110 @@
+{
+  "id": "torna",
+  "name": "Torna Fort (Prachandagad)",
+  "marathiName": "किल्ले तोरणा (प्रचंडगड)",
+  "epithet": "स्वराज्याचे तोरण — The First Conquest of Swarajya",
+  "district": "Pune",
+  "region": "Pune",
+  "type": "Hill Fort (Giridurg)",
+  "categoryBadge": "FIRST CONQUEST (1645)",
+  "unesco": "ASI Protected Heritage Site",
+  "asi": "ASI Monument N-MH-P68",
+  "elevationMeters": 1403,
+  "elevationDisplay": "1,403 m (4,603 ft)",
+  "grade": "Difficult",
+  "baseVillage": "Velhe Village",
+  "endurance": "3.0 – 3.5 Hours",
+  "trailTime": "3.0 Hours",
+  "steps": "Steep Ridge & Rock Ladders",
+  "era": "Maratha Empire (1645)",
+  "water": "Perennial (Mengai Tank)",
+  "lat": 18.2764,
+  "lng": 73.6228,
+  "mapX": 41.2,
+  "mapY": 50.8,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Torna_Fort",
+  "commonsUrl": "https://commons.wikimedia.org/wiki/Category:Torna_Fort",
+  "shortDesc": "First fort captured by Chhatrapati Shivaji Maharaj in 1645 at age 16; the highest hill fort in Pune district renamed Prachandagad for its sheer scale.",
+  "mapSubtitle": "First Fort of Swarajya (1645)",
+  "overviewTitle": "The Auspicious Archway Where Hindavi Swarajya Began",
+  "overviewP1": "Towering at 1,403 meters (4,603 ft) above Velhe taluka, Torna is the highest hill fort in Pune district and the inaugural milestone of Hindavi Swarajya. In 1645, at just 16 years of age, Chhatrapati Shivaji Maharaj captured Torna, hoisting the Bhagwa Dhwaj and renaming the colossal mountain citadel *Prachandagad* ('The Massive Fort').",
+  "overviewP2": "Famous for its two dramatic knife-edge ridges — the razor-thin Zunjar Machi on the east and the sprawling Budhla Machi on the west — Torna also connects to Rajgad via a legendary high-altitude saddle ridge trek.",
+  "architecturalPillars": [
+    {
+      "title": "Zunjar Machi Knife-Edge",
+      "desc": "A thrilling rocky spur jutting out from the eastern cliff face, guarded by iron ladders and sheer vertical drops.",
+      "meta": "EASTERN COMBAT SPUR"
+    },
+    {
+      "title": "Budhla Machi Ridge",
+      "desc": "Named after its inverted oil-vessel rock pinnacle (Budhla), stretching nearly 2 km with multiple gates including Chincha and Konkan Darwaza.",
+      "meta": "WESTERN HIGHLAND SPUR"
+    }
+  ],
+  "infobox": {
+    "otherNames": "Prachandagad (The Massive Fort)",
+    "architect": "Shaiva Panth Origins / Maratha Fortification (1645)",
+    "rulingDynasty": "Maratha Empire (First Fort of Swarajya)",
+    "preservation": "Protected Monument of Maharashtra",
+    "quote": "While repairing the ramparts of Torna, Mother Bhavani blessed the young Chhatrapati Shivaji Maharaj with pots of gold mohurs buried in the rock.",
+    "quoteAuthor": "Chitnis Bakhar Chronicle"
+  },
+  "sites": [
+    {
+      "name": "Zunjar Machi (झुंजार माची)",
+      "subtitle": "Dramatic Razor-Edge Eastern Bastion Spur",
+      "badge": "CLIFF BASTION",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Torna_fort_view_from_Rajgad.jpg",
+      "desc": "Narrow fortified spur offering breathtaking views of Rajgad's Sanjivani Machi right across the Gunjavane valley.",
+      "loc": "Eastern Precipice",
+      "elev": "1,350 m Spur"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1645",
+      "title": "1645 — First Conquest of Chhatrapati Shivaji Maharaj",
+      "badge": "DAWN OF SWARAJYA",
+      "desc": "At age 16, Chhatrapati Shivaji Maharaj captures Torna Fort with his Mavala companions, marking the birth of the sovereign Maratha state.",
+      "highlight": true
+    }
+  ],
+  "routes": [
+    {
+      "badge": "HIGHLAND RIDGE",
+      "gradeLabel": "Difficult",
+      "title": "Velhe — Bini Darwaza Ascent",
+      "desc": "Steep mountain trail from Velhe base village climbing along the northern ridge to Bini Darwaza and Kothi Darwaza.",
+      "distance": "4.8 km One Way",
+      "duration": "3.0 Hours",
+      "gain": "+620 m Vertical",
+      "water": "Mengai Devi Temple Cistern",
+      "cta": "Download Torna-Rajgad Ridge GPX",
+      "primary": true
+    }
+  ],
+  "elevationProfile": [
+    {
+      "label": "Velhe Base (780m)",
+      "elev": 780
+    },
+    {
+      "label": "Ridge Saddle (1050m)",
+      "elev": 1050
+    },
+    {
+      "label": "Bini Darwaza (1340m)",
+      "elev": 1340
+    },
+    {
+      "label": "Mengai Plateau (1403m)",
+      "elev": 1403
+    }
+  ],
+  "connectedForts": [
+    "rajgad",
+    "raigad",
+    "sinhagad"
+  ]
+}
